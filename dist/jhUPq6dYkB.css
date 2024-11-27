@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: "Josefin Sans", 'Helvetica', sans-serif;
+}
+
+:root {
+    /* Palette colours */
+    --grey: #595959;
+    --off-white: #f8ffe3;
+    --main-green: #005704;
+    --main-yellow: #ecba00;
+    --border-grey: #59595988;
+
+    /* Colour variables */
+    --main-font-color: var(--grey);
+    --main-background-color: var(--off-white);
+    --header-background-color: var(--main-green);
+    --banner-background-color: var(--main-yellow);
+    --info-border-color: var(--border-grey);
+}
+
+body {
+    color: var(--main-font-color);
+    background-color: var(--main-background-color);
+}
+
+header {
+    width: 100%;
+    background: var(--header-background-color);
+    color: var(--off-white);
+    padding: 0.8rem 2rem; /*25vw;*/
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+nav {
+    padding: 0.5rem;
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+nav li {
+    padding: 0 1rem;
+}
+
+.banner {
+    width: 100%;
+    padding: 0.8em;
+    background-color: var(--banner-background-color);
+    color: black;
+}
+
+.banner h1 {
+    font-size: 4rem;
+    font-weight: 1000;
+    text-align: center;
+}
+
+.banner time {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 2rem;
+}
+
+.home-link {
+    color: var(--off-white);
+}
+
+.home-link:link:not(:hover), .home-link:link:hover {
+    text-decoration: none;
+}
+
+section {
+    width: 700px;
+    margin: 2em auto;
+}
+
+section p {
+    margin: 0 auto 1em auto;
+    font-size: 1.25rem;
+    line-height: 1.1;
+}
+
+footer {
+    width: 100%;
+    padding: 2em;
+}
+
+footer small {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
