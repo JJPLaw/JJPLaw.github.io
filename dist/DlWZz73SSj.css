@@ -154,7 +154,7 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 2rem;
-    padding: 0.5rem;
+    padding: 0.875rem 0.5rem 0.5rem 0.5rem;
 }
 
 nav {
@@ -175,7 +175,7 @@ nav ul {
 }
 
 nav li {
-    padding: 0 1rem;
+    padding: 0.28125rem 1rem 0rem 1rem;
 }
 
 .banner {
@@ -186,6 +186,7 @@ nav li {
 }
 
 .banner h1 {
+    padding: 0.75rem 0 0 0;
     font-size: 4rem;
     font-weight: 1000;
     text-align: center;
@@ -217,9 +218,32 @@ section p {
     line-height: 1.1;
 }
 
+.postlist {
+
+}
+
+.postlist-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-bottom: 1rem;
+}
+
+.postlist-link {
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* flex-basis: calc(100% - 1.5rem); */
+    color: var(--main-font-color);
+    padding-left: .25em;
+    padding-right: .5em;
+    text-underline-position: from-font;
+    text-underline-offset: 0;
+    text-decoration-thickness: 1px;
+}
+
 footer {
     width: 100%;
-    padding: 2em;
+    padding: 2rem;
 }
 
 footer small {
