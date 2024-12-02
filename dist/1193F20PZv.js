@@ -89,11 +89,11 @@ function updateSecondaryInfo(d) {
 		.text(d => `${d.wDay} ${d.day}`)
 		.append('sup')
 		.text(d => {
-			if (d.day === 1) {
+			if (d.day === 1 || d.day === 21 || d.day === 31) {
 				return "st"
-			} else if (d.day === 2) {
+			} else if (d.day === 2 || d.day === 22) {
 				return "nd"
-			} else if (d.day === 3) {
+			} else if (d.day === 3 || d.day === 23) {
 				return "rd"
 			} else return "th"
 		})
@@ -241,7 +241,7 @@ function popupGenerator(d) {
 		.attr("height", height)
 		.attr("viewBox", [0, 0, width, height])
 		.attr('id', 'popup')
-		.attr("style", `max-width: 100%; height: auto; background: #f8ffe380; margin-left: -${popOuterMargin}px; overflow: visible`);
+		.attr("style", `max-width: 100%; height: auto; background: #F9F6EE80; margin-left: -${popOuterMargin}px; overflow: visible`);
 
 	let popDefs = popup.append('defs');
 	
