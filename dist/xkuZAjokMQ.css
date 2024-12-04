@@ -6,54 +6,70 @@
     margin: 0 auto;
 }
 
-.sidebar {
+.sidebar{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+#sidebar-container {
     flex: auto;
     display: flex;
     flex-flow: wrap column;
     justify-content: space-between;
-}
 
-.sidebar h3 {
-    margin-bottom: 0.7rem;
-    font-size: 1.3rem;
-    text-decoration: underline;
+    h3 {
+        margin-bottom: 0.7rem;
+        font-size: 1.3rem;
+        text-decoration: underline;
+    }
 }
 
 #info {
-    height: 600px;
+    height: 400px;
     width: 300px;
     border-bottom: 1pt solid var(--info-border-color);
-    padding: 0.5rem;
-    margin: 0.5rem;
     overflow: auto;
     /* align-self: center; */
+
+    h4 {
+        margin: 0 auto 0.6rem auto;
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        margin: 0 auto 0.5rem auto;
+        font-size: 1rem;
+        font-style: italic;
+    }
+
+    li {
+        margin: 0 auto 1em 1em;
+        line-height: 1.1;
+    }
+
+    .favourite-container {
+        display: grid;
+        grid-template: auto auto / auto auto;
+    }
+
+    a, img {
+        margin: 0.1875rem 0rem;
+    }
 }
 
-#info h4 {
-    margin: 0 auto 0.6rem auto;
-    font-size: 1.2rem;
-}
-
-#info h5 {
-    margin: 0 auto 0.5rem auto;
-    font-size: 1rem;
-    font-style: italic;
-}
-
-#info li {
-    margin: 0 auto 1em 1em;
-    line-height: 1.1;
+#options {
+    flex: 1;
+    width: 200px;
 }
 
 #legend {
     width: fit-content;
-    margin: 1rem 1rem 3rem 1rem;
+    margin-bottom: 2.5rem;
     /* align-self: center; */
-}
-
-#legend p {
-    font-size: 1.1rem;
-    font-style: italic;
+    p {
+        font-size: 1.1rem;
+        font-style: italic;
+    }
 }
 
 text {
@@ -74,14 +90,9 @@ path {
     stroke: var(--main-font-color);
 }
 
-circle {
-    stroke-width: 0.6pt;
-}
-
-ellipse {
+/* ellipse {
     fill-opacity: 0.85;
-    /* stroke-width: 0.6pt; */
-}
+} */
 
 #arrowhead {
     stroke-width: 0.1rem;
@@ -90,7 +101,7 @@ ellipse {
 }
 
 @media only screen and (max-width: 1190px) {
-    .sidebar {
+    #sidebar-container {
         flex-flow: nowrap row;
         justify-content: space-around;
     }
@@ -108,6 +119,10 @@ ellipse {
     #info {
         height: 300px;
         border-bottom: none;
+    }
+
+    #options {
+        flex: none;
     }
 }
 * {

@@ -1,4 +1,5 @@
 import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+// import("https://cdn.jsdelivr.net/npm/d3@7/+esm").then(m=> d3 = m);
 
 const marginLeft = 120;
 const height = 1200;
@@ -8,8 +9,6 @@ const legendWidth = 200;
 const legendHeight = 120;
 const years = ['2018', '2024'];
 const months = ['January', 'December'];
-const arrBase = 5;
-const arrHeight = 10;
 
 let window1190 = window.matchMedia('(max-width: 1190px');
 let popMargin = window1190.matches ? 0 : 35;
@@ -23,6 +22,8 @@ window1190.onchange = (e) => {
 
 let window858 = window.matchMedia(`(max-width: ${width}px)`);
 let popOuterMargin = window858.matches ? window.innerWidth : width;
+
+let favourite = document.querySelector('input#favourite');
 
 const petalData = [
 	{ x: 0.1875, h: 0.1025261, t: '1', p: '4_1' },
@@ -103,8 +104,41 @@ function updateSecondaryInfo(d) {
 		.selectAll('li')
 		.data(d[0].data)
 		.join('li')
-		.text((d) => `${d.album} by ${d.artist} (${d.released})`)
+		.attr('class', d => d.fav ? 'favourite-album' : undefined)
+		.html((d) => `<p style="grid-column:span 2">${d.album} by ${d.artist} (${d.released})<br/></p>`)
+		.style('font-weight', 'initial')
 		;
+	
+	d3.selectAll('.favourite-album')
+		.style('font-weight', 700)
+
+	let favouriteContainer = d3.selectAll('.favourite-album')
+		.append('div')
+		.attr('class', 'favourite-container');
+	
+	if (favouriteContainer._groups[0][0] !== null) {
+		if (favouriteContainer.datum().bandcamp) {
+			favouriteContainer.append('a')
+				.style('font-weight', 400)
+				.html("Bandcamp")
+				.attr('href', d => d.bandcamp);
+		} else {
+			favouriteContainer.append('a')
+				.style('font-weight', 400)
+				.html("Spotify")
+				.attr('href', d => d.spotify);
+
+			favouriteContainer.append('a')
+				.style('font-weight', 400)
+				.html("Apple Music")
+				.attr('href', d => d.apple);
+		}
+	}
+	
+	favouriteContainer.append('img')
+		.attr('src', d => d.artwork)
+		.attr('height', '200px')
+		.style('grid-column', 'span 2');
 };
 
 function drawFlower(_data, _dom, main) {
@@ -157,6 +191,7 @@ function drawFlower(_data, _dom, main) {
 		.style('translate', d => `${x(d.x0) + margin}px ${y(d.y0)}px`)
 		.style('rotate', d => `${d.angleJS + (Math.PI / 2)}rad`)
 		.style('fill', d => palette[d.palette])
+		.style('fill-opacity', 0.85)
 		.style('stroke', d => palette[d.palette])
 		.style('stroke-width', `${x(0.006)}pt`)
 		.style('cursor', cursor);
@@ -294,7 +329,7 @@ function popupGenerator(d) {
 		;
 
 	drawFlower(reCentre(d, false), popup, 'pop');
-	// popup.select('.flower').attr('filter', 'url(#flowerShadow)');
+	if (favourite.checked) popup.selectAll('.petal').style('opacity', d => d.fav ? 1 : 0.3);
 
 	popup.append('path')
 		.attr('d', `M ${popX(0.2) + popMargin},${popY(-0.2)} L ${popX(0.25) + popMargin},${popY(-0.25)} M ${popX(0.2) + popMargin},${popY(-0.25)} L ${popX(0.25) + popMargin},${popY(-0.2)}`)
@@ -450,5 +485,19 @@ d3.json('Calendar-Data_All.json')
 			.attr('y', legPY(-0.75));
 
 		d3.select('#petals').append(() => legPetals.node());
+		
 
+		d3.select('input#favourite')
+			.on('click', (e, d) => {
+				if (favourite.checked) {
+					d3.select('#vis')
+						.selectAll('.petal')
+						.style('opacity', d => d.fav ? 1 : 0.3);
+				}
+				else {
+					d3.select('#vis')
+						.selectAll('.petal')
+						.style('opacity', 1);;
+				}
+			});
 	});
