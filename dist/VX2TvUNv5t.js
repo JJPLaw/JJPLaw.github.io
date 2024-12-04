@@ -131,13 +131,14 @@ function updateSecondaryInfo(d) {
 			favouriteContainer.append('a')
 				.style('font-weight', 400)
 				.html("Apple Music")
-				.attr('href', d => d.apple);
+				.attr('href', d => d.apple)
+				.style('justify-self', 'right');
 		}
 	}
 	
 	favouriteContainer.append('img')
 		.attr('src', d => d.artwork)
-		.attr('height', '200px')
+		.attr('width', '200px')
 		.style('grid-column', 'span 2');
 };
 

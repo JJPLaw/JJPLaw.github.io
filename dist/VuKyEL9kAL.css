@@ -49,7 +49,7 @@
 
     .favourite-container {
         display: grid;
-        grid-template: auto auto / auto auto;
+        grid-template: auto auto / 100px 100px;
     }
 
     a, img {
