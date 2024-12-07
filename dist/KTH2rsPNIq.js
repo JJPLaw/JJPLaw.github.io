@@ -74,6 +74,17 @@ const popY = d3.scaleLinear()
 	.domain([0, -1.5])
 	.range([0, popWidth]);
 
+function getOrdinal(_day) {
+	let day = _day.toString();
+	if (day === '1' || day === '21' || day === '31') {
+		return "st"
+	} else if (day === '2' || day === '22') {
+		return "nd"
+	} else if (day === '3' || day === '23') {
+		return "rd"
+	} else return "th";
+}
+
 function updatePrimaryInfo(d) {
 	d3.select('#info')
 		.selectAll('h4')
@@ -89,15 +100,7 @@ function updateSecondaryInfo(d) {
 		.join('h5')
 		.text(d => `${d.wDay} ${d.day}`)
 		.append('sup')
-		.text(d => {
-			if (d.day === 1 || d.day === 21 || d.day === 31) {
-				return "st"
-			} else if (d.day === 2 || d.day === 22) {
-				return "nd"
-			} else if (d.day === 3 || d.day === 23) {
-				return "rd"
-			} else return "th"
-		})
+		.text(d => getOrdinal(d.day))
 		;
 
 	d3.select('#info ol')
@@ -116,7 +119,7 @@ function updateSecondaryInfo(d) {
 		.append('div')
 		.attr('class', 'favourite-container');
 	
-	if (favouriteContainer._groups[0][0] !== null) {
+	if (favouriteContainer._groups[0].length !== 0) { //this prevents an error with trying to read an empty variable
 		if (favouriteContainer.datum().bandcamp) {
 			favouriteContainer.append('a')
 				.style('font-weight', 400)
@@ -137,7 +140,7 @@ function updateSecondaryInfo(d) {
 	}
 	
 	favouriteContainer.append('img')
-		.attr('src', d => d.artwork)
+		.attr('src', d => d.artworkFile)
 		.attr('width', '200px')
 		.style('grid-column', 'span 2');
 };
@@ -186,7 +189,7 @@ function drawFlower(_data, _dom, main) {
 		.data(d => d.petals)
 		.join('ellipse')
 		.attr('class', 'petal')
-		.attr('id', d => d.date)
+		.attr('id', d => `p${d.date}`)
 		.attr('rx', d => x(d.rx))
 		.attr('ry', d => y(d.ry) * -1)
 		.style('translate', d => `${x(d.x0) + margin}px ${y(d.y0)}px`)
@@ -201,14 +204,16 @@ function drawFlower(_data, _dom, main) {
 		petals.on('click', (e, d) => {
 			d3.select(e.target.parentNode)
 				.selectAll('.petal')
-				.style('stroke', d => palette[d.palette])
-				// .style('stroke-width', `${x(0.006)}pt`)
+				.style('stroke', (d) => {
+					if (favourite.checked) {
+						return d.fav ? '#595959' : palette[d.palette]
+					} else return palette[d.palette]
+				})
 				.style('translate', d => `${x(d.x0) + margin}px ${y(d.y0)}px`)
 				;
 			
 			d3.select(e.target)
 				.style('stroke', 'orange')
-				// .style('stroke-width', `${x(0.006)}pt`)
 				.style('translate', d => `${x(0.75 + ((d.logCount + 0.09) * Math.cos(d.angle * -1))) + margin}px ${y(-0.75 - ((d.logCount + 0.09) * Math.sin(d.angle * -1)))}px`)
 				;
 			
@@ -320,17 +325,13 @@ function popupGenerator(d) {
 			d3.selectAll('#info li').remove();
 		});
 
-	popup.selectAll('text')
-		.data([d])
-		.join('text')
-		.text(d => `${d.fMonth} ${d.year}`)
-		.attr('x', popX(0.75) + popMargin)
-		.attr('y', popY(-1.35))
-		.attr('font-weight', 400)
-		;
-
 	drawFlower(reCentre(d, false), popup, 'pop');
-	if (favourite.checked) popup.selectAll('.petal').style('opacity', d => d.fav ? 1 : 0.3);
+	if (favourite.checked) {
+		popup.selectAll('.petal')
+			.style('stroke', d => d.fav ? '#595959' : palette[d.palette])
+			.style('fill-opacity', d => d.fav ? 1 : 0.85)
+			.style('opacity', d => d.fav ? 1 : 0.3);
+	}
 
 	popup.append('path')
 		.attr('d', `M ${popX(0.2) + popMargin},${popY(-0.2)} L ${popX(0.25) + popMargin},${popY(-0.25)} M ${popX(0.2) + popMargin},${popY(-0.25)} L ${popX(0.25) + popMargin},${popY(-0.2)}`)
@@ -352,6 +353,15 @@ function popupGenerator(d) {
 			d3.select('#info h5').text('');
 			d3.selectAll('#info li').remove();
 		});
+	
+	popup.selectAll('text')
+		.data([d])
+		.join('text')
+		.text(d => `${d.fMonth} ${d.year}`)
+		.attr('x', popX(0.75) + popMargin)
+		.attr('y', popY(-1.35))
+		.attr('font-weight', 400)
+		;
 
 	d3.select('#vis').append(() => popup.node());
 };
@@ -488,17 +498,21 @@ d3.json('Calendar-Data_All.json')
 		d3.select('#petals').append(() => legPetals.node());
 		
 
-		d3.select('input#favourite')
+		d3.select(favourite)
 			.on('click', (e, d) => {
 				if (favourite.checked) {
 					d3.select('#vis')
 						.selectAll('.petal')
+						.style('stroke', d => d.fav ? '#595959' : palette[d.palette])
+						.style('fill-opacity', d => d.fav ? 1 : 0.85)
 						.style('opacity', d => d.fav ? 1 : 0.3);
 				}
 				else {
 					d3.select('#vis')
 						.selectAll('.petal')
-						.style('opacity', 1);;
+						.style('stroke', d => palette[d.palette])
+						.style('fill-opacity', 0.85)
+						.style('opacity', 1);
 				}
 			});
 	});

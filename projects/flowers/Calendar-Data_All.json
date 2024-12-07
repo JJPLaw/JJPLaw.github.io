@@ -30,7 +30,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4eLPsYPBmXABThSJ821sqY?si=b5266924336c4a0e",
             "apple": "https://music.apple.com/gb/album/damn/1440881047",
-            "artwork": "https://coverartarchive.org/release-group/b88655ba-7469-48b8-a296-b9011ab73ef3/front"
+            "artworkURL": "https://coverartarchive.org/release/f5eddaa6-3a79-47d5-ab80-f2e1d8f6bfd8/16595865340-500.jpg",
+            "artworkFile": "/assets/artwork/16595865340-500.jpg"
           },
           {
             "artist": "Moby",
@@ -69,7 +70,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5IQhNr6Vn3cq03bPty6Cpe?si=bClGJsAqSI6xp3RAoTX85g",
             "apple": "https://music.apple.com/gb/album/all-this-i-do-for-glory/1252038158",
-            "artwork": "https://coverartarchive.org/release-group/414fb880-07b6-4a55-857c-346738d129aa/front"
+            "artworkURL": "https://coverartarchive.org/release/e41d4e73-2a8e-4926-a7ca-79328617a45a/35777287595-500.jpg",
+            "artworkFile": "/assets/artwork/35777287595-500.jpg"
           },
           {
             "artist": "Sir Was",
@@ -102,7 +104,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0h19Ty9F2Ma8pKkRdx17UT?si=MZplgpEQQESxzPCqanyRTA",
             "apple": "https://music.apple.com/gb/album/homogenic/1726654447",
-            "artwork": "https://coverartarchive.org/release-group/810272e0-aef1-3d85-b2d3-e512e87fc38c/front"
+            "artworkURL": "https://coverartarchive.org/release/9eb06b8b-73af-4e4f-815c-1a0e459af1c4/38887922125-500.jpg",
+            "artworkFile": "/assets/artwork/38887922125-500.jpg"
           },
           {
             "artist": "Gengahr",
@@ -195,7 +198,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3B0PgLmgaW0gJth55ApWbw?si=3FaBO_6qRl61D4wAMoDCSg",
             "apple": "https://music.apple.com/gb/album/transistor-original-soundtrack/879693684",
-            "artwork": "https://coverartarchive.org/release-group/16b60f17-aeca-4f2b-a8b8-f0ec1e7e88de/front"
+            "artworkURL": "https://coverartarchive.org/release/7b15d51e-de9d-40cc-9cc7-759536ef340b/7308237963-500.jpg",
+            "artworkFile": "/assets/artwork/7308237963-500.jpg"
           }
         ],
         "total": 20,
@@ -270,7 +274,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4psDRFbIlUM1KUb1omccXo?si=8iZjlzLhTBiws-BC7Pp0qg",
             "apple": "https://music.apple.com/gb/album/bicep/1240586047",
-            "artwork": "https://coverartarchive.org/release-group/6f34e134-49d5-4e56-b3e0-4fe6b9900380/front"
+            "artworkURL": "https://coverartarchive.org/release/c43a3d4d-1b57-4194-a470-e8e27bd449c6/29804351703-500.jpg",
+            "artworkFile": "/assets/artwork/29804351703-500.jpg"
           }
         ],
         "total": 20,
@@ -345,7 +350,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7FUIQIDxNu0F8iH98irz7N?si=KN-CSEN8TLK8YMl3vsT0IA",
             "apple": "https://music.apple.com/gb/album/all-melody/1451143439",
-            "artwork": "https://coverartarchive.org/release-group/08de636b-81ac-4928-9d9b-4f6ac0628ce3/front"
+            "artworkURL": "https://coverartarchive.org/release/74196e5e-2d36-47a3-87f4-84da4900e5fc/21224103718-500.jpg",
+            "artworkFile": "/assets/artwork/21224103718-500.jpg"
           }
         ],
         "total": 20,
@@ -610,7 +616,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0pyZXMW56SpT2iO2rMYmPH?si=fbb6fe4ab9e042bb",
             "apple": "https://music.apple.com/gb/album/platform/972395123",
-            "artwork": "https://coverartarchive.org/release-group/d4619a61-7a43-4be8-8838-debda18b78ac/front"
+            "artworkURL": "https://coverartarchive.org/release/eae11007-0714-4bc8-93c6-4f01bdb8d0f3/10417155575-500.jpg",
+            "artworkFile": "/assets/artwork/10417155575-500.jpg"
           },
           {
             "artist": "Survive",
@@ -643,7 +650,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4VQBsxNDKTbmT5AkbzgOUg?si=f34833bdb3cc4b89",
             "apple": "https://music.apple.com/gb/album/mary-casio-journey-to-cassiopeia/1252718712",
-            "artwork": "https://f4.bcbits.com/img/a2404233214_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a2404233214_10.jpg",
+            "artworkFile": "/assets/artwork/a2404233214_10.jpg"
           },
           {
             "artist": "Hannah Peel",
@@ -842,7 +850,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7yHCGMm1mx9GNzkNkZL0WH?si=6XHmnGvxQmefc6rtDccUoQ",
             "apple": "https://music.apple.com/gb/album/life-in-analogue/1457858060",
-            "artwork": "https://coverartarchive.org/release-group/b970f545-9bde-478f-99cc-2e3ddd178a12/front"
+            "artworkURL": "https://coverartarchive.org/release/6b3126c1-a0c4-4cce-bad0-579c15551a0c/33193864354-500.jpg",
+            "artworkFile": "/assets/artwork/33193864354-500.jpg"
           },
           {
             "artist": "Disclosure",
@@ -1085,7 +1094,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3htB3KH8JnsWK6A8Nfob5K?si=f3d4e3a381bd412d",
             "apple": "https://music.apple.com/gb/album/ill-be-your-girl/1333262413",
-            "artwork": "https://coverartarchive.org/release-group/ac02498c-272e-49cd-8c1c-52fd7061c896/front"
+            "artworkURL": "https://coverartarchive.org/release/bfea6af0-7169-471c-ba8f-a8f8cfb018a5/18991476277-500.jpg",
+            "artworkFile": "/assets/artwork/18991476277-500.jpg"
           },
           {
             "artist": "Soccer Mommy",
@@ -1172,7 +1182,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4iJ298qzq29Uoh1z5KdIMF?si=EWb-RPkNT3-9zcLoHGSfdQ",
             "apple": "https://music.apple.com/gb/album/cloud-city-ep/816445506",
-            "artwork": "https://e-cdns-images.dzcdn.net/images/cover/9c9460d4b4f44840c66ad516bc8bb3e2/500x500-000000-80-0-0.jpg"
+            "artworkURL": "https://e-cdns-images.dzcdn.net/images/cover/9c9460d4b4f44840c66ad516bc8bb3e2/500x500-000000-80-0-0.jpg",
+            "artworkFile": "/assets/artwork/500x500-000000-80-0-0.jpg"
           }
         ],
         "total": 33,
@@ -1223,7 +1234,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/52LJO0cNeBErBohaxNZ0t4?si=2f4238a54c2846bc",
             "apple": "https://music.apple.com/gb/album/all-that-must-be/1322664114",
-            "artwork": "https://coverartarchive.org/release-group/c26472e5-6fa5-4f5e-a861-db4ef1680c16/front"
+            "artworkURL": "https://coverartarchive.org/release/fe8a0e85-4825-4b1d-a363-8ee19c612c18/19523567190-500.jpg",
+            "artworkFile": "/assets/artwork/19523567190-500.jpg"
           }
         ],
         "total": 33,
@@ -1290,7 +1302,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6gmiDFx1NWpP0zCXSnqZZe?si=eb303b839adb4ce8",
             "apple": "https://music.apple.com/gb/album/route-one/1449993148",
-            "artwork": "https://coverartarchive.org/release-group/b67d5f9d-831e-4d88-984f-d0f7587f4157/front"
+            "artworkURL": "https://coverartarchive.org/release/69545cc9-86b6-440a-860b-12c3488aa4de/19731718696-500.jpg",
+            "artworkFile": "/assets/artwork/19731718696-500.jpg"
           }
         ],
         "total": 34,
@@ -1317,7 +1330,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/063f8Ej8rLVTz9KkjQKEMa?si=_YPL1Si0TuWJwSt0XkPjCQ",
             "apple": "https://music.apple.com/gb/album/ambient-1-music-for-airports/724435863",
-            "artwork": "https://coverartarchive.org/release-group/5fdd6ba8-83c1-3a87-b378-d5f61dec5ddd/front"
+            "artworkURL": "https://coverartarchive.org/release/deab1308-9fe9-37c7-ba85-c6caa5255a92/15638251477-500.jpg",
+            "artworkFile": "/assets/artwork/15638251477-500.jpg"
           },
           {
             "artist": "Nathan Fake",
@@ -1338,7 +1352,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7H6gso8aBfKK7mlouLCsW3?si=e2370b00e2fe43fc",
             "apple": "https://music.apple.com/gb/album/replica/1714487173",
-            "artwork": "https://coverartarchive.org/release-group/2d7c4c68-1e99-41b2-b200-5a6ae41a5a51/front"
+            "artworkURL": "https://coverartarchive.org/release/e2291de7-6639-48d1-b3aa-41f4c7f87953/36906899462-500.jpg",
+            "artworkFile": "/assets/artwork/36906899462-500.jpg"
           }
         ],
         "total": 34,
@@ -1401,7 +1416,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1BI2mpiBt99NlNvLka4QhG?si=a71409d3ac6f431a",
             "apple": "https://music.apple.com/gb/album/persona/1451157384",
-            "artwork": "https://coverartarchive.org/release-group/8679b8d5-8449-4281-95f3-2ac06879ce17/front"
+            "artworkURL": "https://coverartarchive.org/release/136cc74f-c96b-4fe7-a169-a3fb46e96f96/19673518464-500.jpg",
+            "artworkFile": "/assets/artwork/19673518464-500.jpg"
           },
           {
             "artist": "Rival Consoles",
@@ -1410,7 +1426,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7EwmcaFfNHi29SkB6fmD6J?si=292d02ce69554ddc",
             "apple": "https://music.apple.com/gb/album/night-melody/1451153663",
-            "artwork": "https://coverartarchive.org/release-group/1f4cccf1-8435-4b46-9e8e-10f7ddc527de/front"
+            "artworkURL": "https://coverartarchive.org/release/5bd1e72d-9b3d-4d94-ae65-3b6776f0ad37/19673458319-500.jpg",
+            "artworkFile": "/assets/artwork/19673458319-500.jpg"
           },
           {
             "artist": "Rival Consoles",
@@ -1419,7 +1436,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4GH1jSgrPWU3vo5dO4cvYe?si=d852bc26d651466f",
             "apple": "https://music.apple.com/gb/album/howl/1451054856",
-            "artwork": "https://coverartarchive.org/release-group/20c63e50-f76e-4fbe-9e6c-8422b4936023/front"
+            "artworkURL": "https://coverartarchive.org/release/a1c536b1-172d-4b5c-aa78-8a611e5f3443/11824882379-500.jpg",
+            "artworkFile": "/assets/artwork/11824882379-500.jpg"
           }
         ],
         "total": 34,
@@ -1638,7 +1656,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1pRW9QUwa7gr8qSBs0T59N?si=JGSZGNtZRky5XAkO-3NnwA",
             "apple": "https://music.apple.com/gb/album/song-for-alpha/1334703409",
-            "artwork": "https://coverartarchive.org/release-group/203e48a2-3455-41ee-9993-e027f71378b2/front"
+            "artworkURL": "https://coverartarchive.org/release/1a85e791-2aac-4440-b171-bef161935b62/19155170435-500.jpg",
+            "artworkFile": "/assets/artwork/19155170435-500.jpg"
           }
         ],
         "total": 34,
@@ -1885,7 +1904,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3Mp0TZs7hlVdjUO0LVTlqh?si=5472f48b462d44ae",
             "apple": "https://music.apple.com/gb/album/compassion/1212863275",
-            "artwork": "https://coverartarchive.org/release/d9798f9c-c4cf-4a76-908b-7858e4acc941/16343991403.jpg"
+            "artworkURL": "https://coverartarchive.org/release/d9798f9c-c4cf-4a76-908b-7858e4acc941/16343991403-500.jpg",
+            "artworkFile": "/assets/artwork/16343991403-500.jpg"
           },
           {
             "artist": "Forest Swords",
@@ -1900,7 +1920,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7pBDu7nc2KaMsh0SfZMc2d?si=0c9d7508ef6c464d",
             "apple": "https://music.apple.com/gb/album/kiasmos/1451077320",
-            "artwork": "https://coverartarchive.org/release-group/8f3d55a7-efea-419b-add8-2a5469c2e014/front"
+            "artworkURL": "https://coverartarchive.org/release/dac46d09-412c-4e23-a3a6-9348ec554d7e/8779262560-500.jpg",
+            "artworkFile": "/assets/artwork/8779262560-500.jpg"
           },
           {
             "artist": "Kiasmos",
@@ -2089,7 +2110,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1nvzBC1M3dlCMIxfUCBhlO?si=3aa6ca8077b04c1f",
             "apple": "https://music.apple.com/gb/album/singularity/1349736537",
-            "artwork": "https://coverartarchive.org/release-group/7b49f37f-06a6-4c71-970f-c1905c19906f/front"
+            "artworkURL": "https://coverartarchive.org/release/2763165d-02a2-414f-a26c-0362cc537baf/19859845341-500.jpg",
+            "artworkFile": "/assets/artwork/19859845341-500.jpg"
           }
         ],
         "total": 34,
@@ -2140,7 +2162,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/71SA5J1DSFs5Hofv88gym1?si=cbe9f63909cd4a0d",
             "apple": "https://music.apple.com/gb/album/murmurations/1350637598",
-            "artwork": "https://coverartarchive.org/release-group/4e7e0193-a056-4141-8a05-c501c76668f4/front"
+            "artworkURL": "https://coverartarchive.org/release/d240ef7f-67ce-4a0d-81c6-ead415a5e00a/20049423889-500.jpg",
+            "artworkFile": "/assets/artwork/20049423889-500.jpg"
           }
         ],
         "total": 34,
@@ -2327,7 +2350,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6Iu8toVsvCc3I4INxYiVIy?si=0c487d115b134844",
             "apple": "https://music.apple.com/gb/album/ravedeath-1972/411842895",
-            "artwork": "https://coverartarchive.org/release-group/b55c9544-ba14-436f-a97e-2157b10d540d/front"
+            "artworkURL": "https://coverartarchive.org/release/a162cc57-4e6d-44bf-b0d2-f35ae3f90757/20433570981-500.jpg",
+            "artworkFile": "/assets/artwork/20433570981-500.jpg"
           }
         ],
         "total": 18,
@@ -2396,7 +2420,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0zA641FjHR0mBKgsnbojCn?si=b7db93b3908e46fe",
             "apple": "https://music.apple.com/gb/album/seven-gulps-of-air/1540926482",
-            "artwork": "https://coverartarchive.org/release-group/e316414b-da5e-452e-a980-815813c85bf8/front"
+            "artworkURL": "https://coverartarchive.org/release/f44b00b9-28ce-3e9a-a862-fbb717970f4e/1942213841-500.jpg",
+            "artworkFile": "/assets/artwork/1942213841-500.jpg"
           },
           {
             "artist": "Nine Inch Nails",
@@ -2405,7 +2430,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0Q2o6ioxIOlKPvRdG1K5da?si=0ac8f73408b34d31",
             "apple": "https://music.apple.com/gb/album/bad-witch/1383304609",
-            "artwork": "https://coverartarchive.org/release-group/a63e5fa6-d6ad-47bd-986d-4a27b0c9de70/front"
+            "artworkURL": "https://coverartarchive.org/release/5bcb2971-fdea-4543-baf2-dd41d8b9a3cd/20182832199-500.jpg",
+            "artworkFile": "/assets/artwork/20182832199-500.jpg"
           }
         ],
         "total": 18,
@@ -2722,7 +2748,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0aol42apbylFf2POjiAOeP?si=950eca4fdac444d8",
             "apple": "https://music.apple.com/gb/album/kelly-lee-owens/1499159807",
-            "artwork": "https://coverartarchive.org/release-group/7eaadc60-127b-4b87-81bf-ba294697e584/front"
+            "artworkURL": "https://coverartarchive.org/release/87f425da-cd6b-41c0-af85-b4150f6ed48c/27181019119-500.jpg",
+            "artworkFile": "/assets/artwork/27181019119-500.jpg"
           },
           {
             "artist": "Laurel Halo",
@@ -3001,7 +3028,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6JpQGIi2he6iskzR4aLwPG?si=36f84249f2804822",
             "apple": "https://music.apple.com/gb/album/re-member/1390704147",
-            "artwork": "https://coverartarchive.org/release-group/8c1144c4-2dbc-470b-af0d-bcc24a27eb59/front"
+            "artworkURL": "https://coverartarchive.org/release/f366cb6f-8b97-45f2-8bb6-0c1efd335009/20754841028-500.jpg",
+            "artworkFile": "/assets/artwork/20754841028-500.jpg"
           }
         ],
         "total": 36,
@@ -3052,7 +3080,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7E3c9dmZ1KnZOQLZTgRqWx?si=899483e8389d4ea1",
             "apple": "https://music.apple.com/gb/album/woman-worldwide/1395958473",
-            "artwork": "https://coverartarchive.org/release-group/61c807dc-495e-4cd3-9f74-0af132012637/front"
+            "artworkURL": "https://coverartarchive.org/release/8d696894-8b94-4bb7-877b-66902de86f49/20551407492-500.jpg",
+            "artworkFile": "/assets/artwork/20551407492-500.jpg"
           }
         ],
         "total": 36,
@@ -3611,7 +3640,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6QYScZZD5zb2E922VuDVCe?si=eoqgSIa0S2yf9SugYn5Fvg",
             "apple": "https://music.apple.com/gb/album/one-hundred-billion-sparks/1394132408",
-            "artwork": "https://coverartarchive.org/release-group/45bf63a4-3376-400f-8dde-aa7ad4f93f2d/front"
+            "artworkURL": "https://coverartarchive.org/release/6b025672-ff30-4059-aea1-f715266a1ca3/32528667959-500.jpg",
+            "artworkFile": "/assets/artwork/32528667959-500.jpg"
           },
           {
             "artist": "Tim Hecker",
@@ -3620,7 +3650,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4TU8d9DGafZZiyN7peC4sl?si=26d8919f02724973",
             "apple": "https://music.apple.com/gb/album/konoyo/1419821201",
-            "artwork": "https://coverartarchive.org/release-group/4f2282bf-1642-4e3b-b379-8f21e4a81078/front"
+            "artworkURL": "https://coverartarchive.org/release/359c37a9-bd1e-48db-b892-6f96846403e4/21105151709-500.jpg",
+            "artworkFile": "/assets/artwork/21105151709-500.jpg"
           }
         ],
         "total": 48,
@@ -3753,7 +3784,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3XwQPcRrrSNxETjuD5ka5r?si=4d387d2868924783",
             "apple": "https://music.apple.com/gb/album/masseducation/1437029839",
-            "artwork": "https://f4.bcbits.com/img/a0413207764_10.jpg"
+            "artworkURL": "https://coverartarchive.org/release/bdf10aac-b0ff-4824-b342-bbdf306312ee/21192823862-500.jpg",
+            "artworkFile": "/assets/artwork/21192823862-500.jpg"
           }
         ],
         "total": 26,
@@ -3780,7 +3812,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2LqwdVtTNwifUcWlXkdy1F?si=lhl9YIwvTjq-xoUsxYDO2Q",
             "apple": "https://music.apple.com/gb/album/cohesion/1403845079",
-            "artwork": "https://coverartarchive.org/release-group/e65cf3f1-ad4d-4337-b8af-8316588b7eab/front"
+            "artworkURL": "https://coverartarchive.org/release/f54a5159-6360-4693-8f01-d351182c20f1/23380333648-500.jpg",
+            "artworkFile": "/assets/artwork/23380333648-500.jpg"
           },
           {
             "artist": "Jan Hammer Group",
@@ -3861,7 +3894,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0fWKkkVCj14CllpjPLjU9P?si=7f2aee240f444984",
             "apple": "https://music.apple.com/gb/album/double-negative/1391898131",
-            "artwork": "https://coverartarchive.org/release/0513e47e-579a-4fe8-8876-bcde76dcb2c4/21071410308.jpg"
+            "artworkURL": "https://coverartarchive.org/release/0513e47e-579a-4fe8-8876-bcde76dcb2c4/21071410308-500.jpg",
+            "artworkFile": "/assets/artwork/21071410308-500.jpg"
           },
           {
             "artist": "Low",
@@ -3990,7 +4024,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3lziDe2aT9qXSDxeYuNm2y?si=f6d9fe2784e340a2",
             "apple": "https://music.apple.com/gb/album/con-todo-el-mundo/1767463815",
-            "artwork": "https://coverartarchive.org/release/b9e0c6b8-8424-495a-8649-77510bfa1303/18210080916.jpg"
+            "artworkURL": "https://coverartarchive.org/release/b9e0c6b8-8424-495a-8649-77510bfa1303/18210080916-500.jpg",
+            "artworkFile": "/assets/artwork/18210080916-500.jpg"
           },
           {
             "artist": "Oliver Tree",
@@ -4023,7 +4058,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1C30LhZB9I48LdpVCRRYvq?si=M9YW-RQ-RHyLoY76JLvxxQ",
             "apple": "https://music.apple.com/gb/album/untrue/1056902908",
-            "artwork": "https://coverartarchive.org/release-group/fddedc4f-7a2e-3d7d-9ec5-1705c416f3f4/front"
+            "artworkURL": "https://coverartarchive.org/release/d84892a9-0b1d-3694-a2a1-f19ddb7d0c53/1001014314-500.jpg",
+            "artworkFile": "/assets/artwork/1001014314-500.jpg"
           },
           {
             "artist": "James Holden",
@@ -4318,7 +4354,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2IqxhUj2RO1QwWjEbUCuvL?si=T7yE8hZkQo6iaDYVybguJQ",
             "apple": "https://music.apple.com/gb/album/ex-re/1441561289",
-            "artwork": "https://coverartarchive.org/release-group/0b70728f-9173-4b5d-b1b8-fe29a4c81041/front"
+            "artworkURL": "https://coverartarchive.org/release/d209cc8f-a939-4502-8dbb-3149c59b87c0/21607553867-500.jpg",
+            "artworkFile": "/assets/artwork/21607553867-500.jpg"
           },
           {
             "artist": "M83",
@@ -4447,7 +4484,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0DHraeatU63HcCinjf3uQO?si=LWA3-6g6Sbm7QlXRxaYuqw",
             "apple": "https://music.apple.com/gb/album/1414002676",
-            "artwork": "https://coverartarchive.org/release-group/ce6461b2-8393-422a-8caa-5515d02b3bf8/front"
+            "artworkURL": "https://coverartarchive.org/release/1ed7bd00-8edb-42c9-b9e9-d1e7c01ef000/21001692138-500.jpg",
+            "artworkFile": "/assets/artwork/21001692138-500.jpg"
           }
         ],
         "total": 24,
@@ -4474,7 +4512,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4pxnDGBdoGu88h8ZInX5f5?si=c068a34d3f4f45cd",
             "apple": "https://music.apple.com/gb/album/your-queen-is-a-reptile/1440908967",
-            "artwork": "https://coverartarchive.org/release-group/d5f67e27-8871-4219-8c6a-2e2884c450a8/front"
+            "artworkURL": "https://coverartarchive.org/release/7ac02e18-decf-4003-8b79-c035ae1a8fb8/19544207848-500.jpg",
+            "artworkFile": "/assets/artwork/19544207848-500.jpg"
           }
         ],
         "total": 24,
@@ -4859,7 +4898,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6XpD4GhQq4olgxxgX6BXdv?si=ZMFFsYfES6ytMoxCK7TZ3Q",
             "apple": "https://music.apple.com/gb/album/luxury-problems/574486965",
-            "artwork": "https://coverartarchive.org/release-group/db2fa4bf-d3fe-446a-95d8-f60eaddc16b3/front"
+            "artworkURL": "https://coverartarchive.org/release/31380b71-527f-4515-8d42-0f87bfbc9242/38651532078-500.jpg",
+            "artworkFile": "/assets/artwork/38651532078-500.jpg"
           },
           {
             "artist": "Andy Stott",
@@ -5777,7 +5817,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3coLBjEk3wxbYrmIKVuSon?si=3668b755798b4ffb",
             "apple": "https://music.apple.com/gb/album/to-believe/1446886232",
-            "artwork": "https://coverartarchive.org/release/5af0f38c-1922-4716-a33c-c36bce6c3e03/22261837689.jpg"
+            "artworkURL": "https://coverartarchive.org/release/5af0f38c-1922-4716-a33c-c36bce6c3e03/22261837689-500.jpg",
+            "artworkFile": "/assets/artwork/22261837689-500.jpg"
           }
         ],
         "total": 7,
@@ -5860,7 +5901,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7GQf2l967OQY4pbA3XixFt?si=bbeffcf276374427",
             "apple": "https://music.apple.com/gb/album/guilty-of-love-deluxe-version/1085652649",
-            "artwork": "https://coverartarchive.org/release-group/85270894-f019-45fc-b0f4-012cb60a9b47/front"
+            "artworkURL": "https://coverartarchive.org/release/8bdf1693-891a-4e97-868a-f32272fc5e9e/13114763489-500.jpg",
+            "artworkFile": "/assets/artwork/13114763489-500.jpg"
           },
           {
             "artist": "Unloved",
@@ -5934,7 +5976,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5hAojp0oPYipVcK5im8Cq2?si=ad22cfe20d914c18",
             "apple": "https://music.apple.com/gb/album/particles-in-space/1381217032",
-            "artwork": "https://coverartarchive.org/release-group/b585d940-32cf-4fef-bc5b-8142ce182918/front"
+            "artworkURL": "https://coverartarchive.org/release/dbb21bda-24f5-4f62-a493-7d57a55991ac/27322275209-500.jpg",
+            "artworkFile": "/assets/artwork/27322275209-500.jpg"
           }
         ],
         "total": 15,
@@ -6044,7 +6087,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7epPpZENu53f1hkgI0JXX3?si=628e41134fee46ec",
             "apple": "https://music.apple.com/gb/album/breaking-english/1485071156",
-            "artwork": "https://coverartarchive.org/release-group/f4d3166f-44b5-4928-89fa-0d0a5328fdf6/front"
+            "artworkURL": "https://coverartarchive.org/release/18d971ea-e372-4fc9-a7fc-cfdb7c7a33a2/19575701791-500.jpg",
+            "artworkFile": "/assets/artwork/19575701791-500.jpg"
           }
         ],
         "total": 15,
@@ -6127,7 +6171,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2mvz0NPBCPTbSEgRViuDLK?si=b95bd0b566d24d4f",
             "apple": "https://music.apple.com/gb/album/trust-in-the-lifeforce-of-the-deep-mystery/1449207816",
-            "artwork": "https://coverartarchive.org/release-group/1e4899d0-6ee0-499d-85e5-2d248dfe1023/front"
+            "artworkURL": "https://coverartarchive.org/release/625770dc-2bd0-46ed-a6fb-b30aadb00bf0/22169565412-500.jpg",
+            "artworkFile": "/assets/artwork/22169565412-500.jpg"
           },
           {
             "artist": "Sigur Rós",
@@ -6421,7 +6466,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/29sozE8XDMOHT8KK9iq4Fo?si=6ee35bbb73b04917",
             "apple": "https://music.apple.com/gb/album/proto/1454113472",
-            "artwork": "https://coverartarchive.org/release-group/22207ae0-a6bf-4a2f-a75b-c3955d8ae0e6/front"
+            "artworkURL": "https://coverartarchive.org/release/35294882-2fa5-4a1c-b2e9-60c864f87996/22988259876-500.jpg",
+            "artworkFile": "/assets/artwork/22988259876-500.jpg"
           },
           {
             "artist": "Karen O & Danger Mouse",
@@ -6431,7 +6477,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/05k0uvZke7FVMTEXPfKBjT?si=5039512a5b16403e",
             "apple": "https://music.apple.com/gb/album/lux-prima/1456154661",
-            "artwork": "https://coverartarchive.org/release-group/c5b39f08-78b8-41cd-a5c6-3ddfe0cd406a/front"
+            "artworkURL": "https://coverartarchive.org/release/e6d1a79c-87e6-44d3-8a7f-f14cfd03a96e/22723861206-500.jpg",
+            "artworkFile": "/assets/artwork/22723861206-500.jpg"
           }
         ],
         "total": 36,
@@ -6498,7 +6545,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0DGVDqsHo3NiZk59BnkMMz?si=ca3b6fab89fd4990",
             "apple": "https://music.apple.com/gb/album/yes-come-parade-with-us/1453987344",
-            "artwork": "https://coverartarchive.org/release-group/f1e84b49-90ee-4ffa-9ac4-6d04173a2a73/front"
+            "artworkURL": "https://coverartarchive.org/release/4cfadb79-381b-4105-acd9-67c344755673/25204938680-500.jpg",
+            "artworkFile": "/assets/artwork/25204938680-500.jpg"
           }
         ],
         "total": 36,
@@ -6558,7 +6606,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/24eRSwYbneTDkehVHM2MVf?si=409d1e88eb6a40a7",
             "apple": "https://music.apple.com/gb/album/tread/1576510351",
-            "artwork": "https://coverartarchive.org/release-group/abeb95b4-a734-4b61-b5ca-4390007d0e9b/front"
+            "artworkURL": "https://coverartarchive.org/release/4ba318b6-2b66-4907-85ed-b13bcd87cd71/32045164294-500.jpg",
+            "artworkFile": "/assets/artwork/32045164294-500.jpg"
           }
         ],
         "total": 36,
@@ -6762,7 +6811,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1sKj6LEXiEfCmsiKwPy5uG?si=6457bd002d2f4457",
             "apple": "https://music.apple.com/gb/album/anima/1467347588",
-            "artwork": "https://coverartarchive.org/release-group/447435e2-8395-45f5-812b-f03f7525c8d6/front"
+            "artworkURL": "https://coverartarchive.org/release/a52e488e-ca84-469b-b28c-14625adde284/24247300482-500.jpg",
+            "artworkFile": "/assets/artwork/24247300482-500.jpg"
           },
           {
             "artist": "Underworld",
@@ -6836,7 +6886,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5pMvytmVU8bhhPmOWNULHs?si=185434429b414976",
             "apple": "https://music.apple.com/gb/album/windswept/1500838273",
-            "artwork": "https://coverartarchive.org/release-group/159a157f-33d5-422b-97ff-924cae79ba3c/front"
+            "artworkURL": "https://coverartarchive.org/release/f3f21ec4-e588-48a5-9561-64d3b6924dc6/16691523682-500.jpg",
+            "artworkFile": "/assets/artwork/16691523682-500.jpg"
           },
           {
             "artist": "Johnny Jewel",
@@ -7246,7 +7297,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/06k7aQu4Px6m6omsWYwjhs?si=7b393ecc13e44e6d",
             "apple": "https://music.apple.com/gb/album/there-is-no-right-time/1148177893",
-            "artwork": "https://coverartarchive.org/release-group/7d1f86b9-8d33-45f5-bc2f-7c010eff4eff/front"
+            "artworkURL": "https://coverartarchive.org/release/6362d521-1ba8-42e3-9c4c-c7935e406825/15090560099-500.jpg",
+            "artworkFile": "/assets/artwork/15090560099-500.jpg"
           },
           {
             "artist": "Garden City Movement",
@@ -7448,7 +7500,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0eW3b50zPiSOrK0SiG8ZEh?si=b2fcbad0303b44f4",
             "apple": "https://music.apple.com/gb/album/loom-dream/1585305198",
-            "artwork": "https://coverartarchive.org/release-group/c87a52c3-c88f-4b4b-92d1-e2455224bfe5/front"
+            "artworkURL": "https://coverartarchive.org/release/aac3c45b-dbe2-4de1-82eb-331b2bdd50aa/23366062459-500.jpg",
+            "artworkFile": "/assets/artwork/23366062459-500.jpg"
           },
           {
             "artist": "Brad Mehldau",
@@ -7490,7 +7543,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0p7nH5bz0pWBor10osUBuD?si=53998c7e66eb4c13",
             "apple": "https://music.apple.com/gb/album/r-plus-seven/673970570",
-            "artwork": "https://coverartarchive.org/release-group/87bc3567-325f-4032-9ad7-ac4018b22a90/front"
+            "artworkURL": "https://coverartarchive.org/release/10cc746f-786c-4307-b8de-92a687489cb4/4958564206-500.jpg",
+            "artworkFile": "/assets/artwork/4958564206-500.jpg"
           }
         ],
         "total": 23,
@@ -7543,7 +7597,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7lMzvnVArS57C13LMcXozE?si=0d7541605a2444c6",
             "apple": "https://music.apple.com/gb/album/drift-episode-4-space/1469523214",
-            "artwork": "https://coverartarchive.org/release-group/b16b0bf6-af13-4291-b05f-1e621cb7b8c8/front"
+            "artworkURL": "https://coverartarchive.org/release/80d329d5-5cae-4bff-86f4-88c4599a9136/23524241890-500.jpg",
+            "artworkFile": "/assets/artwork/23524241890-500.jpg"
           }
         ],
         "total": 23,
@@ -7596,7 +7651,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1Rsx5dQQpFp7qhhMhCWQTn?si=53f8beacd7e74b16",
             "apple": "https://music.apple.com/gb/album/hasta-el-cielo/1763226904",
-            "artwork": "https://coverartarchive.org/release-group/bce9981b-0260-4949-8138-240e94595b46/front"
+            "artworkURL": "https://coverartarchive.org/release/2bfe1c0b-ba39-4996-9b66-dad0b00df977/23288220439-500.jpg",
+            "artworkFile": "/assets/artwork/23288220439-500.jpg"
           }
         ],
         "total": 23,
@@ -7974,7 +8030,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/447aAsTmmXFZ0tyoB7sK3z?si=AdXB1CfqQoeTiz_VTokQrQ",
             "apple": "https://music.apple.com/gb/album/start-breaking-my-heart-special-edition/1523075993",
-            "artwork": "https://f4.bcbits.com/img/a0941510103_10.jpg"
+            "artworkURL": "https://coverartarchive.org/release/e546bf5e-6a63-4136-a3cc-276b7b972081/22805047657-500.jpg",
+            "artworkFile": "/assets/artwork/22805047657-500.jpg"
           }
         ],
         "total": 27,
@@ -8276,7 +8333,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2vBa3poU0e82yfPtxcn9lg?si=248da94441184bae",
             "apple": "https://music.apple.com/gb/album/joy-as-an-act-of-resistance/1391070525",
-            "artwork": "https://coverartarchive.org/release-group/45003bef-d379-441d-b246-358f0b78985c/front"
+            "artworkURL": "https://coverartarchive.org/release/882917bf-09f9-42c2-8c3e-41bb741d126e/31116969977-500.jpg",
+            "artworkFile": "/assets/artwork/31116969977-500.jpg"
           },
           {
             "artist": "Chromatics",
@@ -8801,7 +8859,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5QBPUvhS6UYro3JLHeQVwF?si=aa00567fa5644e92",
             "apple": "https://music.apple.com/gb/album/obverse/1469414241",
-            "artwork": "https://coverartarchive.org/release-group/45df41a7-c2e1-446a-8fda-225cb66cab5e/front"
+            "artworkURL": "https://coverartarchive.org/release/313a9852-1ee1-47fe-8675-f9b4d37425a3/23353786705-500.jpg",
+            "artworkFile": "/assets/artwork/23353786705-500.jpg"
           }
         ],
         "total": 43,
@@ -8879,7 +8938,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1WwZwdTICfaZI51BIIEN9z?si=e5O6CEEhSqev0_jkOvSdzg",
             "apple": "https://music.apple.com/gb/album/crush/1475361065",
-            "artwork": "https://coverartarchive.org/release-group/3b13fa4c-36b8-46b5-bfa1-b9345491565b/front"
+            "artworkURL": "https://coverartarchive.org/release/f10bb74d-5864-44a7-b00b-399536619445/28964771575-500.jpg",
+            "artworkFile": "/assets/artwork/28964771575-500.jpg"
           }
         ],
         "total": 43,
@@ -9026,7 +9086,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2b4RNCznna9U13uXza9jdl?si=kwvYcLuDQ4mt4KH2nDUFEQ",
             "apple": "https://music.apple.com/gb/album/it-should-be-us/1486934069",
-            "artwork": "https://coverartarchive.org/release-group/7d4b59b0-0698-423d-b2be-1155927d4b7b/front"
+            "artworkURL": "https://coverartarchive.org/release/e25b44a4-ae06-4701-afbc-0ad6389971ae/24568758087-500.jpg",
+            "artworkFile": "/assets/artwork/24568758087-500.jpg"
           }
         ],
         "total": 27,
@@ -9125,7 +9186,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2gXD1M54nEGHLVZZea22Rv?si=113a576743c84c65",
             "apple": "https://music.apple.com/gb/album/congrats/1608119763",
-            "artwork": "https://coverartarchive.org/release-group/8bdc4da0-1f97-4532-a1d2-2a1915d24fbc/front"
+            "artworkURL": "https://coverartarchive.org/release/7982862f-be8a-4391-b1e3-b41027c290ae/13785975715-500.jpg",
+            "artworkFile": "/assets/artwork/13785975715-500.jpg"
           },
           {
             "artist": "Holy Fuck",
@@ -9338,7 +9400,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3DMR3yM5crnt1dG9lLaMTZ?si=cbf382788f05492e",
             "apple": "https://music.apple.com/gb/album/magdalene/1477652618",
-            "artwork": "https://coverartarchive.org/release-group/5d78819e-18b5-4d1a-a286-d816ce868044/front"
+            "artworkURL": "https://coverartarchive.org/release/01857a11-b9b5-464a-b17b-d01b39f66a2a/27989974074-500.jpg",
+            "artworkFile": "/assets/artwork/27989974074-500.jpg"
           }
         ],
         "total": 27,
@@ -9366,7 +9429,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3uxDJ6orAOKVuAHh1WR7uH?si=831c597addd14be3",
             "apple": "https://music.apple.com/gb/album/nymphs/1744386133",
-            "artwork": "https://coverartarchive.org/release-group/7466c510-6b04-4596-a453-1c2c1b9dc9ed/front"
+            "artworkURL": "https://coverartarchive.org/release/61e8113b-990d-42b3-8ebc-be2168b53ad5/26797057547-500.jpg",
+            "artworkFile": "/assets/artwork/26797057547-500.jpg"
           }
         ],
         "total": 27,
@@ -9460,7 +9524,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4gaNWHu5Caj3ItkYZ5i6uh?si=edd4473f91e24a89",
             "apple": "https://music.apple.com/gb/album/in-colour/1525506447",
-            "artwork": "https://coverartarchive.org/release-group/a903a977-5932-4cc2-a064-57a596658b3d/front"
+            "artworkURL": "https://coverartarchive.org/release/9fa0a3a0-3644-4f5d-900a-de7f658cb64c/25810621062-500.jpg",
+            "artworkFile": "/assets/artwork/25810621062-500.jpg"
           },
           {
             "artist": "Robyn",
@@ -9502,7 +9567,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5FQ4sOGqRWUA5wO20AwPcO?si=585e464d96a04304",
             "apple": "https://music.apple.com/gb/album/bubba/1490035834",
-            "artwork": "https://coverartarchive.org/release-group/7cf8145c-75a6-473c-90a6-6a36c7164f72/front"
+            "artworkURL": "https://coverartarchive.org/release/f93025ea-692c-436d-96d3-ba1ed0164c54/26903010025-500.jpg",
+            "artworkFile": "/assets/artwork/26903010025-500.jpg"
           }
         ],
         "total": 8,
@@ -9605,7 +9671,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2Tg5PuXUdCbVuSIneJDLqG?si=atQAfVTfSMad03I5NLaJhg",
             "apple": "https://music.apple.com/gb/album/waves/1726630973",
-            "artwork": "https://coverartarchive.org/release-group/580e2e7a-06ff-46c9-8491-0cf4f2d6c6ba/front"
+            "artworkURL": "https://coverartarchive.org/release/eae76643-8b98-48d3-b9fc-13de9aeb7a2f/35336391858-500.jpg",
+            "artworkFile": "/assets/artwork/35336391858-500.jpg"
           }
         ],
         "total": 8,
@@ -9928,7 +9995,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2qOai8aBLM3813p4luleGt?si=7DdI8VG3Sk2TQyGWLx-BjQ",
             "apple": "https://music.apple.com/gb/album/yearning-for-the-infinite/1472730148",
-            "artwork": "https://coverartarchive.org/release-group/3d7ad625-5279-4c39-b8e6-3c5f2fa7ac92/front"
+            "artworkURL": "https://coverartarchive.org/release/ab8acd24-aafa-43bd-81dd-93b65af6e0da/28108010925-500.jpg",
+            "artworkFile": "/assets/artwork/28108010925-500.jpg"
           },
           {
             "artist": "Madlib",
@@ -10017,7 +10085,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3RjeEJcbtOEXMSbmoGVKP3?si=1767e4ba1a80423d",
             "apple": "https://music.apple.com/gb/album/deleter/1480894689",
-            "artwork": "https://coverartarchive.org/release-group/0d13a53f-486d-4f39-a96b-416167877c50/front"
+            "artworkURL": "https://coverartarchive.org/release/554d648d-dd54-4aab-81ee-42d9ec4d994f/25172300346-500.jpg",
+            "artworkFile": "/assets/artwork/25172300346-500.jpg"
           }
         ],
         "total": 30,
@@ -10318,7 +10387,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3NOC4ce2g0iULPbC0hevQX?si=5b0ea45b58714fdd",
             "apple": "https://music.apple.com/gb/album/concrete-and-glass/1487791870",
-            "artwork": "https://coverartarchive.org/release-group/88550ae2-447c-4e71-86af-18077b4ba39b/front"
+            "artworkURL": "https://coverartarchive.org/release/c1278ac3-76d5-44f5-aa6f-c91e0b6ffa90/27939680703-500.jpg",
+            "artworkFile": "/assets/artwork/27939680703-500.jpg"
           },
           {
             "artist": "Nicolas Godin",
@@ -10497,7 +10567,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5VtraJMECaqnl4szWLLCTK?si=ZkOTjB8zR_SAtGWC-GTebg",
             "apple": "https://music.apple.com/gb/album/uncut-gems-original-motion-picture-soundtrack/1484829867",
-            "artwork": "https://coverartarchive.org/release-group/47432026-6ecd-4190-aaeb-072321dd50c2/front"
+            "artworkURL": "https://coverartarchive.org/release/b0e36376-32ad-4a1a-b404-763f350f6ee7/24862438853-500.jpg",
+            "artworkFile": "/assets/artwork/24862438853-500.jpg"
           },
           {
             "artist": "Vangelis",
@@ -10644,7 +10715,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0CCYU4pfINH3Lt5krDd9JO?si=5d5d69a394274a82",
             "apple": "https://music.apple.com/gb/album/76-14/1687117665",
-            "artwork": "https://coverartarchive.org/release/64279c6f-9061-4844-a021-af8ed19f6970/13931235855.jpg"
+            "artworkURL": "https://coverartarchive.org/release/64279c6f-9061-4844-a021-af8ed19f6970/13931235855-500.jpg",
+            "artworkFile": "/assets/artwork/13931235855-500.jpg"
           },
           {
             "artist": "Steve Roach",
@@ -10910,7 +10982,8 @@
             "length": 61,
             "fav": 1,
             "bandcamp": "https://cuts.bandcamp.com/album/a-gradual-decline",
-            "artwork": "https://f4.bcbits.com/img/a1448239772_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a1448239772_10.jpg",
+            "artworkFile": "/assets/artwork/a1448239772_10.jpg"
           },
           {
             "artist": "CUTS",
@@ -10963,7 +11036,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/12STkzO9PrEMfcnRUKMVfi?si=msycd5ExTsuRkE1pOM2-Zg",
             "apple": "https://music.apple.com/gb/album/illusion-of-time/1494547929",
-            "artwork": "https://coverartarchive.org/release-group/665058a0-5c0a-4f3c-b659-3965bba96a1c/front"
+            "artworkURL": "https://coverartarchive.org/release/178c9330-4740-48c1-9be6-6dc1de6f784d/25777271872-500.jpg",
+            "artworkFile": "/assets/artwork/25777271872-500.jpg"
           },
           {
             "artist": "Sufjan Stevens & Lowell Brams",
@@ -10990,7 +11064,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/296zqVG4gI7mDSUD0CytXM?si=e4b1a9b8b3fb463b",
             "apple": "https://music.apple.com/gb/album/ghosts-v-together/1504272133",
-            "artwork": "https://coverartarchive.org/release-group/4f831f68-27a2-4620-9e6e-f6a6d6b2952f/front"
+            "artworkURL": "https://coverartarchive.org/release/193ecb2e-a1e8-49d3-ba0e-6e95f489bdf0/25770597240-500.jpg",
+            "artworkFile": "/assets/artwork/25770597240-500.jpg"
           },
           {
             "artist": "Nine Inch Nails",
@@ -11119,7 +11194,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0lBB0xL8EzRUBMuS3UUbGQ?si=fGCPKkcUQKul3DBLIkm1kw",
             "apple": "https://music.apple.com/gb/album/world-eater/1191862517",
-            "artwork": "https://coverartarchive.org/release-group/4b0b8787-57c2-4374-9d5d-63a9e4440dff/front"
+            "artworkURL": "https://coverartarchive.org/release/69f3b8b3-1e26-4353-a088-cd4099b24db5/15656652337-500.jpg",
+            "artworkFile": "/assets/artwork/15656652337-500.jpg"
           },
           {
             "artist": "Pye Corner Audio",
@@ -11164,7 +11240,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5HEL5yMPxWCWbpTbMGWbcn?si=gPtfqmzLQcqh-Q0ACC84NQ",
             "apple": "https://music.apple.com/gb/album/animated-violence-mild/1463197887",
-            "artwork": "https://coverartarchive.org/release-group/b10e623f-ef38-478f-902d-e4ee2eaf10dc/front"
+            "artworkURL": "https://coverartarchive.org/release/dd1f1f13-f493-41d5-b825-7a26ed3c5dc6/23356182175-500.jpg",
+            "artworkFile": "/assets/artwork/23356182175-500.jpg"
           },
           {
             "artist": "Blanck Mass",
@@ -11489,7 +11566,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5gIa8hTQGPwVeNYjDwrraZ?si=1da2651468b7481c",
             "apple": "https://music.apple.com/gb/album/sixteen-oceans/1501382860",
-            "artwork": "https://coverartarchive.org/release-group/513341f3-3daf-46df-b469-b5eea02dc28b/front"
+            "artworkURL": "https://coverartarchive.org/release/49837acd-0dad-4c49-830b-9925aac1fbd4/25656583944-500.jpg",
+            "artworkFile": "/assets/artwork/25656583944-500.jpg"
           }
         ],
         "total": 45,
@@ -11848,7 +11926,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3O9ZSWvfBNriIeRSBEwNHA?si=f7479e1e0f174fc9",
             "apple": "https://music.apple.com/gb/album/lump/1361737546",
-            "artwork": "https://coverartarchive.org/release-group/c413dccc-7e0a-4139-8bff-dac35421a1c6/front"
+            "artworkURL": "https://coverartarchive.org/release/2b9f3068-1b8a-4c35-9449-44497d4cecb3/34480381391-500.jpg",
+            "artworkFile": "/assets/artwork/34480381391-500.jpg"
           },
           {
             "artist": "Tunng",
@@ -12653,7 +12732,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7jXmmQ1gNTXHyTF7uvH4Tn?si=131923552c1e44e6",
             "apple": "https://music.apple.com/gb/album/atlanta-millionaires-club/1452886606",
-            "artwork": "https://coverartarchive.org/release-group/645a7ff1-1745-4be6-8e70-2ae1fc2f0e59/front"
+            "artworkURL": "https://coverartarchive.org/release/6a1982bd-3f88-4b27-a497-f2e0adde184e/23118414000-500.jpg",
+            "artworkFile": "/assets/artwork/23118414000-500.jpg"
           },
           {
             "artist": "The Internet",
@@ -12818,7 +12898,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5yssg2eFopmzstxvyFbrBT?si=H6kUKlhFRp-mEvdFnFRH_g",
             "apple": "https://music.apple.com/gb/album/lys/1488510269",
-            "artwork": "https://coverartarchive.org/release-group/48a25342-8bca-41dd-9539-baa15fb98708/front"
+            "artworkURL": "https://coverartarchive.org/release/f1de51f9-7c0c-4cb5-8c12-d371a4a32bb4/25710090773-500.jpg",
+            "artworkFile": "/assets/artwork/25710090773-500.jpg"
           }
         ],
         "total": 47,
@@ -12931,7 +13012,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0enl6lyotKB8LKlUo5m2oJ?si=c-O2n8epSmOfjqu2PF-rUA",
             "apple": "https://music.apple.com/gb/album/hi-this-is-flume-mixtape/1716793948",
-            "artwork": "https://coverartarchive.org/release-group/dc5e566b-ac5a-4ea6-8faa-82f193b086dd/front"
+            "artworkURL": "https://coverartarchive.org/release/264dd318-2872-4a2b-bb41-bca626c70e00/23287672850-500.jpg",
+            "artworkFile": "/assets/artwork/23287672850-500.jpg"
           },
           {
             "artist": "Flume",
@@ -13018,7 +13100,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1U0A6RPNJB05PtuBcaTM7o?si=qzurWKTiTbKYErEhau8Sww",
             "apple": "https://music.apple.com/gb/album/outer-wilds-original-soundtrack/1467259296",
-            "artwork": "https://coverartarchive.org/release-group/b295ecc3-f78b-4f3e-9514-7ca83e2d7339/front"
+            "artworkURL": "https://coverartarchive.org/release/9674e2fc-5d26-4098-a7ce-fe0c2b7746bb/31752396636-500.jpg",
+            "artworkFile": "/assets/artwork/31752396636-500.jpg"
           },
           {
             "artist": "Ben Chatwin",
@@ -13029,7 +13112,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3Lns4ZlEQhoG00VmYwAdgv?si=16vNgES6S8G2SSNnaj-SUg",
             "apple": "https://music.apple.com/gb/album/staccato-signals/1380239068",
-            "artwork": "https://coverartarchive.org/release-group/55076189-a5d2-479a-bdbd-44dbcf835c21/front"
+            "artworkURL": "https://coverartarchive.org/release/f8383aba-01d2-4cf7-aac2-c3490d1ff851/20403936998-500.jpg",
+            "artworkFile": "/assets/artwork/20403936998-500.jpg"
           },
           {
             "artist": "Angèle David-Guillou",
@@ -13098,7 +13182,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5sNjmRTANEXeyAAnSTqTUw?si=rhXL0PhqRtysoImGYVd6dw",
             "apple": "https://music.apple.com/gb/album/the-true-story-of-bananagun/1665638537",
-            "artwork": "https://coverartarchive.org/release-group/77535351-9d84-4eac-9b12-119ed22c8da1/front"
+            "artworkURL": "https://coverartarchive.org/release/a834b1ef-1fb4-4e9a-8305-718bf0b0b886/25994702946-500.jpg",
+            "artworkFile": "/assets/artwork/25994702946-500.jpg"
           }
         ],
         "total": 57,
@@ -13135,7 +13220,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2F5fka7pQPN25PWepN7jqH?si=160a5c0b0f494582",
             "apple": "https://music.apple.com/gb/album/hether-blether/1499017633",
-            "artwork": "https://coverartarchive.org/release-group/9060831c-0c67-417d-bbd9-2aa6b433a713/front"
+            "artworkURL": "https://coverartarchive.org/release/d5d51a41-e458-4e72-b22b-206670d49394/26809355941-500.jpg",
+            "artworkFile": "/assets/artwork/26809355941-500.jpg"
           },
           {
             "artist": "EL-P & The Blue Series Continuum",
@@ -13272,7 +13358,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2P0OtiHzaCu2qcDDya39Nk?si=eHto4cFcSdG_ZH98EZ_bng",
             "apple": "https://music.apple.com/gb/album/glassforms/1509426591",
-            "artwork": "https://coverartarchive.org/release-group/883ba845-1129-4e4b-a99a-0c9113cdc4e7/front"
+            "artworkURL": "https://coverartarchive.org/release/6bd2cca9-6b86-4767-95e0-516924c1c494/26377080090-500.jpg",
+            "artworkFile": "/assets/artwork/26377080090-500.jpg"
           }
         ],
         "total": 57,
@@ -13925,7 +14012,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2EEvp3YsmH5rzzTbopWpa4?si=b676157c8f024e5c",
             "apple": "https://music.apple.com/gb/album/omnibus/1510993875",
-            "artwork": "https://coverartarchive.org/release-group/8e53a7cf-f3b8-4ae9-bab6-3f170a76b600/front"
+            "artworkURL": "https://coverartarchive.org/release/b7a075a1-7ec4-4c49-af57-c6555b5f9b80/26591285221-500.jpg",
+            "artworkFile": "/assets/artwork/26591285221-500.jpg"
           },
           {
             "artist": "Keleketla! & Coldcut",
@@ -13936,7 +14024,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0sqETr5mwDf494FaWzjnGD?si=d58813e942c7415c",
             "apple": "https://music.apple.com/gb/album/keleketla/1510746387",
-            "artwork": "https://coverartarchive.org/release-group/3040e06e-28ca-4422-b864-8856f5884b97/front"
+            "artworkURL": "https://coverartarchive.org/release/dc0b4f65-c7dd-4583-a7a7-e881606e4037/26638146616-500.jpg",
+            "artworkFile": "/assets/artwork/26638146616-500.jpg"
           },
           {
             "artist": "Jake Schrock",
@@ -14015,7 +14104,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2NgcipPgtbHvKUaDz1LgxJ?si=OD-SyF7YREq1HRaDwC4dHw",
             "apple": "https://music.apple.com/gb/album/the-devils-walk/711471112",
-            "artwork": "https://coverartarchive.org/release-group/13d2eaea-a8ee-449b-b3bb-79b123802a5e/front"
+            "artworkURL": "https://coverartarchive.org/release/6050baf2-487e-42ec-84e9-73ad33b3f82d/23168847597-500.jpg",
+            "artworkFile": "/assets/artwork/23168847597-500.jpg"
           },
           {
             "artist": "Apparat",
@@ -14186,7 +14276,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7itRrAfbJnabbvrGRE7kFm?si=GCLhsZYPSvi9cjrrt85iaQ",
             "apple": "https://music.apple.com/gb/album/bedroom/1701098303",
-            "artwork": "https://coverartarchive.org/release-group/d7c10991-2105-4a3f-8cb4-2b6118174d62/front"
+            "artworkURL": "https://coverartarchive.org/release/1f69b128-28cb-4115-ab46-936f1a07d2c9/25838702909-500.jpg",
+            "artworkFile": "/assets/artwork/25838702909-500.jpg"
           },
           {
             "artist": "James Krivchenia",
@@ -14523,7 +14614,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6gcAUc2LUZfbHwZZJLgvtm?si=7b644e568092480a",
             "apple": "https://music.apple.com/gb/album/articulation/1512954620",
-            "artwork": "https://coverartarchive.org/release-group/5f0ebe79-dfde-4d54-a6b8-ede9d47cae60/front"
+            "artworkURL": "https://coverartarchive.org/release/61b9683c-fbdd-4bb9-b1cb-432d7a7de441/26304830707-500.jpg",
+            "artworkFile": "/assets/artwork/26304830707-500.jpg"
           }
         ],
         "total": 47,
@@ -14568,7 +14660,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5h3hdISUzK446Yygx34Pv4?si=3418a810411a4db3",
             "apple": "https://music.apple.com/gb/album/loveplaydance-8-scenes-from-the-floor/1561772340",
-            "artwork": "https://coverartarchive.org/release-group/cfe7142b-25f6-4adb-bc92-65fd40a6b13f/front"
+            "artworkURL": "https://coverartarchive.org/release/4156e52d-f1dc-49c3-a8b9-a9036cedba8c/21342236135-500.jpg",
+            "artworkFile": "/assets/artwork/21342236135-500.jpg"
           },
           {
             "artist": "Glass Animals",
@@ -14723,7 +14816,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/79fGMhdBAKmCiih3K8Gwqz?si=b1cec9fa65b94a8a",
             "apple": "https://music.apple.com/gb/album/inner-song/1497732972",
-            "artwork": "https://coverartarchive.org/release/1cdaf0f6-9cf0-47c3-b439-412fb25c3fd6/25574053395.jpg"
+            "artworkURL": "https://coverartarchive.org/release/1cdaf0f6-9cf0-47c3-b439-412fb25c3fd6/25574053395-500.jpg",
+            "artworkFile": "/assets/artwork/25574053395-500.jpg"
           },
           {
             "artist": "Taylor Swift",
@@ -14802,7 +14896,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6In2HeTX6Web6mNHcamTOO?si=dcea5319f4ea4cee",
             "apple": "https://music.apple.com/gb/album/fall-to-pieces/1513002129",
-            "artwork": "https://coverartarchive.org/release-group/14c9b33d-169a-4d0d-a2d0-b03792090896/front"
+            "artworkURL": "https://coverartarchive.org/release/bad938ac-c842-44a2-b14d-072e50eddba1/27177368370-500.jpg",
+            "artworkFile": "/assets/artwork/27177368370-500.jpg"
           },
           {
             "artist": "Ital Tek",
@@ -14921,7 +15016,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2KAPJ40On8JY1Yt64JJgTk?si=722f3718d8fb4a14",
             "apple": "https://music.apple.com/gb/album/free-love/1521720336",
-            "artwork": "https://coverartarchive.org/release-group/b60a1cee-1d30-4531-acc5-d26810e61fa6/front"
+            "artworkURL": "https://coverartarchive.org/release/8403bf74-1026-4ac3-81c7-399fc742088f/27213590309-500.jpg",
+            "artworkFile": "/assets/artwork/27213590309-500.jpg"
           },
           {
             "artist": "IDLES",
@@ -14932,7 +15028,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/20O6GKv8VfyvL4Gy0TAJs7?si=d0e8d1bbecea4b9d",
             "apple": "https://music.apple.com/gb/album/ultra-mono/1517639211",
-            "artwork": "https://coverartarchive.org/release-group/baa817a4-1987-44b7-bd0e-1d5eba738619/front"
+            "artworkURL": "https://coverartarchive.org/release/7dc01e57-843d-47a3-9152-39e3cee8059e/33289360297-500.jpg",
+            "artworkFile": "/assets/artwork/33289360297-500.jpg"
           }
         ],
         "total": 56,
@@ -14969,7 +15066,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7B6Jr6YFwOk8ShwfTXXY5k?si=D92w_78vRPa4JcGOtw73-w",
             "apple": "https://music.apple.com/gb/album/desire/1513566900",
-            "artwork": "https://coverartarchive.org/release-group/be6c5b22-b83c-49e4-a5ae-a41b2db64256/front"
+            "artworkURL": "https://coverartarchive.org/release/f691078a-b552-416a-92cd-2ad381f0763e/27809902351-500.jpg",
+            "artworkFile": "/assets/artwork/27809902351-500.jpg"
           },
           {
             "artist": "Bellows",
@@ -15232,7 +15330,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5mhT7EHENPIKl9lmcvV0Hy?si=2debf1d0798b42d6",
             "apple": "https://music.apple.com/gb/album/colorspacious/1527756194",
-            "artwork": "https://f4.bcbits.com/img/a2693424021_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a2693424021_10.jpg",
+            "artworkFile": "/assets/artwork/a2693424021_10.jpg"
           }
         ],
         "total": 56,
@@ -15353,7 +15452,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5KS9i1ErrYE1DfnKfTguQa?si=a6c581abc7cc453a",
             "apple": "https://music.apple.com/gb/album/mourning-jewelry/1519983481",
-            "artwork": "https://coverartarchive.org/release-group/67626e20-8066-47e8-ae5d-f8265bfdc0d1/front"
+            "artworkURL": "https://coverartarchive.org/release/4505b7ac-321f-44df-92c4-d899934ea152/26539828771-500.jpg",
+            "artworkFile": "/assets/artwork/26539828771-500.jpg"
           }
         ],
         "total": 56,
@@ -15484,7 +15584,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2XeZglDzgBB05xWuK8ZqJq?si=a3e3789508a24335",
             "apple": "https://music.apple.com/gb/album/voyage-au-soleil/1525514214",
-            "artwork": "https://coverartarchive.org/release-group/6afba26c-1037-40c1-b28c-8e4fc83dbdde/front"
+            "artworkURL": "https://coverartarchive.org/release/90bca585-f75d-4236-989c-1ee6d7714c4e/26816324387-500.jpg",
+            "artworkFile": "/assets/artwork/26816324387-500.jpg"
           },
           {
             "artist": "David Toop",
@@ -15691,7 +15792,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7H1BU0D7IXoEfcCcqn9EsS?si=890ca113fc0a4598",
             "apple": "https://music.apple.com/gb/album/drop-the-vowels/843507123",
-            "artwork": "https://coverartarchive.org/release-group/cee9aeed-6923-44a6-b6de-12783199db3d/front"
+            "artworkURL": "https://coverartarchive.org/release/8af051ba-2423-4250-b1ef-56cf79199ff9/33520131110-500.jpg",
+            "artworkFile": "/assets/artwork/33520131110-500.jpg"
           },
           {
             "artist": "Demdike Stare",
@@ -15794,7 +15896,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2ZYEFuJ8mPHqxPreWCs7AG?si=pSVjJJ7nTqyWrw_IuNN_vw",
             "apple": "https://music.apple.com/gb/album/morning-pageants/1523724911",
-            "artwork": "https://coverartarchive.org/release-group/c59ad65c-ce93-4cc3-8efc-ffa1937341de/front"
+            "artworkURL": "https://coverartarchive.org/release/2fc21824-4d73-45d8-be3f-00e53a88822b/27527662008-500.jpg",
+            "artworkFile": "/assets/artwork/27527662008-500.jpg"
           },
           {
             "artist": "Fennesz",
@@ -15931,7 +16034,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5o7JAhPyjgxKUsJH0PpwwZ?si=4bcfde78b3aa4e83",
             "apple": "https://music.apple.com/gb/album/magic-oneohtrix-point-never/1529625639",
-            "artwork": "https://coverartarchive.org/release-group/1f87512e-c89f-46c8-9333-2451a7158e4c/front"
+            "artworkURL": "https://coverartarchive.org/release/610d833c-06ce-4ba0-ac6a-2ee625c4edbc/27656100672-500.jpg",
+            "artworkFile": "/assets/artwork/27656100672-500.jpg"
           },
           {
             "artist": "The Last Dinosaur",
@@ -16018,7 +16122,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1Pi9nozlrF8YWnWm1FRjUv?si=f944d5a2f6e14e67",
             "apple": "https://music.apple.com/gb/album/clam-day/1587208716",
-            "artwork": "https://coverartarchive.org/release-group/f3dbd6ad-7312-40de-b7f7-8d2f0fc18837/front"
+            "artworkURL": "https://coverartarchive.org/release/5e46e9f0-c36c-4a9b-8c64-2fe495cb9761/32701345622-500.jpg",
+            "artworkFile": "/assets/artwork/32701345622-500.jpg"
           }
         ],
         "total": 45,
@@ -16557,7 +16662,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4JTlK2uGvc9cMbVMABYZFJ?si=EYschk4YTA263FQH57AoSA",
             "apple": "https://music.apple.com/gb/album/the-hum/1533407384",
-            "artwork": "https://coverartarchive.org/release-group/8239d5e9-dcfd-4b4c-b3f1-351af601659c/front"
+            "artworkURL": "https://coverartarchive.org/release/521850b3-4187-4794-8d68-e8da12c562c5/27271974402-500.jpg",
+            "artworkFile": "/assets/artwork/27271974402-500.jpg"
           },
           {
             "artist": "Applescal",
@@ -16626,7 +16732,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5uvoX0fFiT1QFpZXntsI3j?si=428eaa185b6e46ff",
             "apple": "https://music.apple.com/gb/album/a-heros-death/1508153444",
-            "artwork": "https://coverartarchive.org/release-group/8eac43e3-2fbc-488b-b728-f79c17836fef/front"
+            "artworkURL": "https://coverartarchive.org/release/f769da37-50a7-4a68-80f2-77be000ae9cd/26122336000-500.jpg",
+            "artworkFile": "/assets/artwork/26122336000-500.jpg"
           }
         ],
         "total": 50,
@@ -16713,7 +16820,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/07iv0tkKefJPUp9RFDOuNQ?si=836855d5e5dc4a07",
             "apple": "https://music.apple.com/gb/album/new-light/1530438522",
-            "artwork": "https://coverartarchive.org/release-group/d9ecab7c-f083-47d2-a7e9-2f600faa29b7/front"
+            "artworkURL": "https://coverartarchive.org/release/75769f87-8ee7-4226-9f34-75bc650547d8/27717984085-500.jpg",
+            "artworkFile": "/assets/artwork/27717984085-500.jpg"
           },
           {
             "artist": "Gidge",
@@ -16876,7 +16984,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7am3GUDo1dNZqPtze7G334?si=8ccdbe348e8d40fd",
             "apple": "https://music.apple.com/gb/album/mother-of/1532396287",
-            "artwork": "https://coverartarchive.org/release-group/f4552ad1-d2cb-4110-bfb5-b7d68b217362/front"
+            "artworkURL": "https://coverartarchive.org/release/c89683cf-ace4-473c-afa4-8d29f8e8e62f/27462466245-500.jpg",
+            "artworkFile": "/assets/artwork/27462466245-500.jpg"
           },
           {
             "artist": "Brecon",
@@ -16979,7 +17088,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2nLdcWmLQ4nayaERNkfMRV?si=OdT-pboFQimlREAmo2-Vkw",
             "apple": "https://music.apple.com/gb/album/tephra-ep/1535805978",
-            "artwork": "https://f4.bcbits.com/img/a1908934050_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a1908934050_10.jpg",
+            "artworkFile": "/assets/artwork/a1908934050_10.jpg"
           }
         ],
         "total": 50,
@@ -17540,7 +17650,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6Pp6qGEywDdofgFC1oFbSH?si=4189f2f9a1284555",
             "apple": "https://music.apple.com/gb/album/punisher/1504699857",
-            "artwork": "https://coverartarchive.org/release-group/cf75fd5a-ca84-4371-94d7-27410360f06b/front"
+            "artworkURL": "https://coverartarchive.org/release/053dc03a-871e-40cf-80fa-e079b0b8a52b/26238957233-500.jpg",
+            "artworkFile": "/assets/artwork/26238957233-500.jpg"
           },
           {
             "artist": "British Sea Power",
@@ -17577,7 +17688,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5IhBwGYrQotmDvfLcdIj8R?si=RmJ5RU29TlmXPa6oUAXs9A",
             "apple": "https://music.apple.com/gb/album/disco-elysium/1659525966",
-            "artwork": "https://coverartarchive.org/release-group/927e4d32-6190-4f9c-87df-8712236c930f/front"
+            "artworkURL": "https://coverartarchive.org/release/b1c37602-3850-4634-9e81-45b0501beb6d/28277309081-500.jpg",
+            "artworkFile": "/assets/artwork/28277309081-500.jpg"
           },
           {
             "artist": "Jesu",
@@ -17596,7 +17708,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4GaLdSDDbRK0CoJKSnihbo?si=3735d2624ccd46e9",
             "apple": "https://music.apple.com/gb/album/healing-is-a-miracle/1511008796",
-            "artwork": "https://coverartarchive.org/release-group/57c12332-a6e9-413a-86ee-2eb0507e44c7/front"
+            "artworkURL": "https://coverartarchive.org/release/1784caf1-8d32-4625-8642-06d0c991d359/26652498915-500.jpg",
+            "artworkFile": "/assets/artwork/26652498915-500.jpg"
           }
         ],
         "total": 38,
@@ -17666,7 +17779,8 @@
             "length": 38,
             "fav": 1,
             "bandcamp": "https://cuts.bandcamp.com/album/unreal",
-            "artwork": "https://f4.bcbits.com/img/a2322650673_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a2322650673_10.jpg",
+            "artworkFile": "/assets/artwork/a2322650673_10.jpg"
           }
         ],
         "total": 38,
@@ -17755,7 +17869,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7tilRUU7WANATJdxhMO3p8?si=0e7d8caa2d57495c",
             "apple": "https://music.apple.com/gb/album/tarot-sport/931456846",
-            "artwork": "https://coverartarchive.org/release-group/ae8add31-2b86-4757-adbf-9c1b34e0635b/front"
+            "artworkURL": "https://coverartarchive.org/release/6c582ec5-7f69-3903-bee2-95f0c01d8f7d/4825853607-500.jpg",
+            "artworkFile": "/assets/artwork/4825853607-500.jpg"
           }
         ],
         "total": 38,
@@ -17986,7 +18101,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0EdtTRCl3J22AnWrNpH1w9?si=TBKkwultR9u_oq_W_0p8pA",
             "apple": "https://music.apple.com/gb/album/isles/1531704818",
-            "artwork": "https://coverartarchive.org/release-group/fa402a46-b4b1-40d6-8d3b-b051550eb687/front"
+            "artworkURL": "https://coverartarchive.org/release/32d2437b-3975-4445-a5b3-b4e6ceb35fd9/28387736026-500.jpg",
+            "artworkFile": "/assets/artwork/28387736026-500.jpg"
           },
           {
             "artist": "Toro y Moi",
@@ -18203,7 +18319,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2HoB5F5P5S2daYgqmA4evf?si=mrLt764KRVaBpf_icsZVRg",
             "apple": "https://music.apple.com/gb/album/ex-re-with-12-ensemble/1550729884",
-            "artwork": "https://coverartarchive.org/release-group/91210c03-4448-44f7-9497-29cd5f38c9d9/front"
+            "artworkURL": "https://coverartarchive.org/release/a88a3c08-13b8-4169-8ddf-fafc45fe8bdd/37053728100-500.jpg",
+            "artworkFile": "/assets/artwork/37053728100-500.jpg"
           }
         ],
         "total": 4,
@@ -18300,7 +18417,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5p2tJfbniQOhY1S61270Jo?si=e907442e287e4831",
             "apple": "https://music.apple.com/gb/album/omega-point/1544013601",
-            "artwork": "https://f4.bcbits.com/img/a1318524382_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a1318524382_10.jpg",
+            "artworkFile": "/assets/artwork/a1318524382_10.jpg"
           },
           {
             "artist": "Floating Points, Pharaoh Saunders & London Symphony Orchestra",
@@ -18311,7 +18429,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4pDYkOvRt8GA6PxpVaHnLC?si=yBLMJWzqRbeplxZCbx8TCw",
             "apple": "https://music.apple.com/gb/album/promises/1550124058",
-            "artwork": "https://coverartarchive.org/release/9f279a47-778f-44fe-a9ff-4ca61dae26c8/28949992190.png"
+            "artworkURL": "https://coverartarchive.org/release/9f279a47-778f-44fe-a9ff-4ca61dae26c8/28949992190-500.jpg",
+            "artworkFile": "/assets/artwork/28949992190-500.jpg"
           },
           {
             "artist": "Oh No Noh",
@@ -18432,7 +18551,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6mfZkiUX4cK5rTVfKCJFqW?si=8d4e8aa36c9543d4",
             "apple": "https://music.apple.com/gb/album/fir-wave/1550814304",
-            "artwork": "https://coverartarchive.org/release-group/4f41fa01-06c3-49c5-b047-2a34cf62cb36/front"
+            "artworkURL": "https://coverartarchive.org/release/96048282-eb1d-492b-9f2d-8b31aa7b579d/28925999458-500.jpg",
+            "artworkFile": "/assets/artwork/28925999458-500.jpg"
           }
         ],
         "total": 17,
@@ -18487,7 +18607,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4FhQ1P2yfmyo1axATOCfR9?si=f3108ac1e40b44e4",
             "apple": "https://music.apple.com/gb/album/a-strangely-isolated-place/1500629315",
-            "artwork": "https://coverartarchive.org/release/a5071726-a670-45a8-bd9b-f8aeffb1a3be/39179974221.jpg"
+            "artworkURL": "https://coverartarchive.org/release/a5071726-a670-45a8-bd9b-f8aeffb1a3be/39179974221-500.jpg",
+            "artworkFile": "/assets/artwork/39179974221-500.jpg"
           }
         ],
         "total": 17,
@@ -18754,7 +18875,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3v86wYo4lcjliWMsGQFhjh?si=824ca2039ebf4590",
             "apple": "https://music.apple.com/gb/album/lion/1513122956",
-            "artwork": "https://f4.bcbits.com/img/a2128726043_10.jpg"
+            "artworkURL": "https://coverartarchive.org/release/b041edfd-48f5-485d-845e-a5db2b2e97d5/32199004134-500.jpg",
+            "artworkFile": "/assets/artwork/32199004134-500.jpg"
           },
           {
             "artist": "tUnE-yArDs",
@@ -18885,7 +19007,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3DuVru3YXCKfrNajnEUlVR?si=RZmYflmqQtGIKf7g3W_qIw",
             "apple": "https://music.apple.com/gb/album/never-the-right-time/1557478238",
-            "artwork": "https://coverartarchive.org/release-group/966c30c1-1ce4-496d-9c84-0fb9f53527aa/front"
+            "artworkURL": "https://coverartarchive.org/release/a14f8e74-a934-44df-bc0c-84b69fb15f77/29097666364-500.jpg",
+            "artworkFile": "/assets/artwork/29097666364-500.jpg"
           }
         ],
         "total": 16,
@@ -18956,7 +19079,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/219LGvgmAhhwlfc3unDhUt?si=079508968a4046c7",
             "apple": "https://music.apple.com/gb/album/bright-green-field/1544474458",
-            "artwork": "https://coverartarchive.org/release-group/1cda298d-bffd-40e5-b4b7-a5fc35a3e5a1/front"
+            "artworkURL": "https://coverartarchive.org/release/4bbf0c19-0885-4ca4-a69c-4fa77b2f4edd/29289407273-500.jpg",
+            "artworkFile": "/assets/artwork/29289407273-500.jpg"
           },
           {
             "artist": "HEALTH",
@@ -19059,7 +19183,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6AfA0FZhzRTpjDDYHkCd5B?si=329678df188d44ba",
             "apple": "https://music.apple.com/gb/album/black-to-the-future/1558301183",
-            "artwork": "https://coverartarchive.org/release-group/2cb88e38-3e04-4545-8a13-30c0659de3d0/front"
+            "artworkURL": "https://coverartarchive.org/release/39831c4e-6795-4b1d-836a-08d5824dae8d/29686147278-500.jpg",
+            "artworkFile": "/assets/artwork/29686147278-500.jpg"
           },
           {
             "artist": "Nosaj Thing",
@@ -19302,7 +19427,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7GdeIkHAyeOJDPpg34hNAg?si=CFUXTLi4RQa95ZtvKVIQKQ",
             "apple": "https://music.apple.com/gb/album/scuro-chiaro/1554479844",
-            "artwork": "https://coverartarchive.org/release/549ae89c-6de8-4f40-832d-f76f6ba15404/29613462749-250.jpg"
+            "artworkURL": "https://coverartarchive.org/release/549ae89c-6de8-4f40-832d-f76f6ba15404/29613462749-500.jpg",
+            "artworkFile": "/assets/artwork/29613462749-500.jpg"
           },
           {
             "artist": "Papiro",
@@ -19473,7 +19599,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7v5Vuz4HyHldAgTG9NpcFY?si=266a7d0b05b344d9",
             "apple": "https://music.apple.com/gb/album/changephobia/1553839194",
-            "artwork": "https://coverartarchive.org/release-group/76d10237-43c8-4c7d-8dcd-611e17c3650d/front"
+            "artworkURL": "https://coverartarchive.org/release/2f57677d-052b-463a-9213-fb274412aec3/28794181452-500.jpg",
+            "artworkFile": "/assets/artwork/28794181452-500.jpg"
           },
           {
             "artist": "Field Kit",
@@ -19544,7 +19671,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2DlvDiYx2Nd5VQAmNqUDJu?si=e1556364a0af4c21",
             "apple": "https://music.apple.com/gb/album/escapades/1562989115",
-            "artwork": "https://coverartarchive.org/release-group/e0492659-6980-4e7d-b335-68e244492b98/front"
+            "artworkURL": "https://coverartarchive.org/release/16a74d9e-9ea7-4b77-8275-72caebba7095/37175969109-500.jpg",
+            "artworkFile": "/assets/artwork/37175969109-500.jpg"
           },
           {
             "artist": "Faye Webster",
@@ -19745,7 +19873,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2UEzaEym36kNtiNDi7b1mR?si=bEqs3GMeTDmdvs-RgmV6jg",
             "apple": "https://music.apple.com/gb/album/together-in-static/1562678279",
-            "artwork": "https://coverartarchive.org/release-group/72ed206b-5d18-417c-beb4-0c05c354da1f/front"
+            "artworkURL": "https://coverartarchive.org/release/0214a16b-49fc-44ac-9e42-49ba9d09bc22/29099317665-500.jpg",
+            "artworkFile": "/assets/artwork/29099317665-500.jpg"
           }
         ],
         "total": 26,
@@ -19790,7 +19919,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2mFlkozkxXwCdQgztSucRz?si=2cb4824cc2e94541",
             "apple": "https://music.apple.com/gb/album/agor/1565923183",
-            "artwork": "https://coverartarchive.org/release-group/f17dadf7-61bf-4ec4-8980-b46bb1c16428/front"
+            "artworkURL": "https://coverartarchive.org/release/54a4e9ed-6d19-4b84-9f92-9a95f29c8369/36265814320-500.jpg",
+            "artworkFile": "/assets/artwork/36265814320-500.jpg"
           },
           {
             "artist": "Liila",
@@ -19927,7 +20057,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/40S7yCKNYjaRZb2DocLf9s?si=b732c8be867f4c48",
             "apple": "https://music.apple.com/gb/album/dragons/1556432400",
-            "artwork": "https://coverartarchive.org/release-group/c031dd9d-3eab-4a34-8b23-3df3736b57fc/front"
+            "artworkURL": "https://coverartarchive.org/release/f6d052ba-b21a-452b-b240-3639b51f2b0c/28967946929-500.jpg",
+            "artworkFile": "/assets/artwork/28967946929-500.jpg"
           }
         ],
         "total": 23,
@@ -20136,7 +20267,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7AWQOIYh73P4AduSF7ak50?si=20baf2ffa80642ba",
             "apple": "https://music.apple.com/gb/album/lucid-express/1560683496",
-            "artwork": "https://coverartarchive.org/release-group/4e1d6560-9de7-423d-8b72-16ea937f8876/front"
+            "artworkURL": "https://coverartarchive.org/release/84bde542-de5f-412c-81e9-bbc4fcfdb4f8/29855647023-500.jpg",
+            "artworkFile": "/assets/artwork/29855647023-500.jpg"
           }
         ],
         "total": 23,
@@ -20191,7 +20323,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1UiSJKr1F1Y3ZwbCw67JV2?si=b7fc2946e7374ad8",
             "apple": "https://music.apple.com/gb/album/animal/1565398489",
-            "artwork": "https://coverartarchive.org/release-group/71398b39-fdda-444d-9f9b-cbc4a0d20832/front"
+            "artworkURL": "https://coverartarchive.org/release/89384fa9-2ad0-483c-a841-1bd9df6370d4/30013272550-500.jpg",
+            "artworkFile": "/assets/artwork/30013272550-500.jpg"
           }
         ],
         "total": 23,
@@ -20260,7 +20393,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0eQcXzLkavsGjvi6wN81TK?si=aJlaEbMHRgmA5HjDmT4aug",
             "apple": "https://music.apple.com/gb/album/volume-massimo/1468616695",
-            "artwork": "https://coverartarchive.org/release/89df9165-828b-4137-8f58-54f2c35e7e7c/24205094343-250.jpg"
+            "artworkURL": "https://coverartarchive.org/release/89df9165-828b-4137-8f58-54f2c35e7e7c/24205094343-500.jpg",
+            "artworkFile": "/assets/artwork/24205094343-500.jpg"
           },
           {
             "artist": "Equinoxx",
@@ -20447,7 +20581,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6ZfhvHOMSMazMd0U0jOTAD?si=g8yoEscASBqveu6u-H0bWg",
             "apple": "https://music.apple.com/gb/album/florals-ep/1574643772",
-            "artwork": "https://f4.bcbits.com/img/a1730801728_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a1730801728_10.jpg",
+            "artworkFile": "/assets/artwork/a1730801728_10.jpg"
           }
         ],
         "total": 31,
@@ -20476,7 +20611,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5atrOg1aO4d5KEcYo4UBIA?si=480759d5c2a744dc",
             "apple": "https://music.apple.com/gb/album/still-slipping-vol-1/1574302065",
-            "artwork": "https://coverartarchive.org/release-group/f71ff930-da3d-4984-9a19-79afeba71355/front"
+            "artworkURL": "https://coverartarchive.org/release/b5e4fe18-d5af-4fba-80e8-9093fbb00c27/30142076837-500.jpg",
+            "artworkFile": "/assets/artwork/30142076837-500.jpg"
           },
           {
             "artist": "Jungle",
@@ -20513,7 +20649,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2eTB3kKvlQ31f6nhHjv7gj?si=Hk3AkYtxTyqxxtm8Q2Dd4A",
             "apple": "https://music.apple.com/gb/album/avanti/1267405189",
-            "artwork": "https://coverartarchive.org/release/889b55ac-547c-48bd-b3ec-1826b041553e/17951181901-250.jpg"
+            "artworkURL": "https://coverartarchive.org/release/889b55ac-547c-48bd-b3ec-1826b041553e/17951181901-500.jpg",
+            "artworkFile": "/assets/artwork/17951181901-500.jpg"
           },
           {
             "artist": "Haiku Salut",
@@ -20816,7 +20953,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7FvnTARvgjUyWnUT0flUN7?si=61987f481a1b4799",
             "apple": "https://music.apple.com/gb/album/mirrors/1565509309",
-            "artwork": "https://coverartarchive.org/release-group/d68937d8-4c3f-412f-a99d-4c116c9909ae/front"
+            "artworkURL": "https://coverartarchive.org/release/856f3f75-7198-4c43-8600-b613822b309d/30314810788-500.jpg",
+            "artworkFile": "/assets/artwork/30314810788-500.jpg"
           },
           {
             "artist": "Sleigh Bells",
@@ -20947,7 +21085,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/06zKrUvMNdqoXIheuUaApj?si=RQpzfSmdT6eGWXauM-8Mfw",
             "apple": "https://music.apple.com/gb/album/2x1-4/1582428958",
-            "artwork": "https://coverartarchive.org/release-group/7b94c8c3-e3de-4c7e-b219-0565c2262d05/front"
+            "artworkURL": "https://coverartarchive.org/release/c6e0ebb1-ceb5-412b-abb0-002789bf08e6/30428932590-500.jpg",
+            "artworkFile": "/assets/artwork/30428932590-500.jpg"
           }
         ],
         "total": 12,
@@ -21188,7 +21327,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5wKXfInna4rPKYVhdiSgQA?si=0c05e73b4bf542a7",
             "apple": "https://music.apple.com/gb/album/family-portrait/1386674611",
-            "artwork": "https://coverartarchive.org/release-group/77cc09e8-41ae-4c8b-ac03-f3b232cf1318/front"
+            "artworkURL": "https://coverartarchive.org/release/dd236102-d1d2-46a0-9f70-a142533d5c12/40438538488-500.jpg",
+            "artworkFile": "/assets/artwork/40438538488-500.jpg"
           },
           {
             "artist": "Anthony Naples",
@@ -21337,7 +21477,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3Wlrn8WzfixJKhq0iU3lxV?si=47f2a53ce4574da6",
             "apple": "https://music.apple.com/gb/album/hidemi/1583505975",
-            "artwork": "https://coverartarchive.org/release-group/5ad44212-7181-47c4-af63-ad835d666ee1/front"
+            "artworkURL": "https://coverartarchive.org/release/b9a9450b-9b85-46f1-bb85-54b21484b4f6/30823432332-500.jpg",
+            "artworkFile": "/assets/artwork/30823432332-500.jpg"
           }
         ],
         "total": 17,
@@ -21534,7 +21675,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6uEqNLPPRTeEfiV9NzmrTB?si=f6fc4eef531e41e0",
             "apple": "https://music.apple.com/gb/album/mother-of-piano-reworks-ep/1592192524",
-            "artwork": "https://coverartarchive.org/release-group/1d19b70a-93d7-4f6f-9b68-ef91aa6b55dd/front"
+            "artworkURL": "https://coverartarchive.org/release/3cf73a3e-708f-4dba-a6b4-a6746f869c5a/37962091585-500.jpg",
+            "artworkFile": "/assets/artwork/37962091585-500.jpg"
           }
         ],
         "total": 20,
@@ -21615,7 +21757,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0Yhh1hrDU0NYtryszOng4q?si=8bdece5657254d51",
             "apple": "https://music.apple.com/gb/album/9-airs/1585841977",
-            "artwork": "https://coverartarchive.org/release-group/05a3283c-98cd-4837-80d7-d662229e3c11/front"
+            "artworkURL": "https://coverartarchive.org/release/eb3a80e9-a40b-497d-a01e-b9f0e8305a74/30901829445-500.jpg",
+            "artworkFile": "/assets/artwork/30901829445-500.jpg"
           }
         ],
         "total": 20,
@@ -21644,7 +21787,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2zY5p176SfmupXceLKT6bH?si=ca433cb890be4dee",
             "apple": "https://music.apple.com/gb/album/music-for-psychedelic-therapy/1581582605",
-            "artwork": "https://coverartarchive.org/release-group/f06cedf8-bbf1-49b9-8a2b-034c0a499d20/front"
+            "artworkURL": "https://coverartarchive.org/release/55fd0e6b-7a60-4e3e-b4c1-68f75ca19875/35277875302-500.jpg",
+            "artworkFile": "/assets/artwork/35277875302-500.jpg"
           }
         ],
         "total": 20,
@@ -21835,7 +21979,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7pWhkwLglyr3he6crAv1gJ?si=e6344e88f70146ef",
             "apple": "https://music.apple.com/gb/album/kof%C5%AB-ii/1595788081",
-            "artwork": "https://coverartarchive.org/release-group/3a2dc204-4f25-45fc-82a1-1e93ebf90346/front"
+            "artworkURL": "https://coverartarchive.org/release/40d2f46f-9438-4a87-84d6-8199cc5ad297/31161365328-500.jpg",
+            "artworkFile": "/assets/artwork/31161365328-500.jpg"
           }
         ],
         "total": 17,
@@ -21992,7 +22137,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/091dnUcBWWE8YXH340kf9Z?si=b3ef8463cc314b0a",
             "apple": "https://music.apple.com/gb/album/overflow/1586002584",
-            "artwork": "https://coverartarchive.org/release-group/6cdda3c7-ba66-4937-8f66-5bf36f3e3dc5/front"
+            "artworkURL": "https://coverartarchive.org/release/43a68d62-4933-4d6c-b9c9-43093d695d34/31144619569-500.jpg",
+            "artworkFile": "/assets/artwork/31144619569-500.jpg"
           }
         ],
         "total": 17,
@@ -22151,7 +22297,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6CcyLV6tFcSu4pBGoGdk8s?si=40c03fe438d84a5a",
             "apple": "https://music.apple.com/gb/album/kof%C5%AB/1530794055",
-            "artwork": "https://coverartarchive.org/release-group/80186cd2-45e2-4cf4-b23a-7464a053b347/front"
+            "artworkURL": "https://coverartarchive.org/release/919d81ae-b348-4cd6-a393-487b8f9e3b12/28123482459-500.jpg",
+            "artworkFile": "/assets/artwork/28123482459-500.jpg"
           }
         ],
         "total": 17,
@@ -22538,7 +22685,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4KjbNbnTnJ97kZgQkOHr6v?si=s2xQD591QAqb4R9m13GzoA",
             "apple": "https://music.apple.com/gb/album/fragments/1584968878",
-            "artwork": "https://coverartarchive.org/release-group/c0b8d15f-baed-499c-80d3-037325756e9c/front"
+            "artworkURL": "https://coverartarchive.org/release/c14a9a2b-b4c1-4fa2-b576-41ba2111a519/31473930556-500.jpg",
+            "artworkFile": "/assets/artwork/31473930556-500.jpg"
           }
         ],
         "total": 22,
@@ -22761,7 +22909,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6eiliCRcznVHaJuws7JeTY?si=q7jgjgcbSJe0GJUh9HEG-w",
             "apple": "https://music.apple.com/gb/album/terre-promise/1596828639",
-            "artwork": "https://coverartarchive.org/release-group/38abb0d5-7cce-4a56-bb3e-2bbba221654d/front"
+            "artworkURL": "https://coverartarchive.org/release/c2758181-fdaf-408b-8881-2adf2714b023/31900593699-500.jpg",
+            "artworkFile": "/assets/artwork/31900593699-500.jpg"
           }
         ],
         "total": 20,
@@ -22824,7 +22973,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7w5COkBSsfMksBbXnDVog2?si=d959a4e4cdb64b9b",
             "apple": "https://music.apple.com/gb/album/memoria/1581767678",
-            "artwork": "https://coverartarchive.org/release-group/1d482f9b-bf25-43a2-b403-1f357c4875d6/front"
+            "artworkURL": "https://coverartarchive.org/release/879c26b3-da54-4d2e-993e-d435c41b10f1/30463625977-500.jpg",
+            "artworkFile": "/assets/artwork/30463625977-500.jpg"
           },
           {
             "artist": "David Allred",
@@ -22903,7 +23053,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7DEgr3XAs8jXVIjFBGqi0m?si=d50be8f0e8dd4a4c",
             "apple": "https://music.apple.com/gb/album/raum/1599337918",
-            "artwork": "https://coverartarchive.org/release-group/064d4431-fe1d-4a79-a32a-f1ef15f1c137/front"
+            "artworkURL": "https://coverartarchive.org/release/ecb004dd-edd0-4dec-a0b4-37c90ff0c228/31830536655-500.jpg",
+            "artworkFile": "/assets/artwork/31830536655-500.jpg"
           }
         ],
         "total": 20,
@@ -23026,7 +23177,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5JuO2GgzgGLrF1Kz0l82Qk?si=9C3akJhSQGaSWK0FdbM3dQ",
             "apple": "https://music.apple.com/gb/album/unspoken-words/1601407305",
-            "artwork": "https://coverartarchive.org/release-group/92408eef-67b1-4136-a839-035f646750f3/front"
+            "artworkURL": "https://coverartarchive.org/release/60c49db0-fb30-443f-9937-98b65f745a9a/31869408657-500.jpg",
+            "artworkFile": "/assets/artwork/31869408657-500.jpg"
           },
           {
             "artist": "Tired Tape Machine",
@@ -23095,7 +23247,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/36BhQCIGZyc0JyZAfysXYI?si=56d849ce11014121",
             "apple": "https://music.apple.com/gb/album/always-inside-your-head/1572310919",
-            "artwork": "https://coverartarchive.org/release-group/3c4a2e89-8bcb-4944-874a-79dd1dc01a81/front"
+            "artworkURL": "https://coverartarchive.org/release/4766987b-8325-451a-ad9e-715b4dccb222/36456940795-500.jpg",
+            "artworkFile": "/assets/artwork/36456940795-500.jpg"
           }
         ],
         "total": 36,
@@ -23224,7 +23377,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7cCZWnjvMXqXsGcKvWAvjo?si=TSbsI9-dQH2HPQCsq9Xj4A",
             "apple": "https://music.apple.com/gb/album/melt/1567919031",
-            "artwork": "https://coverartarchive.org/release-group/3f878dca-882b-4465-8c95-f2a43b8594f4/front"
+            "artworkURL": "https://coverartarchive.org/release/10c41407-ed35-48f3-8821-1822c667b8a3/29664457043-500.jpg",
+            "artworkFile": "/assets/artwork/29664457043-500.jpg"
           }
         ],
         "total": 36,
@@ -23405,7 +23559,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3DuUCCshIj3IJGISFEVa2f?si=8eJlZzx9QAeAHWkiVPZS-g",
             "apple": "https://music.apple.com/gb/album/echo/1460309047",
-            "artwork": "https://coverartarchive.org/release-group/714338ac-b456-4fa4-a509-834b7a1bca9d/front"
+            "artworkURL": "https://coverartarchive.org/release/a0007e4c-fd80-442a-938f-cfa188e8396f/28689614238-500.jpg",
+            "artworkFile": "/assets/artwork/28689614238-500.jpg"
           }
         ],
         "total": 36,
@@ -23708,7 +23863,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7iKvcnzcqiPHlyvXKvs0d3?si=ERHydd_nSZaNZVg-h5dBHg",
             "apple": "https://music.apple.com/gb/album/natura/1612523829",
-            "artwork": "https://coverartarchive.org/release-group/7706af01-1564-404a-a52b-702aabc400f7/front"
+            "artworkURL": "https://coverartarchive.org/release/7deba7b0-16b8-409f-b803-61eead888439/32085547940-500.jpg",
+            "artworkFile": "/assets/artwork/32085547940-500.jpg"
           },
           {
             "artist": "Branko",
@@ -23863,7 +24019,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2ZMViS2A6M15Z1kN6n6O8S?si=f36d58dc737c4ed7",
             "apple": "https://music.apple.com/gb/album/skinty-fia/1600529916",
-            "artwork": "https://coverartarchive.org/release-group/aa2f908a-5aba-40c1-a198-3d0ad4f43486/front"
+            "artworkURL": "https://coverartarchive.org/release/f304e7c4-f66a-4131-8685-f7edeed5e3ea/32302277547-500.jpg",
+            "artworkFile": "/assets/artwork/32302277547-500.jpg"
           },
           {
             "artist": "Awe Kid",
@@ -23874,7 +24031,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0uRkeMUsZIsq0KdGJ0KsFI?si=eGGAmuwORFOmCBOnL6jeIw",
             "apple": "https://music.apple.com/gb/album/body-logic/1609070596",
-            "artwork": "https://coverartarchive.org/release-group/2711b342-d593-45eb-adc4-cc42a4a9a633/front"
+            "artworkURL": "https://coverartarchive.org/release/f09b5a77-257a-4bfd-b6d8-e76d11a842ec/34671475819-500.jpg",
+            "artworkFile": "/assets/artwork/34671475819-500.jpg"
           }
         ],
         "total": 23,
@@ -24225,7 +24383,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3CPVa0a5QGqxkuiGqNQjSp?si=64bea2cccb5c4002",
             "apple": "https://music.apple.com/gb/album/profound-mysteries/1604936844",
-            "artwork": "https://coverartarchive.org/release-group/4f1c579a-8a9c-4f96-92ae-befcdf3e0d32/front"
+            "artworkURL": "https://coverartarchive.org/release/1f1db316-8361-4a40-9633-550b259642f5/32698238953-500.jpg",
+            "artworkFile": "/assets/artwork/32698238953-500.jpg"
           },
           {
             "artist": "Hoshina Anniversary",
@@ -24244,7 +24403,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/480jVncbNknTjPUAvxp8or?si=385197ee561047bc",
             "apple": "https://music.apple.com/gb/album/radiate-like-this/1620470034",
-            "artwork": "https://coverartarchive.org/release-group/65ce7e4b-fbf5-4177-bd34-ec9ff74b2217/front"
+            "artworkURL": "https://coverartarchive.org/release/b6a1248e-0f80-4dfe-ae80-a879a3c63a30/32276886292-500.jpg",
+            "artworkFile": "/assets/artwork/32276886292-500.jpg"
           },
           {
             "artist": "HAAi",
@@ -24407,7 +24567,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2gP3nXTrmHvQV6jNmsnURy?si=Ju3XUpEcR7iculL5sUucMg",
             "apple": "https://music.apple.com/gb/album/big-earth-energy/1612815764",
-            "artwork": "https://coverartarchive.org/release-group/0c5b5d4d-a07f-4752-9c5a-cfe54cf07d14/front"
+            "artworkURL": "https://coverartarchive.org/release/ec227c3a-dc8d-49b3-aeac-851e7ea76d3d/32541062685-500.jpg",
+            "artworkFile": "/assets/artwork/32541062685-500.jpg"
           },
           {
             "artist": "Holy Other",
@@ -24418,7 +24579,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6thQj44GFd52rv7Hwv2Bq7?si=11b8794872404afd",
             "apple": "https://music.apple.com/gb/album/lieve/1583261080",
-            "artwork": "https://coverartarchive.org/release-group/98c8ddcb-23a0-4caf-88f5-d99367e4a12d/front"
+            "artworkURL": "https://coverartarchive.org/release/f5e6b403-05d1-475e-8922-ca7f9c4e9cd6/31000380754-500.jpg",
+            "artworkFile": "/assets/artwork/31000380754-500.jpg"
           }
         ],
         "total": 31,
@@ -24481,7 +24643,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7coOKcB1fDcYvLG1OTv4Dz?si=0fe1f3bfd61d4feb",
             "apple": "https://music.apple.com/gb/album/more-d4ta/1680000397",
-            "artwork": "https://coverartarchive.org/release-group/c2763eff-9170-46ad-8155-1d3cb74db13b/front"
+            "artworkURL": "https://coverartarchive.org/release/9dac1d69-2864-4431-b2c6-cdceb1440e25/32489816562-500.jpg",
+            "artworkFile": "/assets/artwork/32489816562-500.jpg"
           }
         ],
         "total": 31,
@@ -24510,7 +24673,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6vhfwGVNgaoaRIDMPnG9js?si=EIWH_3sBQwC-NVm0yaYukA",
             "apple": "https://music.apple.com/gb/album/gaps-and-shortcuts/1550346662",
-            "artwork": "https://f4.bcbits.com/img/a2698202086_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a2698202086_10.jpg",
+            "artworkFile": "/assets/artwork/a2698202086_10.jpg"
           }
         ],
         "total": 31,
@@ -24565,7 +24729,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/78C99zbd0p19B2OmCKVbaN?si=412702b5a68c4920",
             "apple": "https://music.apple.com/gb/album/baby-were-ascending/1604528960",
-            "artwork": "https://coverartarchive.org/release-group/427b7abe-8364-492b-b0de-e391c415ab5c/front"
+            "artworkURL": "https://coverartarchive.org/release/572c59da-cf19-4f5f-8289-d31a643659d6/32302975179-500.jpg",
+            "artworkFile": "/assets/artwork/32302975179-500.jpg"
           }
         ],
         "total": 31,
@@ -24970,7 +25135,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0tjnTppLDO00qYw37Bcngi?si=7c183ce1d6b24e97",
             "apple": "https://music.apple.com/gb/album/what-do-the-stars-say-to-you/1763228103",
-            "artwork": "https://coverartarchive.org/release-group/c07f7716-05dd-4d6f-8f99-fccc38cc7f6b/front"
+            "artworkURL": "https://coverartarchive.org/release/2839ef23-f57a-44d0-8c91-fb46126f1b9a/36621603238-500.jpg",
+            "artworkFile": "/assets/artwork/36621603238-500.jpg"
           }
         ],
         "total": 30,
@@ -25025,7 +25191,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/79ONNoS4M9tfIA1mYLBYVX?si=90ae12e6349a4e44",
             "apple": "https://music.apple.com/gb/album/mr-morale-the-big-steppers/1623854804",
-            "artwork": "https://coverartarchive.org/release-group/6bd70eee-bd46-4738-851a-f50c19d8d6db/front"
+            "artworkURL": "https://coverartarchive.org/release/5e658ccb-cdfe-4e3c-91f7-79299ee45027/32488694384-500.jpg",
+            "artworkFile": "/assets/artwork/32488694384-500.jpg"
           }
         ],
         "total": 30,
@@ -25318,7 +25485,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/009EjjwUjtdjvH7UP0wHzi?si=71df4634a13d459b",
             "apple": "https://music.apple.com/gb/album/a-light-for-attracting-attention/1616902433",
-            "artwork": "https://coverartarchive.org/release-group/50b9771f-40fd-4511-bc8e-408cd3358b12/front"
+            "artworkURL": "https://coverartarchive.org/release/e17c9726-cca2-49ee-949f-9b367bc5fd19/37942955110-500.jpg",
+            "artworkFile": "/assets/artwork/37942955110-500.jpg"
           },
           {
             "artist": "Arcade Fire & Owen Pallett",
@@ -25379,7 +25547,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/58rs9tGJvKpCRnuBewxs8w?si=w8Xw9kDDRu-y6GSz7hiIiA",
             "apple": "https://music.apple.com/gb/album/pink-dolphins/1618213993",
-            "artwork": "https://coverartarchive.org/release-group/73c73688-b12f-4510-aeba-31723eabf52d/front"
+            "artworkURL": "https://coverartarchive.org/release/1ee5da66-f350-439d-aafe-81ed70a294e9/32861490838-500.jpg",
+            "artworkFile": "/assets/artwork/32861490838-500.jpg"
           },
           {
             "artist": "Mejiwahn",
@@ -25398,7 +25567,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5KHpUME9BlHi5Dhf3thJoH?si=unk2EYvyQ0avcGbFatUM4g",
             "apple": "https://music.apple.com/gb/album/spirit-exit/1601444868",
-            "artwork": "https://coverartarchive.org/release-group/ee4c03a2-4438-462b-9edf-845685eb6057/front"
+            "artworkURL": "https://coverartarchive.org/release/9355eb21-4ded-4f95-8f09-501458ee7143/32982949202-500.jpg",
+            "artworkFile": "/assets/artwork/32982949202-500.jpg"
           }
         ],
         "total": 64,
@@ -25677,7 +25847,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2vZEZAEBbtc2LQN8Pv3vSe?si=a69f716f6daf44a8",
             "apple": "https://music.apple.com/gb/album/no-one-really-listens-to-oscillators/1620337283",
-            "artwork": "https://coverartarchive.org/release-group/20f2fe80-6fc0-451d-9d64-8cac9beda277/front"
+            "artworkURL": "https://coverartarchive.org/release/afe32098-6368-43af-95c2-425e7cb89681/33546482213-500.jpg",
+            "artworkFile": "/assets/artwork/33546482213-500.jpg"
           },
           {
             "artist": "Indian Wells",
@@ -25730,7 +25901,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2rhNQbqRNxiNQkDXTffe1V?si=YaoXZtrDTWSNx4pS9A6QiQ",
             "apple": "https://music.apple.com/gb/album/beatopia/1608069810",
-            "artwork": "https://coverartarchive.org/release-group/b27250e6-f50f-45fb-8d62-38003e5a9753/front"
+            "artworkURL": "https://coverartarchive.org/release/2b7fd02f-c5b4-40b5-abf4-efc3bc324660/33360243796-500.jpg",
+            "artworkFile": "/assets/artwork/33360243796-500.jpg"
           },
           {
             "artist": "Cosmic Analog Ensemble",
@@ -26043,7 +26215,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1uD1kdwTWH1DZQZqGKz6rY?si=2d5691e7df2e4380",
             "apple": "https://music.apple.com/gb/album/jubilee/1553364590",
-            "artwork": "https://coverartarchive.org/release-group/f4e55ff9-2fe6-417c-a631-f4cf528edc61/front"
+            "artworkURL": "https://coverartarchive.org/release/7aa0673a-53b0-4cb8-9a94-9834b3c43b22/28719263845-500.jpg",
+            "artworkFile": "/assets/artwork/28719263845-500.jpg"
           },
           {
             "artist": "Japanese Breakfast",
@@ -26080,7 +26253,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0WASCbSBlc5mpcCVYBojsh?si=UpgSp2u0TUunzsnvEVlC3g",
             "apple": "https://music.apple.com/gb/album/peter-barbara-beth-friends/1614860736",
-            "artwork": "https://coverartarchive.org/release-group/60f11453-0c3b-4276-b89b-d0e2b9f392fc/front"
+            "artworkURL": "https://coverartarchive.org/release/8df0fd5f-4e49-4876-b226-41548062b670/39220735815-500.jpg",
+            "artworkFile": "/assets/artwork/39220735815-500.jpg"
           },
           {
             "artist": "Odesza",
@@ -26257,7 +26431,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/16AQyjz1z9rOsTm6iVrBUR?si=8ba9d773ec5646fb",
             "apple": "https://music.apple.com/gb/album/mahal/1601858871",
-            "artwork": "https://coverartarchive.org/release-group/56debeaa-5db4-4c68-bfd5-a4c6b19128cf/front"
+            "artworkURL": "https://coverartarchive.org/release/11ab45df-ee87-4785-8dde-a317b180c9fe/31568155367-500.jpg",
+            "artworkFile": "/assets/artwork/31568155367-500.jpg"
           },
           {
             "artist": "Porridge Radio",
@@ -26450,7 +26625,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0r9awI5WRCZpwk0aVQ4bKO?si=d246b006a1f54529",
             "apple": "https://music.apple.com/gb/album/wet-leg/1594742869",
-            "artwork": "https://coverartarchive.org/release-group/d53be2e5-fe7c-4681-85f3-960493aa02b5/front"
+            "artworkURL": "https://coverartarchive.org/release/949c1b3a-db54-4302-90b3-ec8d0f70a45b/31068515683-500.jpg",
+            "artworkFile": "/assets/artwork/31068515683-500.jpg"
           },
           {
             "artist": "Yard Act",
@@ -26537,7 +26713,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6rl4rzZxECegl9PdYG0hfk?si=606428a5cede4e98",
             "apple": "https://music.apple.com/gb/album/no-rules-sandy/1634501941",
-            "artwork": "https://coverartarchive.org/release-group/63e2635e-4b4a-46dc-ba4a-c3b0e8a95e5f/front"
+            "artworkURL": "https://coverartarchive.org/release/1e0b4166-26b2-4820-b87e-71427d32d1e5/33292070633-500.jpg",
+            "artworkFile": "/assets/artwork/33292070633-500.jpg"
           },
           {
             "artist": "Panda Bear & Sonic Boom",
@@ -26556,7 +26733,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4TPi1tGDVXCdQOjn4NSRaB?si=8w6p0NLVRVy85Dsh_U87FA",
             "apple": "https://music.apple.com/gb/album/cheat-codes/1617484323",
-            "artwork": "https://coverartarchive.org/release-group/3d4b56c0-0abf-4bea-a12e-99def53e306f/front"
+            "artworkURL": "https://coverartarchive.org/release/0449086e-94a7-4b53-857a-7f75f503ce52/33220437675-500.jpg",
+            "artworkFile": "/assets/artwork/33220437675-500.jpg"
           },
           {
             "artist": "Andrew Tuttle",
@@ -26727,7 +26905,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1GWWErA3u49ANQoGygvziN?si=3e1f5d0d55c740a7",
             "apple": "https://music.apple.com/gb/album/freakout-release/1616897606",
-            "artwork": "https://coverartarchive.org/release-group/4fda022b-4589-4628-b38d-b4ebe4a5a96b/front"
+            "artworkURL": "https://coverartarchive.org/release/f5f31693-60a1-4ab4-9fe5-b984f72950cc/32450059342-500.jpg",
+            "artworkFile": "/assets/artwork/32450059342-500.jpg"
           },
           {
             "artist": "DJ Shadow",
@@ -26822,7 +27001,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3TeJxmNzWgJ5Z5gyUkHBJS?si=88e7166ba8034089",
             "apple": "https://music.apple.com/gb/album/profound-mysteries-ii/1627032722",
-            "artwork": "https://coverartarchive.org/release/f1418001-7f1e-46af-bfdb-95faeded8841/32916450708.jpg"
+            "artworkURL": "https://coverartarchive.org/release/f1418001-7f1e-46af-bfdb-95faeded8841/32916450708-500.jpg",
+            "artworkFile": "/assets/artwork/32916450708-500.jpg"
           }
         ],
         "total": 77,
@@ -26953,7 +27133,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/10R86B7gmlS7yVf8IBx9uE?si=9ca05e8ed51a43df",
             "apple": "https://music.apple.com/gb/album/stellar-drifting/1622381242",
-            "artwork": "https://coverartarchive.org/release-group/bbb673bf-1195-461c-8429-a6eaf7c760ba/front"
+            "artworkURL": "https://coverartarchive.org/release/7fc1968e-14cf-494a-aa84-a6c5a960ffdb/33459701871-500.jpg",
+            "artworkFile": "/assets/artwork/33459701871-500.jpg"
           },
           {
             "artist": "Rachika Nayar",
@@ -26964,7 +27145,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6on4UQpBdXq1jTWT4KLDFx?si=faceace989b848ce",
             "apple": "https://music.apple.com/gb/album/heaven-come-crashing/1642613687",
-            "artwork": "https://coverartarchive.org/release-group/09bd0511-cd76-4ca5-b2a6-039420f59ffc/front"
+            "artworkURL": "https://coverartarchive.org/release/ee048b23-9f20-46d3-be24-b5a3960946d8/33392809476-500.jpg",
+            "artworkFile": "/assets/artwork/33392809476-500.jpg"
           },
           {
             "artist": "Unloved",
@@ -27059,7 +27241,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3AUaf40skBQVVJtBCJ13Bi?si=6aeab093a1f347d5",
             "apple": "https://music.apple.com/gb/album/earth-patterns/1616775960",
-            "artwork": "https://coverartarchive.org/release-group/b5eafb05-46f9-4ed8-8f0a-282bcdb00537/front"
+            "artworkURL": "https://coverartarchive.org/release/ae2efd17-d342-4e88-9dba-b73282796504/33375899790-500.jpg",
+            "artworkFile": "/assets/artwork/33375899790-500.jpg"
           },
           {
             "artist": "Szun Waves",
@@ -27238,7 +27421,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1XPsJnIVMjOt04rczMWVO4?si=88743a63c7fc4f4f",
             "apple": "https://music.apple.com/gb/album/hyper-dimensional-expansion-beam/1635377449",
-            "artwork": "https://coverartarchive.org/release-group/27c29cb6-1967-4210-93fd-a04449818077/front"
+            "artworkURL": "https://coverartarchive.org/release/78ccd9fa-3f3e-406e-b7fb-a9e78161d9ef/33648144225-500.jpg",
+            "artworkFile": "/assets/artwork/33648144225-500.jpg"
           },
           {
             "artist": "Nils Frahm",
@@ -27435,7 +27619,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2aApNIlo8yWlCk6x899rhY?si=2756fd824de24e09",
             "apple": "https://music.apple.com/gb/album/when-the-lights-go/1613848786",
-            "artwork": "https://coverartarchive.org/release-group/7faadf17-5a88-449b-86a7-ed30b464103b/front"
+            "artworkURL": "https://coverartarchive.org/release/70c03b0c-3e16-48e1-9a46-44a2008f4421/32450076210-500.jpg",
+            "artworkFile": "/assets/artwork/32450076210-500.jpg"
           }
         ],
         "total": 52,
@@ -28022,7 +28207,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5volqabPjMCyMnT1GZKYgz?si=f1a4fda26c6c44d1",
             "apple": "https://music.apple.com/gb/album/now-is/1634651124",
-            "artwork": "https://coverartarchive.org/release-group/0e0333a9-0a08-4936-9723-6185203bcb05/front"
+            "artworkURL": "https://coverartarchive.org/release/76b39939-a21f-47df-980d-ad986bf113f1/33191616110-500.jpg",
+            "artworkFile": "/assets/artwork/33191616110-500.jpg"
           },
           {
             "artist": "ALASKALASKA",
@@ -28567,7 +28753,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2G4zc0zmKtlTHoiSyfMkYG?si=770ef274abf342cd",
             "apple": "https://music.apple.com/gb/album/continua/1637868031",
-            "artwork": "https://coverartarchive.org/release-group/36e45a74-1d3a-44df-a054-4aadc80eda8d/front"
+            "artworkURL": "https://coverartarchive.org/release/8f38c226-adc7-49b9-b8e2-184f6edf5aca/34028124493-500.jpg",
+            "artworkFile": "/assets/artwork/34028124493-500.jpg"
           },
           {
             "artist": "Junior Boys",
@@ -28846,7 +29033,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3McfY0EGNjsrVdYa9ZnoSH?si=42a139d7f20649f5",
             "apple": "https://music.apple.com/gb/album/hugo/1638173273",
-            "artwork": "https://coverartarchive.org/release-group/e2915062-5748-4cef-bece-1f2ec699ef59/front"
+            "artworkURL": "https://coverartarchive.org/release/9ac71acd-6e26-48bb-91b8-c2150fb87a23/34082680187-500.jpg",
+            "artworkFile": "/assets/artwork/34082680187-500.jpg"
           },
           {
             "artist": "Taylor Swift",
@@ -28883,7 +29071,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5M6dgtsmCnatYzHCHVOAYX?si=ClReozujTlOO1xweQFNE7A",
             "apple": "https://music.apple.com/gb/album/ultra-truth/1623381039",
-            "artwork": "https://coverartarchive.org/release-group/f05e2103-82aa-431e-82b7-279405d47b07/front"
+            "artworkURL": "https://coverartarchive.org/release/a40acb66-b762-4009-b7cb-ec029ba88a3e/35571107340-500.jpg",
+            "artworkFile": "/assets/artwork/35571107340-500.jpg"
           },
           {
             "artist": "Mount Kimbie",
@@ -29144,7 +29333,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2JEmFCOxEi8Onik59bRrMg?si=019535ec522147da",
             "apple": "https://music.apple.com/gb/album/meeting-with-a-judas-tree/1648497540",
-            "artwork": "https://coverartarchive.org/release-group/e006ba65-06ad-4b2f-b922-446f03e1f4d1/front"
+            "artworkURL": "https://coverartarchive.org/release/22d4e6e6-3ea7-4ae5-aa8d-b3ded2880fb6/34063106703-500.jpg",
+            "artworkFile": "/assets/artwork/34063106703-500.jpg"
           }
         ],
         "total": 37,
@@ -29691,7 +29881,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4pbyC0CkZkqmnBDqpykCTo?si=50f3274e65234300",
             "apple": "https://music.apple.com/gb/album/tableau/1637433852",
-            "artwork": "https://f4.bcbits.com/img/a3320804776_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a3320804776_10.jpg",
+            "artworkFile": "/assets/artwork/a3320804776_10.jpg"
           },
           {
             "artist": "The Orielles",
@@ -30594,7 +30785,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2XS5McKf3zdJWpcZ4OkZPZ?si=OaSpiy0eS7mfShK_z1s7aA",
             "apple": "https://music.apple.com/gb/album/10-000-gecs/1655225317",
-            "artwork": "https://coverartarchive.org/release/e3aea00a-6d56-4077-bf6f-795d1ee6326b/35184800565-250.jpg"
+            "artworkURL": "https://coverartarchive.org/release/e3aea00a-6d56-4077-bf6f-795d1ee6326b/35184800565-500.jpg",
+            "artworkFile": "/assets/artwork/35184800565-500.jpg"
           },
           {
             "artist": "Genevieve Artadi",
@@ -30977,7 +31169,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5tNGFRzgDAJ1SpBtRdmLCl?si=kysaVPD3TUadyZdlLWxMrg",
             "apple": "https://music.apple.com/gb/album/due-in-color/1675870065",
-            "artwork": "https://coverartarchive.org/release-group/8abe554b-b8a7-4e64-808f-e9d593402f01/front"
+            "artworkURL": "https://coverartarchive.org/release/1af992a4-5273-475c-b57b-9fa0d8c8973b/35255628679-500.jpg",
+            "artworkFile": "/assets/artwork/35255628679-500.jpg"
           }
         ],
         "total": 37,
@@ -31262,7 +31455,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2VYo0PSqdxVTMI0ydKUtoL?si=8c8e99264ccc4f10",
             "apple": "https://music.apple.com/gb/album/with-a-hammer/1654198968",
-            "artwork": "https://coverartarchive.org/release-group/75cf3936-f661-4dc5-8796-d768949457b8/front"
+            "artworkURL": "https://coverartarchive.org/release/7fab9229-950e-4179-823d-cc7f9174841b/35575773971-500.jpg",
+            "artworkFile": "/assets/artwork/35575773971-500.jpg"
           },
           {
             "artist": "Heartworms",
@@ -31417,7 +31611,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5gajvB2An4u8FXXZHlGsh7?si=46RvM9tQRpefozlFtUvWuw",
             "apple": "https://music.apple.com/gb/album/stereo-mind-game/1654233350",
-            "artwork": "https://coverartarchive.org/release-group/24b9a34a-1b2a-4fa5-b55d-88fdcf12f4b5/front"
+            "artworkURL": "https://coverartarchive.org/release/52c17eee-9ab6-428d-b90f-a4269d330921/34862431345-500.jpg",
+            "artworkFile": "/assets/artwork/34862431345-500.jpg"
           },
           {
             "artist": "Tim Hecker",
@@ -31428,7 +31623,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7nKNz12BoGEYHqJmwUoC4P?si=b43be0b066ac44ed",
             "apple": "https://music.apple.com/gb/album/no-highs/1667418220",
-            "artwork": "https://coverartarchive.org/release-group/c03e8bff-a92e-4f38-8de0-ac5e42bfb219/front"
+            "artworkURL": "https://coverartarchive.org/release/effec65f-8fc7-493d-9894-893533eeadac/35286327996-500.jpg",
+            "artworkFile": "/assets/artwork/35286327996-500.jpg"
           }
         ],
         "total": 22,
@@ -31635,7 +31831,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0IFJIteIlg43nl0JNBysDT?si=t9oq37NYRaOk3cBAk-oS-A",
             "apple": "https://music.apple.com/gb/album/the-love-invention/1672113653",
-            "artwork": "https://coverartarchive.org/release-group/47455eab-898e-4c59-b415-fa73005480d0/front"
+            "artworkURL": "https://coverartarchive.org/release/5ed06382-b1f6-4188-a123-1ac0acf6c9f3/36408168339-500.jpg",
+            "artworkFile": "/assets/artwork/36408168339-500.jpg"
           },
           {
             "artist": "Overmono",
@@ -31722,7 +31919,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0HXPCaB36TH58IjdXmpq4m?si=HRFP6AAdS2a_I8FNQmedzQ",
             "apple": "https://music.apple.com/gb/album/when-we-were-that-what-wept-for-the-sea/1679092720",
-            "artwork": "https://coverartarchive.org/release-group/688238e5-5de9-4af9-84fa-859278b9133f/front"
+            "artworkURL": "https://coverartarchive.org/release/24468731-3780-4a5f-9338-ef6cf3f3db8f/35642055624-500.jpg",
+            "artworkFile": "/assets/artwork/35642055624-500.jpg"
           }
         ],
         "total": 25,
@@ -31785,7 +31983,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4oMlaPrzjAHEHh26MkR6DB?si=2a46b2925e984f5a",
             "apple": "https://music.apple.com/gb/album/ive-seen-a-way/1661013198",
-            "artwork": "https://coverartarchive.org/release-group/a35d1120-2f27-41ca-8340-58cc1ea750b2/front"
+            "artworkURL": "https://coverartarchive.org/release/842366a6-dbcc-4faa-b1b8-6372e46f066c/35034756768-500.jpg",
+            "artworkFile": "/assets/artwork/35034756768-500.jpg"
           },
           {
             "artist": "Dry Cleaning",
@@ -32180,7 +32379,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4QHM0MaR2dPDWIaKhTt7hd?si=b553f1fdb9064e2c",
             "apple": "https://music.apple.com/gb/album/%C3%A1tta/1688702511",
-            "artwork": "https://coverartarchive.org/release-group/7a6e4394-1bbe-434c-a8e0-679d5d58e649/front"
+            "artworkURL": "https://coverartarchive.org/release/6662f797-cbe6-4cd7-aea2-5a07ee5956f0/35941231465-500.jpg",
+            "artworkFile": "/assets/artwork/35941231465-500.jpg"
           },
           {
             "artist": "Caterina Barbieri",
@@ -32485,7 +32685,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2cNtBpejkWMdxrN94XuR8z?si=osxY6mgQR_OhuGVmQv2RfQ",
             "apple": "https://music.apple.com/gb/album/i-dont-know/1666711040",
-            "artwork": "https://coverartarchive.org/release-group/74b3c94e-07ba-42cd-a5ae-ff3857c9bf50/front"
+            "artworkURL": "https://coverartarchive.org/release/a92fc712-485c-4421-b2ad-e2672045bb3b/34826726473-500.jpg",
+            "artworkFile": "/assets/artwork/34826726473-500.jpg"
           },
           {
             "artist": "Blomfelt & Narby",
@@ -32496,7 +32697,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0cPA8bGsmaveyaqS9PSUAf?si=BKrvGIp-Reqk34hyuHVeyQ",
             "apple": "https://music.apple.com/gb/album/several-decent-days-together-ep/1681059784",
-            "artwork": "https://coverartarchive.org/release-group/3d790828-0345-4fbd-ab2c-80d35dd16653/front"
+            "artworkURL": "https://coverartarchive.org/release/60a6af88-b132-40f5-9eb0-603cf68aefcd/39229290786-500.jpg",
+            "artworkFile": "/assets/artwork/39229290786-500.jpg"
           }
         ],
         "total": 37,
@@ -32779,7 +32981,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4lVMhVIgEdxIoTu7gS7CoT?si=2d8c8c86313b4267",
             "apple": "https://music.apple.com/gb/album/girl-with-fish/1672079958",
-            "artwork": "https://coverartarchive.org/release-group/eb5864b7-84d7-4621-8f6f-96b71317f9ed/front"
+            "artworkURL": "https://coverartarchive.org/release/b1178680-1e10-4da4-aba8-ccde7f9cb6e6/35000608866-500.jpg",
+            "artworkFile": "/assets/artwork/35000608866-500.jpg"
           }
         ],
         "total": 18,
@@ -33366,7 +33569,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2jSmcj39eQiU76EbMGuxS0?si=41a7cd66430f4794",
             "apple": "https://music.apple.com/gb/album/everything-is-alive/1688456129",
-            "artwork": "https://coverartarchive.org/release-group/0070ec11-d0ef-4df2-9cf8-f8a10f083f27/front"
+            "artworkURL": "https://coverartarchive.org/release/4acdaa51-aa44-4a9b-954f-3c6eaab65590/35982108848-500.jpg",
+            "artworkFile": "/assets/artwork/35982108848-500.jpg"
           },
           {
             "artist": "James Blake",
@@ -33581,7 +33785,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6xh4KPpliSnmVRVTyiqM8V?si=oiRvNgAlRp2bkbvrgZoVMQ",
             "apple": "https://music.apple.com/gb/album/tall-vision-of-the-voyage/1691542105",
-            "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/89/75/97/897597b4-8547-1813-945c-2da8a4cab2f3/197189079627.jpg/592x592bb.webp"
+            "artworkURL": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/89/75/97/897597b4-8547-1813-945c-2da8a4cab2f3/197189079627.jpg/592x592bb.webp",
+            "artworkFile": "/assets/artwork/197189079627.jpg"
           }
         ],
         "total": 16,
@@ -33610,7 +33815,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/2zz6j2mGH5JHk0ihNvy6KM?si=e0bf95d4bf944450",
             "apple": "https://music.apple.com/gb/album/again/1701849976",
-            "artwork": "https://coverartarchive.org/release-group/f64a47eb-2ebe-4a2f-a9fc-10722449b477/front"
+            "artworkURL": "https://coverartarchive.org/release/69af8e94-4609-432a-a45c-a6882a79fec8/36533501907-500.jpg",
+            "artworkFile": "/assets/artwork/36533501907-500.jpg"
           }
         ],
         "total": 16,
@@ -33747,7 +33953,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6zt8N56kz8b58cnHnBhx9f?si=215a20203168467a",
             "apple": "https://music.apple.com/gb/album/madres/1695712922",
-            "artwork": "https://coverartarchive.org/release-group/e7f15a5b-f674-4016-bef5-ee4a6eed4aa3/front"
+            "artworkURL": "https://coverartarchive.org/release/8c6c6e27-ef04-4d77-ac39-66dcbb573248/36287633106-500.jpg",
+            "artworkFile": "/assets/artwork/36287633106-500.jpg"
           },
           {
             "artist": "Hinako Omori",
@@ -34934,7 +35141,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/7mpTSR6E855VhdCeoPgpCF?si=de1f86ab36564697",
             "apple": "https://music.apple.com/gb/album/three/1729585296",
-            "artwork": "https://coverartarchive.org/release-group/364c7a46-1812-4a2b-b979-a6c6c992cef8/front"
+            "artworkURL": "https://coverartarchive.org/release/f1e66a8d-4129-4fd0-a7c0-868f7d30a18f/38293874057-500.jpg",
+            "artworkFile": "/assets/artwork/38293874057-500.jpg"
           },
           {
             "artist": "Bolis Pupul",
@@ -35087,7 +35295,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0FDkRPm9cIRJ8qBkxj2Qny?si=113e1c8d0f154654",
             "apple": "https://music.apple.com/gb/album/underdressed-at-the-symphony/1716952641",
-            "artwork": "https://coverartarchive.org/release-group/1322ff7f-b274-465e-bdca-0860f086c558/front"
+            "artworkURL": "https://coverartarchive.org/release/1d2d9470-575a-4b73-8e7e-9de6279eea2f/37746785850-500.jpg",
+            "artworkFile": "/assets/artwork/37746785850-500.jpg"
           },
           {
             "artist": "Everything Everything",
@@ -35124,7 +35333,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6JafE12iZoyCQQkSN8muem?si=N81cZuknT4qW2S6ta86Ovw",
             "apple": "https://music.apple.com/gb/album/soft-landing/1673138096",
-            "artwork": "https://coverartarchive.org/release-group/3131ff37-ecfa-4f20-ae95-2b41e681ba12/front"
+            "artworkURL": "https://coverartarchive.org/release/7950a4c2-c056-4af4-ad32-4ced40679030/36360991428-500.jpg",
+            "artworkFile": "/assets/artwork/36360991428-500.jpg"
           },
           {
             "artist": "Fort Romeau",
@@ -35263,7 +35473,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6wMBMjxk1OAOTuBkZRVVFV?si=6RDQZDBDRam1Wwa7jfBwlA",
             "apple": "https://music.apple.com/gb/album/verdigris/1731751301",
-            "artwork": "https://coverartarchive.org/release-group/059e638b-b461-4f4d-a003-cca3ee258576/front"
+            "artworkURL": "https://coverartarchive.org/release/f9f992ed-98c8-4591-9dd2-6499d23b4d1c/37825236749-500.jpg",
+            "artworkFile": "/assets/artwork/37825236749-500.jpg"
           },
           {
             "artist": "Jlin",
@@ -35452,7 +35663,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1PeC1ckDJSzYHkwo6JHbP2?si=fdc741eaf36b4b7a",
             "apple": "https://music.apple.com/gb/album/a-la-sala/1721004325",
-            "artwork": "https://coverartarchive.org/release-group/758d7fb2-fa83-4276-aa20-f7e5120e4002/front"
+            "artworkURL": "https://coverartarchive.org/release/ef72b5f2-1bd6-4e0a-afd1-e97886fb47e7/38557813195-500.jpg",
+            "artworkFile": "/assets/artwork/38557813195-500.jpg"
           },
           {
             "artist": "Djrum",
@@ -35463,7 +35675,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3ngcrybWz1fUixAjS1ggl3?si=fa214e4bb34049cf",
             "apple": "https://music.apple.com/gb/album/portrait-with-firewood/1400443513",
-            "artwork": "https://coverartarchive.org/release-group/ceb6396a-f183-4efa-9278-4589991d425f/front"
+            "artworkURL": "https://coverartarchive.org/release/7035faf2-973e-43fa-a98c-7d137d43e857/20696508648-500.jpg",
+            "artworkFile": "/assets/artwork/20696508648-500.jpg"
           },
           {
             "artist": "Vampire Weekend",
@@ -35474,7 +35687,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/1W04wu2W4OIcuiNc5AMB3y?si=9ddea673e2174bc4",
             "apple": "https://music.apple.com/gb/album/only-god-was-above-us/1728945682",
-            "artwork": "https://coverartarchive.org/release-group/91ee3856-0ee6-467d-b01d-9d529affc9f4/front"
+            "artworkURL": "https://coverartarchive.org/release/d6c2bcf4-079c-425f-93ff-068d36f7c611/39866739334-500.jpg",
+            "artworkFile": "/assets/artwork/39866739334-500.jpg"
           }
         ],
         "total": 21,
@@ -35519,7 +35733,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4f3HnNVTK9aNyWF7Q9KHTi?si=xIHMjYqgRdCHoPGMfGLx0w",
             "apple": "https://music.apple.com/gb/album/two-autumns-spring-snow/1671758234",
-            "artwork": "https://f4.bcbits.com/img/a1700170086_10.jpg"
+            "artworkURL": "https://f4.bcbits.com/img/a1700170086_10.jpg",
+            "artworkFile": "/assets/artwork/a1700170086_10.jpg"
           }
         ],
         "total": 21,
@@ -35548,7 +35763,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3nRlJXz5W39luXRto5hc4f?si=86b45e30412c4806",
             "apple": "https://music.apple.com/gb/album/all-born-screaming/1729549170",
-            "artwork": "https://coverartarchive.org/release/171e0e0b-bc2c-491b-b818-2bf972fbc1db/38663300021.jpg"
+            "artworkURL": "https://coverartarchive.org/release/171e0e0b-bc2c-491b-b818-2bf972fbc1db/38663300021-500.jpg",
+            "artworkFile": "/assets/artwork/38663300021-500.jpg"
           },
           {
             "artist": "Christian Löffler",
@@ -36177,7 +36393,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/0YC5MWwUmsTpJrRumtBdZA?si=sBrqFZHxSWymVtDu8aqXIg",
             "apple": "https://music.apple.com/gb/album/lives-outgrown/1728144209",
-            "artwork": "https://coverartarchive.org/release-group/eaa72e4a-0e22-471f-bc92-97fd5d93d7d3/front"
+            "artworkURL": "https://coverartarchive.org/release/0675dcfd-412a-4bf5-a082-12adab188c14/37979810208-500.jpg",
+            "artworkFile": "/assets/artwork/37979810208-500.jpg"
           }
         ],
         "total": 30,
@@ -36232,7 +36449,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/6ooBxhsOVedpX4zPTCyL86?si=b4d93775d9c64b46",
             "apple": "https://music.apple.com/gb/album/hyperdrama/1724935208",
-            "artwork": "https://coverartarchive.org/release/428ea2cd-3bcd-4859-8ff3-7ec6f4297ffc/38736428028.jpg"
+            "artworkURL": "https://coverartarchive.org/release/66869aec-e354-4ade-99fb-d7d746d73bf8/37859330810-500.jpg",
+            "artworkFile": "/assets/artwork/37859330810-500.jpg"
           }
         ],
         "total": 30,
@@ -36583,7 +36801,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/3EovSaKq5Pgl5rNBxEaQlL?si=y30UTDZ4R7q4dlFXrkB4WQ",
             "apple": "https://music.apple.com/gb/album/onda/1742170108",
-            "artwork": "https://coverartarchive.org/release-group/a07cb7b7-7887-4a5a-92a2-2e7c446a989d/front"
+            "artworkURL": "https://coverartarchive.org/release/078b5851-31e3-4a45-b34b-d3450aff4ea9/38654621250-500.jpg",
+            "artworkFile": "/assets/artwork/38654621250-500.jpg"
           },
           {
             "artist": "berlioz",
@@ -36762,7 +36981,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/5vHwzf4eINX33tvjyugsAG?si=43dc48ececc24cd5",
             "apple": "https://music.apple.com/gb/album/total-blue/1755306833",
-            "artwork": "https://coverartarchive.org/release/07b8edbf-bf1e-431b-90ef-fcc54537ceaf/39388066185.jpg"
+            "artworkURL": "https://coverartarchive.org/release/07b8edbf-bf1e-431b-90ef-fcc54537ceaf/39388066185-500.jpg",
+            "artworkFile": "/assets/artwork/39388066185-500.jpg"
           },
           {
             "artist": "Ghost Dubs",
@@ -37121,7 +37341,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/287QQ922OsJYh8aFNGdJG5?si=8f098d1889de4f2f",
             "apple": "https://music.apple.com/gb/album/romance/1737990072",
-            "artwork": "https://coverartarchive.org/release-group/92b095c1-3bbf-456f-9425-2078ad4e9504/front"
+            "artworkURL": "https://coverartarchive.org/release/f3a306ad-b534-4005-b425-7b76d787f30a/39684433646-500.jpg",
+            "artworkFile": "/assets/artwork/39684433646-500.jpg"
           },
           {
             "artist": "beabadoobee",
@@ -37286,7 +37507,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4FH1FekdLTTrx05rDFt7wb?si=-sw1eRScSsySx8MR0shiqA",
             "apple": "https://music.apple.com/gb/album/the-love-it-took-to-leave-you/1746619648",
-            "artwork": "https://coverartarchive.org/release-group/73475e73-4122-46cf-9e7c-22d581fa4a77/front"
+            "artworkURL": "https://coverartarchive.org/release/6bf1a5c5-53f9-48a0-81cd-cb1c724ec232/40442987878-500.jpg",
+            "artworkFile": "/assets/artwork/40442987878-500.jpg"
           },
           {
             "artist": "Trentemøller",
@@ -37357,7 +37579,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/40hWUhttLF6j8feHjbF0g7?si=c87cca371f1e495a",
             "apple": "https://music.apple.com/gb/album/ritual/1740733246",
-            "artwork": "https://coverartarchive.org/release-group/823773ec-7cf6-4f7b-8d26-27e94cd7fef0/front"
+            "artworkURL": "https://coverartarchive.org/release/0bab48c1-a84d-436b-8d8e-aa73daec50cf/39751923007-500.jpg",
+            "artworkFile": "/assets/artwork/39751923007-500.jpg"
           }
         ],
         "total": 10,
@@ -37878,7 +38101,8 @@
             "fav": 1,
             "spotify": "https://open.spotify.com/album/4IYnAmZ8GvmNFF2ZxxKT8L?si=-p0e5Qc-QkCjtUKiOy_3yA",
             "apple": "https://music.apple.com/gb/album/cascade/1752875352",
-            "artwork": "https://coverartarchive.org/release-group/70410894-5005-4fac-a254-c82912a069cc/front"
+            "artworkURL": "https://coverartarchive.org/release/eede7c8f-9120-4a8f-af4c-d7bc601e33e4/40062716259-500.jpg",
+            "artworkFile": "/assets/artwork/40062716259-500.jpg"
           }
         ],
         "total": 18,
