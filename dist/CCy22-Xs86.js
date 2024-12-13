@@ -87,17 +87,17 @@ function getOrdinal(_day) {
 
 function updatePrimaryInfo(d) {
 	d3.select('#info')
-		.selectAll('h4')
+		.selectAll('h3')
 		.data(d)
-		.join('h4')
+		.join('h3')
 		.text(d => `${d.fMonth} ${d.year}, ${d.total} albums`);
 };
 
 function updateSecondaryInfo(d) {
 	d3.select('#info')
-		.selectAll('h5')
+		.selectAll('h4')
 		.data(d)
-		.join('h5')
+		.join('h4')
 		.text(d => `${d.wDay} ${d.day}`)
 		.append('sup')
 		.text(d => getOrdinal(d.day))
@@ -178,7 +178,7 @@ function drawFlower(_data, _dom, main) {
 
 	if (main === 'main') {
 		flower.on('mouseleave', () => {
-				if (!document.querySelector('#popup')) d3.select('#info h4').text('');
+				if (!document.querySelector('#popup')) d3.select('#info h3').text('');
 			});
 	};
 	
@@ -206,8 +206,8 @@ function drawFlower(_data, _dom, main) {
 				.selectAll('.petal')
 				.style('stroke', (d) => {
 					if (favourite.checked) {
-						return d.fav ? '#595959' : palette[d.palette]
-					} else return palette[d.palette]
+						return d.fav ? '#595959' : palette[d.palette];
+					} else return palette[d.palette];
 				})
 				.style('translate', d => `${x(d.x0) + margin}px ${y(d.y0)}px`)
 				;
@@ -304,6 +304,7 @@ function popupGenerator(d) {
 		.attr('flood-color', 'var(--main-font-colour)')
 		.attr('flood-opacity', 0.2);
 
+	// Popup background
 	popup.append('rect')
 		.attr('x', popX(0.15) + popMargin)
 		.attr('y', popY(-0.15))
@@ -316,7 +317,11 @@ function popupGenerator(d) {
 		.on('click', (e, d) => {
 			popup.select('.flower')
 				.selectAll('.petal')
-				.style('stroke', d => palette[d.palette])
+				.style('stroke', (d) => {
+					if (favourite.checked) {
+						return d.fav ? '#595959' : palette[d.palette];
+					} else return palette[d.palette];
+				})
 				// .style('stroke-width', `${x(0.006)}pt`)
 				.style('translate', d => `${popX(d.x0) + popMargin}px ${popY(d.y0)}px`)
 				;
@@ -349,8 +354,8 @@ function popupGenerator(d) {
 		.style('cursor', 'pointer')	
 		.on('click', () => {
 			d3.select('#popup').remove();
+			d3.select('#info h3').text('');
 			d3.select('#info h4').text('');
-			d3.select('#info h5').text('');
 			d3.selectAll('#info li').remove();
 		});
 	
@@ -497,7 +502,6 @@ d3.json('Calendar-Data_All.json')
 
 		d3.select('#petals').append(() => legPetals.node());
 		
-
 		d3.select(favourite)
 			.on('click', (e, d) => {
 				if (favourite.checked) {
