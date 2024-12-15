@@ -1,148 +1,3 @@
-.figures {
-    max-width: 1200px;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-evenly;
-    margin: 0 auto;
-}
-
-.sidebar{
-    padding: 0.5rem;
-    margin: 0.5rem;
-}
-
-#sidebar-container {
-    flex: auto;
-    display: flex;
-    flex-flow: wrap column;
-    justify-content: space-between;
-
-    h2 {
-        /* margin-bottom: 0.7rem; */
-        /* font-size: 1.3rem; */
-        /* text-decoration: underline; */
-    } 
-
-    p {
-        font-size: 1rem;
-    }
-}
-
-#info {
-    height: 500px;
-    width: 300px;
-    border-bottom: 1pt solid var(--info-border-color);
-    overflow: auto;
-    /* align-self: center; */
-
-    h3 {
-        margin: 0 auto 0.6rem auto;
-        /* font-size: 1.2rem; */
-    }
-
-    h4 {
-        margin: 0 auto 0.5rem auto;
-        /* font-size: 1rem; */
-        /* font-style: italic; */
-    }
-
-    li {
-        margin: 0 auto 1em 1em;
-        line-height: 1.1;
-    }
-
-    li:last-child {
-        margin-bottom: 0;
-    }
-
-    .favourite-container {
-        display: grid;
-        grid-template: auto auto / 100px 100px;
-    }
-
-    a, img {
-        margin: 0.1875rem 0rem;
-    }
-}
-
-#options {
-    flex: 1;
-    width: 200px;
-}
-
-#legend {
-    width: fit-content;
-    margin-bottom: 2.5rem;
-    /* align-self: center; */
-    h3 {
-        font-style: italic;
-    }
-}
-
-text {
-    fill: var(--main-font-color);
-    text-anchor: middle;
-    alignment-baseline: mathematical;
-    font-family: "Josefin Sans";
-    font-size: 2rem;
-}
-
-.legText {
-    font-size: 1rem;
-}
-
-line,
-path {
-    stroke-width: 0.1rem;
-    stroke: var(--main-font-color);
-}
-
-/* ellipse {
-    fill-opacity: 0.85;
-} */
-
-#arrowhead {
-    stroke-width: 0.1rem;
-    stroke: var(--main-font-color);
-    fill: var(--main-font-color);
-}
-
-@media only screen and (max-width: 1190px) {
-    #sidebar-container {
-        flex-flow: wrap row;
-        justify-content: space-around;
-    }
-
-    #info {
-        height: 100px;
-        min-height: fit-content;
-        border-bottom: none;
-    }
-
-    #options {
-        flex: initial;
-    }
-
-    #legend {
-        margin-bottom: 0.5rem;
-    }
-
-    #legend-figures {
-        display: flex;
-        flex-flow: nowrap row;
-        justify-content: space-between;
-    }
-}
-
-@media only screen and (max-width: 528px) {
-    #legend, #info, #options {
-        width: 100%;
-    }
-
-    /* #options {
-        flex: initial;
-    } */
-}
 * {
     padding: 0;
     margin: 0;
@@ -173,6 +28,7 @@ path {
     --main-background-color: var(--off-white);
     --header-background-color: var(--main-green);
     --banner-background-color: var(--yellow);
+    --accent-color: var(--orange);
     --link-color: var(--orange);
     --link-hover-color: var(--dark-green);
     --info-border-color: var(--border-grey);
@@ -213,6 +69,7 @@ p {
     margin: 0 auto 1em auto;
     font-size: 1.15rem;
     line-height: 1.5;
+    text-align: justify;
 }
 
 p:last-child {
@@ -235,7 +92,8 @@ sup {
 }
 
 .centre {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid {
@@ -265,6 +123,14 @@ sup {
 @media screen and (max-width: 640px) {
     .sm\:col-span-12 {
         grid-column: span 12 / span 12;
+    }
+
+    .sm\:margin-top {
+        margin-top: 1rem;
+    }
+
+    .sm\:margin-bottom {
+        margin-bottom: 1rem;
     }
 }
 
@@ -411,11 +277,11 @@ section, article {
 footer {
     min-height: 2rem;
     width: 100%;
-    padding: 2rem;
+    margin: 2rem;
 
     small {
         display: block;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         text-align: center;
         font-size: 0.75rem;
     }

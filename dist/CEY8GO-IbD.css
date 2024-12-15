@@ -47,7 +47,7 @@
     }
 
     li {
-        margin: 0 auto 1em 1em;
+        margin: 0 1rem 1rem 1rem;
         line-height: 1.1;
     }
 
@@ -57,7 +57,16 @@
 
     .favourite-container {
         display: grid;
-        grid-template: auto auto / 100px 100px;
+        grid-template: auto 200px / 100px 100px;
+        max-width: 200px;
+    }
+
+    .favourite-album {
+        font-weight: 700;
+    }
+
+    .favourite-album > p {
+        margin-bottom: 0;
     }
 
     a, img {
@@ -72,17 +81,21 @@
 
 #legend {
     width: fit-content;
-    margin-bottom: 2.5rem;
+    margin-bottom: 3.5rem;
     /* align-self: center; */
     h3 {
         font-style: italic;
     }
 }
 
+#petals > svg {
+    margin-top: 1rem;
+}
+
 text {
     fill: var(--main-font-color);
     text-anchor: middle;
-    alignment-baseline: mathematical;
+    dominant-baseline: mathematical;
     font-family: "Josefin Sans";
     font-size: 2rem;
 }
@@ -139,38 +152,38 @@ path {
         width: 100%;
     }
 
-    /* #options {
-        flex: initial;
-    } */
-}
-.flex-container {
-    max-width: 1000px;
-    width: auto;
-    display: flex;
-    margin-top: 0.5rem;
-}
-
-#info {
-    border-bottom: none;
-    width: 500px;
-
-    h1 {
-        /* font-family: 'Rozha One'; */
-        font-weight: 700;
-        font-size: 2.5rem;
-        margin-bottom: 1rem;
-        /* background-color: var(--main-orange); */
-    }
-
-    li {
-        font-size: 1.25rem;
+    .favourite-container {
+        margin: auto;
     }
 }
+.home {
+    width: fit-content;
+    padding: 1rem 3rem;
+}
 
-.sidebar {
-    box-sizing: content-box;
-    height: auto;
-    flex-shrink: 0.75;
+.hero {
+    text-anchor: end;
+    font-family: "Josefin Sans";
+    font-size: 3.125rem;
+    dominant-baseline: middle;
+    font-weight: 400;
+    transform-origin: center;
+}
+
+.hero-accent {
+    font-family: 'Rozha One';
+    fill: var(--accent-color);
+    text-decoration-thickness: 5%;
+    alignment-baseline: middle;
+}
+
+.hero-date {
+    font-size: 5.625rem;
+}
+
+.ordinal {
+    font-size: 0.5em;
+    baseline-shift: super; 
 }
 * {
     padding: 0;
@@ -202,6 +215,7 @@ path {
     --main-background-color: var(--off-white);
     --header-background-color: var(--main-green);
     --banner-background-color: var(--yellow);
+    --accent-color: var(--orange);
     --link-color: var(--orange);
     --link-hover-color: var(--dark-green);
     --info-border-color: var(--border-grey);
@@ -242,6 +256,7 @@ p {
     margin: 0 auto 1em auto;
     font-size: 1.15rem;
     line-height: 1.5;
+    text-align: justify;
 }
 
 p:last-child {
@@ -264,7 +279,8 @@ sup {
 }
 
 .centre {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .grid {
@@ -294,6 +310,14 @@ sup {
 @media screen and (max-width: 640px) {
     .sm\:col-span-12 {
         grid-column: span 12 / span 12;
+    }
+
+    .sm\:margin-top {
+        margin-top: 1rem;
+    }
+
+    .sm\:margin-bottom {
+        margin-bottom: 1rem;
     }
 }
 
@@ -440,11 +464,11 @@ section, article {
 footer {
     min-height: 2rem;
     width: 100%;
-    padding: 2rem;
+    margin: 2rem;
 
     small {
         display: block;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         text-align: center;
         font-size: 0.75rem;
     }
