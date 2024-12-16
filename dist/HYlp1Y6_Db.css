@@ -158,7 +158,7 @@ path {
 }
 .home {
     width: fit-content;
-    padding: 1rem 3rem;
+    padding: 1rem 7rem 1rem 4rem;
 }
 
 .hero {
@@ -167,7 +167,7 @@ path {
     font-size: 3.125rem;
     dominant-baseline: middle;
     font-weight: 400;
-    transform-origin: center;
+    /* transform-origin: center; */
 }
 
 .hero-accent {
@@ -181,9 +181,25 @@ path {
     font-size: 5.625rem;
 }
 
+@media screen and (max-width: 450px) {
+    .sm\:home {
+        padding: 1rem 1.25rem 1rem 1rem;
+    }
+
+    /* .sm\:hero {
+        text-anchor: start;
+        font-size: calc(3.125rem * 0.68);
+    }
+
+    .sm\:hero-date {
+        text-anchor: middle;
+        font-size: calc(5.625rem * 0.68);
+    } */
+}
+
 .ordinal {
     font-size: 0.5em;
-    baseline-shift: super; 
+    baseline-shift: super;
 }
 * {
     padding: 0;

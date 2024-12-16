@@ -10,7 +10,7 @@ const legendHeight = 120;
 const years = ['2018', '2024'];
 const months = ['January', 'December'];
 
-let window1190 = window.matchMedia('max-width: 1190px');
+let window1190 = window.matchMedia('(max-width: 1190px)');
 let popMargin = window1190.matches ? 0 : 35;
 window1190.onchange = (e) => {
 	if (e.matches) {
