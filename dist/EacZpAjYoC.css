@@ -1,3 +1,206 @@
+.figures {
+    max-width: 1200px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.sidebar{
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+#sidebar-container {
+    flex: auto;
+    display: flex;
+    flex-flow: wrap column;
+    justify-content: space-between;
+
+    h2 {
+        /* margin-bottom: 0.7rem; */
+        /* font-size: 1.3rem; */
+        /* text-decoration: underline; */
+    } 
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+#info {
+    height: 500px;
+    width: 300px;
+    border-bottom: 1pt solid var(--info-border-color);
+    overflow: auto;
+    /* align-self: center; */
+
+    h3 {
+        margin: 0 auto 0.6rem auto;
+        /* font-size: 1.2rem; */
+    }
+
+    h4 {
+        margin: 0 auto 0.5rem auto;
+        /* font-size: 1rem; */
+        /* font-style: italic; */
+    }
+
+    li {
+        margin: 0 1rem 1rem 1rem;
+        line-height: 1.1;
+    }
+
+    li:last-child {
+        margin-bottom: 0;
+    }
+
+    .favourite-container {
+        display: grid;
+        grid-template: auto 200px / 100px 100px;
+        max-width: 200px;
+    }
+
+    .favourite-album {
+        font-weight: 700;
+    }
+
+    .favourite-album > p {
+        margin-bottom: 0;
+    }
+
+    a, img {
+        margin: 0.1875rem 0rem;
+    }
+}
+
+#options {
+    flex: 1;
+    width: 200px;
+}
+
+#legend {
+    width: fit-content;
+    margin-bottom: 3.5rem;
+    /* align-self: center; */
+    h3 {
+        font-style: italic;
+    }
+}
+
+#petals > svg {
+    margin-top: 1rem;
+}
+
+text {
+    fill: var(--main-font-color);
+    text-anchor: middle;
+    dominant-baseline: mathematical;
+    font-family: "Josefin Sans";
+    font-size: 2rem;
+}
+
+.legText {
+    font-size: 1rem;
+}
+
+line,
+path {
+    stroke-width: 0.1rem;
+    stroke: var(--main-font-color);
+}
+
+/* ellipse {
+    fill-opacity: 0.85;
+} */
+
+#arrowhead {
+    stroke-width: 0.1rem;
+    stroke: var(--main-font-color);
+    fill: var(--main-font-color);
+}
+
+@media only screen and (max-width: 1190px) {
+    #sidebar-container {
+        flex-flow: wrap row;
+        justify-content: space-around;
+    }
+
+    #info {
+        height: 100px;
+        min-height: fit-content;
+        border-bottom: none;
+    }
+
+    #options {
+        flex: initial;
+    }
+
+    #legend {
+        margin-bottom: 0.5rem;
+    }
+
+    #legend-figures {
+        display: flex;
+        flex-flow: nowrap row;
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 528px) {
+    #info, #options, #legend {
+        width: 100%;
+    }
+
+    .favourite-container {
+        margin: auto;
+    }
+}
+.home {
+    width: fit-content;
+    padding: 1rem 7rem 1rem 4rem;
+}
+
+.hero {
+    text-anchor: end;
+    font-family: "Josefin Sans";
+    font-size: 3.125rem;
+    dominant-baseline: middle;
+    font-weight: 400;
+    /* transform-origin: center; */
+}
+
+.hero-accent {
+    font-family: 'Rozha One';
+    fill: var(--accent-color);
+    text-decoration-thickness: 5%;
+    alignment-baseline: middle;
+}
+
+.hero-date {
+    font-size: 5.625rem;
+}
+
+@media screen and (max-width: 450px) {
+    .sm\:home {
+        padding: 1rem 1.25rem 1rem 1rem;
+    }
+
+    .sm\:hero {
+        text-anchor: middle;
+        font-size: calc(3.125rem * 0.68);
+    }
+
+    .sm\:hero-date {
+        text-anchor: middle;
+        font-size: calc(5.625rem * 0.68);
+    }
+}
+
+.ordinal {
+    font-size: 0.5em;
+    baseline-shift: super;
+}
 * {
     padding: 0;
     margin: 0;
@@ -168,21 +371,6 @@ nav {
     }
 }
 
-@media screen and (max-width: 450px) {
-    nav {
-        justify-content: space-around;
-        padding: 0;
-
-        .home-link {
-            padding-bottom: 0;
-        }
-
-        ul {
-            padding-top: 0.5rem;
-        }
-    }
-}
-
 .home-link, .home-link:visited, .home-link:hover  {
     color: var(--off-white);
     font-weight: bold;
@@ -205,6 +393,21 @@ nav {
 
 .nav-link:visited{
     color: var(--off-white);
+}
+
+@media screen and (max-width: 450px) {
+    nav {
+        justify-content: space-around;
+        padding: 0;
+
+        ul {
+            padding-top: 0.5rem;
+        }
+    }
+
+    .home-link, .home-link:hover, .home-link:visited {
+        padding-bottom: 0;
+    }
 }
 
 main {

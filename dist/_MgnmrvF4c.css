@@ -148,7 +148,7 @@ path {
 }
 
 @media only screen and (max-width: 528px) {
-    #legend, #info, #options {
+    #info, #options, #legend {
         width: 100%;
     }
 
@@ -326,21 +326,6 @@ nav {
     }
 }
 
-@media screen and (max-width: 450px) {
-    nav {
-        justify-content: space-around;
-        padding: 0;
-
-        .home-link {
-            padding-bottom: 0;
-        }
-
-        ul {
-            padding-top: 0.5rem;
-        }
-    }
-}
-
 .home-link, .home-link:visited, .home-link:hover  {
     color: var(--off-white);
     font-weight: bold;
@@ -363,6 +348,21 @@ nav {
 
 .nav-link:visited{
     color: var(--off-white);
+}
+
+@media screen and (max-width: 450px) {
+    nav {
+        justify-content: space-around;
+        padding: 0;
+
+        ul {
+            padding-top: 0.5rem;
+        }
+    }
+
+    .home-link, .home-link:hover, .home-link:visited {
+        padding-bottom: 0;
+    }
 }
 
 main {
