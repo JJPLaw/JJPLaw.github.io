@@ -16,16 +16,6 @@
     display: flex;
     flex-flow: wrap column;
     justify-content: space-between;
-
-    h2 {
-        /* margin-bottom: 0.7rem; */
-        /* font-size: 1.3rem; */
-        /* text-decoration: underline; */
-    } 
-
-    p {
-        font-size: 1rem;
-    }
 }
 
 #info {
@@ -35,41 +25,44 @@
     overflow: auto;
     /* align-self: center; */
 
-    h3 {
+    & h3 {
         margin: 0 auto 0.6rem auto;
         /* font-size: 1.2rem; */
     }
 
-    h4 {
-        margin: 0 auto 0.5rem auto;
+    & h4 {
+        margin: 0 auto 0.75rem auto;
         /* font-size: 1rem; */
         /* font-style: italic; */
     }
 
-    li {
-        margin: 0 1rem 1rem 1rem;
-        line-height: 1.1;
+    & p {
+        text-align: left;
     }
 
-    li:last-child {
+    & li {
+        margin: 0 1rem 0.75rem 1rem;
+    }
+
+    & li:last-child {
         margin-bottom: 0;
     }
 
-    .favourite-container {
+    & .favourite-container {
         display: grid;
-        grid-template: auto 200px / 100px 100px;
+        grid-template: auto 200px / auto auto;
         max-width: 200px;
     }
 
-    .favourite-album {
+    & .favourite-album {
         font-weight: 700;
     }
 
-    .favourite-album > p {
+    & .favourite-album > p {
         margin-bottom: 0;
     }
 
-    a, img {
+    & a, img {
         margin: 0.1875rem 0rem;
     }
 }
@@ -83,7 +76,7 @@
     width: fit-content;
     margin-bottom: 3.5rem;
     /* align-self: center; */
-    h3 {
+    & h3 {
         font-style: italic;
     }
 }
@@ -155,51 +148,6 @@ path {
     .favourite-container {
         margin: auto;
     }
-}
-.home {
-    width: fit-content;
-    padding: 1rem 7rem 1rem 4rem;
-}
-
-.hero {
-    text-anchor: end;
-    font-family: "Josefin Sans";
-    font-size: 3.125rem;
-    dominant-baseline: middle;
-    font-weight: 400;
-    /* transform-origin: center; */
-}
-
-.hero-accent {
-    font-family: 'Rozha One';
-    fill: var(--accent-color);
-    text-decoration-thickness: 5%;
-    alignment-baseline: middle;
-}
-
-.hero-date {
-    font-size: 5.625rem;
-}
-
-@media screen and (max-width: 450px) {
-    .sm\:home {
-        padding: 1rem 1.25rem 1rem 1rem;
-    }
-
-    .sm\:hero {
-        text-anchor: middle;
-        font-size: calc(3.125rem * 0.68);
-    }
-
-    .sm\:hero-date {
-        text-anchor: middle;
-        font-size: calc(5.625rem * 0.68);
-    }
-}
-
-.ordinal {
-    font-size: 0.5em;
-    baseline-shift: super;
 }
 * {
     padding: 0;
@@ -280,7 +228,7 @@ p:last-child {
 }
 
 a {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     text-decoration: underline;
     color: var(--link-color);
 }
@@ -288,6 +236,10 @@ a {
 a:hover {
     color: var(--link-hover-color);
     text-decoration: none;
+}
+
+li {
+    font-size: 1.15rem;
 }
 
 sup {
@@ -362,7 +314,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    ul {
+    & ul {
         padding: 0.875rem 0 0.5rem 0;
         list-style-type: none;
         display: flex;
@@ -400,7 +352,7 @@ nav {
         justify-content: space-around;
         padding: 0;
 
-        ul {
+        & ul {
             padding-top: 0.5rem;
         }
     }
@@ -419,7 +371,7 @@ main {
     padding: 0.5rem;
     background-color: var(--banner-background-color);
     
-    time {
+    & time {
         color: var(--h1-font-color);
         display: block;
         text-align: center;
@@ -482,7 +434,7 @@ footer {
     width: 100%;
     margin: 2rem;
 
-    small {
+    & small {
         display: block;
         /* margin: 0 auto; */
         text-align: center;
