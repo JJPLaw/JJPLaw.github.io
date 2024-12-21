@@ -19,10 +19,10 @@
 }
 
 #info {
-    height: 500px;
+    /* height: 500px; */
     width: 300px;
     border-bottom: 1pt solid var(--info-border-color);
-    overflow: auto;
+    /* overflow: auto; */
     /* align-self: center; */
 
     & h3 {
@@ -65,6 +65,11 @@
     & a, img {
         margin: 0.1875rem 0rem;
     }
+}
+
+.overflow {
+    overflow: scroll;
+    height: 430px;
 }
 
 #options {
@@ -120,7 +125,7 @@ path {
     }
 
     #info {
-        height: 100px;
+        /* height: 100px; */
         min-height: fit-content;
         border-bottom: none;
         margin-left: 1.75rem;
@@ -130,6 +135,10 @@ path {
     #options {
         flex: initial;
         margin-right: 1.75rem;
+    }
+
+    .overflow {
+        height: 70px;
     }
 
     #legend {
