@@ -1,0 +1,29 @@
+{
+  "name": "site-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jack Law",
+  "license": "ISC",
+  "description": "eleventy data for jjplaw.github.io",
+  "type": "module",
+  "dependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "clean-css": "^5.3.3",
+    "d3": "^7.9.0",
+    "del": "^8.0.0",
+    "luxon": "^3.5.0",
+    "uglify-js": "^3.19.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JJPLaw/site-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JJPLaw/site-data/issues"
+  },
+  "homepage": "https://github.com/JJPLaw/site-data#readme"
+}
