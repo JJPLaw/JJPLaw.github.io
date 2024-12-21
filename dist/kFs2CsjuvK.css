@@ -182,12 +182,13 @@ path {
 }
 
 .hero-button {
+    font-size: 2.25rem;
     font-style: italic;
     text-anchor: middle;
 }
 
 .hero-button-accent {
-    font-size: 4.75rem;
+    /* font-size: 4.75rem; */
     text-anchor: middle;
 }
 
@@ -210,8 +211,12 @@ path {
         font-size: calc(5.625rem * 0.68);
     }
 
+    .sm\:hero-button {
+        font-size: calc(2.25rem * 0.68);
+    }
+
     .sm\:hero-button-accent {
-        font-size: calc(4.75rem * 0.68);
+        font-size: calc(3.125rem * 0.68);
     }
 }
 
