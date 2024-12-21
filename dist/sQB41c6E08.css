@@ -161,6 +161,10 @@ path {
     padding: 1rem 7rem 1rem 4rem;
 }
 
+.button {
+    text-decoration: none;
+}
+
 .hero {
     text-anchor: end;
     font-family: "Josefin Sans";
@@ -173,8 +177,18 @@ path {
 .hero-accent {
     font-family: 'Rozha One';
     fill: var(--accent-color);
-    text-decoration-thickness: 5%;
+    text-decoration: none;
     alignment-baseline: middle;
+}
+
+.hero-button {
+    font-style: italic;
+    text-anchor: middle;
+}
+
+.hero-button-accent {
+    font-size: 4.75rem;
+    text-anchor: middle;
 }
 
 .hero-date {
@@ -194,6 +208,10 @@ path {
     .sm\:hero-date {
         text-anchor: middle;
         font-size: calc(5.625rem * 0.68);
+    }
+
+    .sm\:hero-button-accent {
+        font-size: calc(4.75rem * 0.68);
     }
 }
 
