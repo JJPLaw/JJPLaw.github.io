@@ -4,7 +4,7 @@ heading: Projects
 layout: section
 ---
 
-<section class="grid centre sm:margin-top sm:margin-bottom">
+<section class="grid centre sm:margin-bottom">
     {% assign postslist = collections.project | sort: 'data.title' %}
     {% include 'postslist.liquid' %}
 </section>

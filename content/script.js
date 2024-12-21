@@ -10,26 +10,27 @@ const heroSize = window450 ? fontSize * 3.125 * 0.68 : fontSize * 3.125;
 const heroCentre = heroSize * 0.5;
 const heroSpacing = heroSize * 1;
 const heroDateSize = window450 ? fontSize * 5.625 * 0.68 : fontSize * 5.625;
-const heroButton = window450 ? fontSize * 4.75 * 0.68 : fontSize * 4.75;
+const heroButton = window450 ? fontSize * 3.125 * 0.68 : fontSize * 3.125;
 
 const width = window450 ? 450 : 1500;
-const height = window450 ? 1150 : 800;
+const height = window450 ? 1120 : 730;
 const cW = width * 0.5;
 const cH = height * 0.5;
 const diamondW = window450 ? 450 : 1100;
 const diamondH = window450 ? 690 : 720;
-const diamondYOff = window450 ? heroDateSize * 1.1 : 5;
+const diamondYOff = window450 ? heroDateSize * 1.3 : 5;
 const cDiamondX = diamondW * 0.5;
 const cDiamondY = diamondH * 0.5 + diamondYOff;
 const marginLeft = 0;
 const conv = window450 ? 0.0046 : 0.003;
 const cX = cDiamondX * conv;
 const cY = -cDiamondY * conv;
-const buttonW = window450 ? 412 : 580;
+const buttonW = window450 ? 306 : 450;
 const buttonH = heroButton * 2.3;
-const buttonMargin = window450 ? 16 : 16;
-const buttonX = width - buttonMargin - buttonW;
-const buttonY = height - buttonMargin - buttonH;
+const buttonMarginX = window450 ? 72 : 16;
+const buttonMarginY = 16;
+const buttonX = width - buttonMarginX - buttonW;
+const buttonY = height - buttonMarginY - buttonH;
 
 const palette = { "1_0": "#FFFFFF", "1_1": "#D1EEEA", "1_2": "#8DC9CD", "1_3": "#67AAB7", "1_4": "#4E8FA5", "1_5": "#407A95", "1_6": "#366B87", "1_7": "#30607E", "1_8": "#2A5674", "2_0": "#FFFFFF", "2_1": "#C7E5BE", "2_2": "#73C49C", "2_3": "#4BA28E", "2_4": "#348781", "2_5": "#267374", "2_6": "#1E646A", "2_7": "#195A63", "2_8": "#14505C", "3_0": "#FFFFFF", "3_1": "#B7F1B2", "3_2": "#62DEAD", "3_3": "#2CC5AF", "3_4": "#07AFAB", "3_5": "#009FA6", "3_6": "#0391A0", "3_7": "#0D889C", "3_8": "#177F97", "4_0": "#FFFFFF", "4_1": "#EDEF5C", "4_2": "#72C570", "4_3": "#16A67E", "4_4": "#018C7F", "4_5": "#00787B", "4_6": "#0E6A75", "4_7": "#1B606F", "4_8": "#255668", "5_0": "#FFFFFF", "5_1": "#F3CBD3", "5_2": "#E08FB0", "5_3": "#C9689C", "5_4": "#AF4D8D", "5_5": "#993B81", "5_6": "#872F77", "5_7": "#79286F", "5_8": "#6C2167", "6_0": "#FFFFFF", "6_1": "#F6D2A9", "6_2": "#F1A280", "6_3": "#E98071", "6_4": "#DC676C", "6_5": "#CF5868", "6_6": "#C24D66", "6_7": "#BA4665", "6_8": "#B13F64", "7_0": "#FFFFFF", "7_1": "#FCDE9C", "7_2": "#F27F6F", "7_3": "#E34E6F", "7_4": "#D73876", "7_5": "#C22A79", "7_6": "#A72376", "7_7": "#921F73", "7_8": "#7C1D6F", "8_0": "#FFFFFF", "8_1": "#AEB6E5", "8_2": "#B68DD1", "8_3": "#BC6DB8", "8_4": "#BC569D", "8_5": "#B94686", "8_6": "#B33B72", "8_7": "#AF3663", "8_8": "#A93154" };
 
@@ -136,7 +137,7 @@ function reCentre(_data, _id, leg = false) {
 
 function generateDate(_data) {
 	let today = DateTime.local({ locale: 'en-GB' });
-	// let today = DateTime.fromFormat('2018-10-03', 'yyyy-MM-dd');
+	// let today = DateTime.fromFormat('2018-02-03', 'yyyy-MM-dd');
 	
 	let validDatesAll = [];
 	for (let i = 0; i < _data.length; i++) {
@@ -278,7 +279,7 @@ function generateTextData(date, count) {
 			x: window450 ? cW : width,
 			// treat the middle text as one paragraph, centred on the diamond (in landscape)
 			// adjusted for the difference between the x height and the middle baseline of josefin (x height is 0.8965 * middle) 
-			y: window450 ? diamondH + diamondYOff + heroSize : cDiamondY - (1.5 * heroSpacing) - (1.8965 * heroCentre),
+			y: window450 ? diamondH + diamondYOff * 1.2 + heroSize : cDiamondY - (1.5 * heroSpacing) - (1.8965 * heroCentre),
 			html: `On this day in <tspan class='hero sm:hero hero-accent'>${date.date.year}</tspan>`,
 			class: 'hero sm:hero',
 			trans: false
@@ -286,7 +287,7 @@ function generateTextData(date, count) {
 		{
 			// "I listened to"
 			x: window450 ? cW : width,
-			y: window450 ? diamondH + diamondYOff + 2 * heroSize + heroCentre : cDiamondY - (0.5 * heroSpacing) - (0.8965 * heroCentre),
+			y: window450 ? diamondH + diamondYOff * 1.2 + 2 * heroSize + heroCentre : cDiamondY - (0.5 * heroSpacing) - (0.8965 * heroCentre),
 			html: 'I listened to',
 			class: 'hero sm:hero',
 			trans: false
@@ -294,7 +295,7 @@ function generateTextData(date, count) {
 		{
 			// "x albums"
 			x: window450 ? cW : width,
-			y: window450 ? diamondH + diamondYOff + 3 * heroSize + 2 * heroCentre : cDiamondY + (0.5 * heroSpacing) + (0.1035 * heroCentre),
+			y: window450 ? diamondH + diamondYOff * 1.2 + 3 * heroSize + 2 * heroCentre : cDiamondY + (0.5 * heroSpacing) + (0.1035 * heroCentre),
 			html: `<tspan class='hero sm:hero hero-accent'>${count}</tspan> album${count > 1 ? 's' : ''}`,
 			class: 'hero sm:hero',
 			trans: false
@@ -302,7 +303,7 @@ function generateTextData(date, count) {
 		{
 			// "for the first time"
 			x: window450 ? cW : width,
-			y: window450 ? diamondH + diamondYOff + 4 * heroSize + 3 * heroCentre : cDiamondY + (1.5 * heroSpacing) + (1.1035 * heroCentre),
+			y: window450 ? diamondH + diamondYOff * 1.2 + 4 * heroSize + 3 * heroCentre : cDiamondY + (1.5 * heroSpacing) + (1.1035 * heroCentre),
 			html: 'for the first time',
 			class: 'hero sm:hero',
 			trans: false
@@ -343,15 +344,15 @@ function generateButton(_dom) {
 		;
 
 	button.append('text')
-		.attr('x', width - buttonMargin - (buttonW * 0.51))
-		.attr('y', height - buttonMargin - (heroButton * 0.6) - heroButton)
-		.attr('class', 'hero hero-button sm:hero')
+		.attr('x', width - buttonMarginX - (buttonW * 0.51))
+		.attr('y', height - buttonMarginY - (heroButton * 0.6) - heroButton)
+		.attr('class', 'hero hero-button sm:hero sm:hero-button')
 		.text('View the full, interactive');
 
 	button.append('text')
-		.attr('x', width - buttonMargin - (buttonW * 0.52))
-		.attr('y', height - buttonMargin - (heroButton * 0.6))
-		.attr('transform', skewUndo(height - buttonMargin - heroButton))
+		.attr('x', width - buttonMarginX - (buttonW * 0.52))
+		.attr('y', height - buttonMarginY - (heroButton * 0.6))
+		.attr('transform', skewUndo(height - buttonMarginY - heroButton))
 		.attr('class', 'hero hero-accent hero-button-accent sm:hero-button-accent')
 		.text('visualisation');
 }

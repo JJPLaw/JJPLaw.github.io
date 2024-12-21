@@ -4,7 +4,7 @@ heading: Blog
 layout: section
 ---
 
-<section class="grid centre sm:margin-bottom">
+<section class="grid centre sm:margin-top sm:margin-bottom">
     {% assign postslist = collections.blog | sort: 'data.date' %}
     {% include 'postslist.liquid' %}
 </section>
