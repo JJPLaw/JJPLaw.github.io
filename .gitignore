@@ -1,4 +1,6 @@
-node_modules/
-content/projects/first-listens/artwork/
-content/blog/.obsidian/
-_site/
+_site
+drafts
+package-lock.json
+content/projects/first-listens/artwork
+content/blog/.obsidian
+node_modules

@@ -1,7 +1,7 @@
 ---
 title: Hello World! | JJPLaw
 heading: Hello World!
-description: Welcome to the website!
+description: Welcome to the website! A rambly exploration of how all of this came to be.
 layout: blog
 tags:
   - draft
@@ -26,6 +26,6 @@ My first and only thought for hosting the website was to use a Github pages repo
 
 ### Configuring Eleventy
 
-As jumping off points for learning Eleventy, I used a combination of this blog post
+As jumping off points for learning Eleventy, I used a combination of this [blog post](https://snipcart.com/blog/11ty-tutorial), and the Eleventy docs
 
 <small>*It's an American society, though as a Brit I'll be using an 's' rather than a zed.</small>

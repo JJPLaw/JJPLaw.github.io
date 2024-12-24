@@ -139,6 +139,7 @@ path {
 
     .overflow {
         height: 70px;
+        min-height: fit-content;
     }
 
     #legend {
