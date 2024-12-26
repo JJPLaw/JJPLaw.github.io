@@ -40,6 +40,10 @@
         text-align: left;
     }
 
+    & ol {
+        padding-left: 0.41rem;
+    }
+
     & li {
         margin: 0 1rem 0.75rem 1rem;
     }
@@ -56,10 +60,11 @@
 
     & .favourite-album {
         font-weight: 700;
+        margin-bottom: 1rem;
     }
 
     & .favourite-album > p {
-        margin-bottom: 0;
+        margin-bottom: 0.2rem;
     }
 
     & a, img {
@@ -69,7 +74,7 @@
 
 .overflow {
     overflow: scroll;
-    height: 430px;
+    height: 480px;
 }
 
 #options {

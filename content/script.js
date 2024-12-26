@@ -137,7 +137,7 @@ function reCentre(_data, _id, leg = false) {
 
 function generateDate(_data) {
 	let today = DateTime.local({ locale: 'en-GB' });
-	// let today = DateTime.fromFormat('2018-02-03', 'yyyy-MM-dd');
+	// let today = DateTime.fromFormat('2018-07-29', 'yyyy-MM-dd');
 	
 	let validDatesAll = [];
 	for (let i = 0; i < _data.length; i++) {
@@ -246,14 +246,14 @@ function radialLines(_generatedDate, _dom) {
 
 				angle += angleOff;
 			}
-			path = `${ points[1].x1 },${ points[1].y1 } ${ points[0].x2 },${ points[0].y2 } ${ points[1].x2 },${points[1].y2} ${points[2].x2},${points[2].y2}`
+			path = `${points[1].x1},${points[1].y1} ${points[0].x2},${points[0].y2} ${points[1].x2},${points[1].y2} ${points[2].x2},${points[2].y2}`
 			
 			return path;
 		})
-		.style('stroke-width', d => d.date === '0' ? '2px' : '3px')
-		.style('opacity', d => d.date === '0' ? 0.3 : 1)
+		.style('stroke-width', d => d.date === '0' ? '4px' : '3px')
+		// .style('opacity', d => d.date === '0' ? 0.3 : 1)
 		.style('stroke', d => d.date === _generatedDate.stringDate ? orange : palette[d.palette])
-		.style('fill', d => d.date === _generatedDate.stringDate ? orange : palette[d.palette])
+		.style('fill', d => d.date === _generatedDate.stringDate ? orange : d.date === '0' ? 'none' : palette[d.palette])
 		.style('fill-opacity', 0.85);
 	
 	// diamond shape to make the whole thing clickable
