@@ -21,14 +21,15 @@
     </linearGradient>
     <linearGradient
        id="swatch328"
-       gradientTransform="matrix(0.50000003,0,0,0.50000008,-203.8666,2400.6801)">
+       gradientTransform="matrix(0.38111133,0,0,0.2204998,-449.77193,1402.2011)">
       <stop
          style="stop-color:#4bc9c9;stop-opacity:1;"
          offset="0"
          id="stop328" />
     </linearGradient>
     <linearGradient
-       id="swatch19">
+       id="swatch19"
+       gradientTransform="translate(-67.733361,-4.23336)">
       <stop
          style="stop-color:#ecba00;stop-opacity:1;"
          offset="0"
@@ -36,7 +37,7 @@
     </linearGradient>
     <linearGradient
        id="swatch18"
-       gradientTransform="translate(-7.9521682,-8.9811856)">
+       gradientTransform="matrix(0.22789311,0,0,0.3472654,103.0655,-33.29429)">
       <stop
          style="stop-color:#f9f6ee;stop-opacity:1;"
          offset="0"
@@ -44,7 +45,7 @@
     </linearGradient>
     <linearGradient
        id="swatch15"
-       gradientTransform="matrix(0.16536462,0,0,0.16536462,431.42548,181.91132)">
+       gradientTransform="matrix(0.03652533,0,0,0.08723929,-295.88274,707.02127)">
       <stop
          style="stop-color:#005704;stop-opacity:1;"
          offset="0"
@@ -59,24 +60,15 @@
          id="stop14" />
     </linearGradient>
     <linearGradient
-       xlink:href="#swatch18"
-       id="linearGradient42"
-       gradientUnits="userSpaceOnUse"
-       x1="121.82594"
-       y1="192.34505"
-       x2="154.40012"
-       y2="192.34505"
-       gradientTransform="matrix(1.0396783,0,0,0.99466512,-14.090984,-0.13451613)" />
-    <linearGradient
        xlink:href="#swatch19"
        id="linearGradient62"
-       gradientTransform="matrix(0.33072923,0,0,0.33072923,191.37321,-287.27781)"
+       gradientTransform="matrix(0.33072919,0,0,0.33072917,187.13989,-291.51111)"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        xlink:href="#swatch15"
        id="linearGradient64"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(0.16536462,0,0,0.16536462,227.51931,-187.22335)" />
+       gradientTransform="matrix(0.16536467,0,0,0.16536462,223.28597,-191.45665)" />
   </defs>
   <g
      id="layer2"
@@ -86,51 +78,55 @@
        id="rect36"
        width="169.33333"
        height="169.33333"
-       x="23.668852"
+       x="23.668848"
        y="123.96561"
        rx="21.166666"
        ry="21.166666" />
+    <circle
+       style="display:none;fill:url(#swatch15);stroke:none;stroke-width:0.529167;stroke-dasharray:2.11667, 3.175;paint-order:stroke fill markers"
+       id="path6"
+       cx="108.33551"
+       cy="208.63226"
+       r="84.666664" />
     <path
        style="fill:url(#swatch18);fill-opacity:1;stroke-width:1;paint-order:stroke fill markers"
        id="path51"
-       d="m -204.39894,118.44973 a 33.866665,33.866665 0 0 1 -36.30383,27.85691 33.866665,33.866665 0 0 1 -30.91499,-33.73779 h 33.86666 z"
-       transform="rotate(-90)" />
+       transform="rotate(-90)"
+       d="m -200.68008,122.68306 a 33.866669,33.866665 0 0 1 -36.30384,27.85691 33.866669,33.866665 0 0 1 -30.91499,-33.73779 h 33.86667 z" />
     <rect
-       style="fill:url(#linearGradient42);fill-opacity:1;stroke-width:0.999995;paint-order:stroke fill markers"
+       style="fill:url(#swatch18);fill-opacity:1;stroke-width:0.999992;paint-order:stroke fill markers"
        id="rect42"
-       width="33.866665"
-       height="93.133339"
-       x="112.56887"
-       y="144.61777" />
+       width="33.866669"
+       height="84.666687"
+       x="116.80218"
+       y="149.36559" />
     <rect
-       style="fill:url(#swatch18);fill-opacity:1;stroke-width:1;paint-order:stroke fill markers"
+       style="fill:url(#swatch18);fill-opacity:1;stroke-width:0.999997;paint-order:stroke fill markers"
        id="rect51"
-       width="67.73333"
-       height="8.4666662"
-       x="95.635521"
-       y="144.61777" />
-    <g
-       id="g9"
-       transform="translate(2.6373627e-5)">
-      <path
-         style="fill:url(#linearGradient62);fill-opacity:1;stroke-width:1;paint-order:stroke fill markers"
-         id="path62"
-         d="m 272.13227,-87.168823 a 42.333332,42.333332 0 0 1 -42.33334,42.333332 v -42.333332 z"
-         transform="rotate(90)" />
-      <circle
-         style="fill:url(#linearGradient64);stroke-width:1;paint-order:stroke fill markers"
-         id="circle63"
-         transform="rotate(90)"
-         cx="246.73227"
-         cy="-87.168846"
-         r="21.166666" />
-      <circle
-         style="fill:url(#swatch19);fill-opacity:1;stroke-width:1;paint-order:stroke fill markers"
-         id="path63"
-         transform="rotate(90)"
-         cx="229.79893"
-         cy="-66.002159"
-         r="21.166666" />
-    </g>
+       width="59.266666"
+       height="8.4666595"
+       x="104.10219"
+       y="149.36559" />
+    <path
+       style="fill:url(#linearGradient62);fill-opacity:1;stroke-width:0.999999;paint-order:stroke fill markers"
+       id="path62"
+       d="m 267.89894,-91.402176 a 42.333328,42.333328 0 0 1 -42.33333,42.333328 v -42.333328 z"
+       transform="rotate(90)" />
+    <ellipse
+       style="fill:url(#linearGradient64);stroke-width:0.999997;paint-order:stroke fill markers"
+       id="circle63"
+       transform="rotate(90)"
+       cx="242.49893"
+       cy="-91.402176"
+       rx="21.166674"
+       ry="21.166668" />
+    <ellipse
+       style="fill:url(#swatch19);fill-opacity:1;stroke-width:0.999999;paint-order:stroke fill markers"
+       id="path63"
+       transform="rotate(90)"
+       cx="225.56561"
+       cy="-70.235519"
+       rx="21.16667"
+       ry="21.166662" />
   </g>
 </svg>
