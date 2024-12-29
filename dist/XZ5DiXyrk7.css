@@ -72,6 +72,17 @@
     }
 }
 
+.scrollButton {
+    font-size: 1.15rem;
+    color: var(--main-font-color);
+    padding: 0.5rem;
+    margin: 1rem auto 6px 1rem;
+    background: var(--off-white);
+    border: solid var(--grey);
+    border-radius: 0;
+    box-shadow: var(--orange) 5px 5px 0;
+}
+
 .overflow {
     overflow: scroll;
     height: 480px;
@@ -239,15 +250,15 @@ path {
     font-size: 0.5em;
     baseline-shift: super;
 }
-html {
-    /* font-size: 18px; */
-    font-family: "Josefin Sans", 'Helvetica', sans-serif;
-}
+/* html {
+    
+} */
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: "Josefin Sans", 'Helvetica', sans-serif;
 }
 
 :root {
@@ -438,7 +449,7 @@ nav {
     color: var(--off-white);
     font-weight: bold;
     font-size: 2rem;
-    padding: 0.875rem 1rem 0.5rem 1.5rem;
+    padding: 0.875rem 1rem 0.5rem 1rem;
     text-decoration: none;
 }
 
@@ -503,12 +514,9 @@ section, article {
 }
 
 .postlist-item {
-    /* display: flex; */
-    /* flex-wrap: wrap column; */
     align-items: baseline;
     margin-bottom: 1rem;
     list-style-type: none;
-    /* border-bottom: 2pt solid var(--info-border-color); */
     margin-bottom: 2rem;
 }
 
@@ -517,13 +525,9 @@ section, article {
     display: block;
     width: fit-content;
     margin: auto;
-    /* font-size: 2rem; */
-    /* font-weight: 700; */
-    /* color: var(--main-font-color); */
     padding-bottom: 0.375rem;
     text-underline-position: from-font;
     text-underline-offset: 0;
-    /* text-decoration-thickness: 1px; */
 }
 
 .postlist-date {
@@ -549,7 +553,6 @@ footer {
 
     & small {
         display: block;
-        /* margin: 0 auto; */
         text-align: center;
     }
 }
