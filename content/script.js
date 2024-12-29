@@ -364,7 +364,7 @@ d3.json('./projects/first-listens/Calendar-Data_All.json')
 		let url = new URL('/projects/first-listens/', window.location.origin);
 		url.searchParams.set('id', date.id);
 		url.searchParams.set('date', date.stringDate);
-		url.hash = '#vis';
+		// url.hash = '#vis';
 
 		// Create the SVG container.
 		let svg = d3.create('svg:svg')

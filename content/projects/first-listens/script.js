@@ -132,7 +132,6 @@ function updateSecondaryInfo(d) {
 		.join('li')
 		.attr('class', d => d.fav ? 'favourite-album' : undefined)
 		.html((d) => `<p>${d.album} by ${d.artist} (${d.released})<br/></p>`)
-		// .style('font-weight', 'initial')
 		;
 
 	let favouriteContainer = d3.selectAll('.favourite-album')
@@ -159,10 +158,6 @@ function updateSecondaryInfo(d) {
 		}
 	}
 	
-	// favouriteContainer.append('div')
-	// 	.attr('width', '200px')
-	// 	.attr('height', '200px')
-	// 	.style('fill', '#ffffffff')
 	favouriteContainer.append('img')
 		.attr('src', d => d.artworkFile)
 		.attr('width', '200px')
@@ -180,6 +175,10 @@ function petalSelector(e, d) {
 		.style('translate', d => `${popX(0.75 + ((d.logCount + 0.09) * Math.cos(d.angle * -1))) + popMargin}px ${popY(-0.75 - ((d.logCount + 0.09) * Math.sin(d.angle * -1)))}px`)
 		.style('fill-opacity', 1)
 		.raise();
+	
+	// d3.select('#scrollToInfo')
+	// 	.style('fill', orange)
+	// 	.style('text-decoration', 'underline');
 
 	updateSecondaryInfo([d]);
 	selectedPetal = e.id;
@@ -205,6 +204,10 @@ function petalDeselector(e) {
 	d3.select(target.parentNode)
 		.select(function () { return this.insertBefore(petal.node(), document.getElementById('placeholder')) })
 		.datum(tempData);
+	
+	// d3.select('#scrollToInfo')
+	// 	.style('fill', '#595959')
+	// 	.style('text-decoration', 'none');
 
 	d3.select('g#placeholder').remove();
 	d3.select('#info h4').text('');
@@ -360,6 +363,7 @@ function closePopup(skip=false) {
 }
 
 function popupGenerator(d) {
+	let popBoxH = window858.matches ? -1.4 : -1.3;
 
 	let popup = d3.create('svg:svg')
 		.attr("width", width)
@@ -406,7 +410,7 @@ function popupGenerator(d) {
 		.attr('x', popX(0.15) + popMargin)
 		.attr('y', popY(-0.15))
 		.attr('width', popX(1.2) + popMargin)
-		.attr('height', popY(-1.3))
+		.attr('height', popY(popBoxH))
 		.attr('rx', 5)
 		.attr('ry', 5)
 		.attr('filter', 'url(#boxShadow)')
@@ -424,15 +428,16 @@ function popupGenerator(d) {
 	}
 
 	popBox.append('path')
-		.attr('d', `M ${popX(0.2) + popMargin},${popY(-0.2)} L ${popX(0.25) + popMargin},${popY(-0.25)} M ${popX(0.2) + popMargin},${popY(-0.25)} L ${popX(0.25) + popMargin},${popY(-0.2)}`)
-		.attr('stroke-linecap', 'round');
+		.attr('d', `M ${popX(0.2) + popMargin},${popY(-0.2)} L ${popX(0.3) + popMargin},${popY(-0.3)} M ${popX(0.2) + popMargin},${popY(-0.3)} L ${popX(0.3) + popMargin},${popY(-0.2)}`)
+		.attr('stroke-linecap', 'round')
+		.style('stroke-width', '3px');
 
 	// Close box for popup
 	popBox.append('rect')
 		.attr('x', popX(0.17) + popMargin)
 		.attr('y', popY(-0.17))
-		.attr('width', popX(0.1) + popMargin)
-		.attr('height', popY(-0.1))
+		.attr('width', popX(0.16))
+		.attr('height', popY(-0.16))
 		.attr('rx', 5)
 		.attr('ry', 5)
 		.attr('fill', '#00000000')
@@ -450,6 +455,45 @@ function popupGenerator(d) {
 		.attr('y', popY(-1.35))
 		.attr('font-weight', 400)
 		;
+	
+	
+	if (window858.matches) {
+		// button background
+		popBox.append('rect')
+			.attr('x', popX(0.77) + popMargin - popX(0.23))
+			.attr('y', popY(-1.425))
+			.attr('width', popX(0.455))
+			.attr('height', popY(-0.09))
+			.style('fill', orange)
+			.on('click', (e, d) => {
+				document.getElementById('info').scrollIntoView({ behavior: "smooth" });
+			});
+
+		// button
+		popBox.append('rect')
+			.attr('x', popX(0.75) + popMargin - popX(0.23))
+			.attr('y', popY(-1.41))
+			.attr('width', popX(0.46))
+			.attr('height', popY(-0.09))
+			.style('fill', '#F9F6EE')
+			.style('stroke', '#595959')
+			.style('stroke-width', 2)
+			.style('cursor', 'pointer')
+			.on('click', (e, d) => {
+				document.getElementById('info').scrollIntoView({ behavior: "smooth" });
+			});
+	
+		popBox.append('text')
+			.attr('id', 'scrollToInfo')
+			.text('Scroll to Information')
+			.attr('x', popX(0.75) + popMargin)
+			.attr('y', popY(-1.45))
+			.style('font-size', '1.5rem')
+			.style('cursor', 'pointer')
+			.on('click', (e, d) => {
+				document.getElementById('info').scrollIntoView({ behavior: "smooth" });
+			});
+	}
 
 	d3.select('#vis').append(() => popup.node());
 };
@@ -459,6 +503,7 @@ function stateLoader(content) {
 		updatePrimaryInfo([d3.select('#r' + content.id).datum()]);
 		popupGenerator(d3.select('#r' + content.id).datum());
 		petalSelector(document.getElementById('p' + content.date + '-pop'), d3.select('#p' + content.date + '-pop').datum())
+		document.getElementById('vis').scrollIntoView({behavior:"smooth"});
 	}
 }
 
@@ -469,6 +514,16 @@ window.addEventListener('popstate', (event) => {
 
 d3.json('Calendar-Data_All.json')
 	.then(function (data) {
+		if (window858.matches) {
+			d3.select('#scrollToVis')
+				.append('button')
+				.attr('class', 'scrollButton')
+				.attr('type', 'button')
+				.text('Scroll to Plot')
+				.on('click', (e, d) => {
+					document.getElementById('vis').scrollIntoView({ behavior: 'smooth' });
+				});
+		}
 
 		// Create the SVG container.
 		let svg = d3.create('svg:svg')
