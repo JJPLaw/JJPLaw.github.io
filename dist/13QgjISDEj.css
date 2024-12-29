@@ -41,7 +41,7 @@
     }
 
     & ol {
-        padding-left: 0.41rem;
+        padding-left: 0.46rem;
     }
 
     & li {
@@ -56,11 +56,11 @@
         display: grid;
         grid-template: auto 200px / auto auto;
         max-width: 200px;
+        margin-bottom: 1rem;
     }
 
     & .favourite-album {
         font-weight: 700;
-        margin-bottom: 1rem;
     }
 
     & .favourite-album > p {
@@ -182,6 +182,74 @@ path {
     .favourite-container {
         margin: auto;
     }
+}
+.home {
+    width: fit-content;
+    padding: 1rem 7rem 1rem 4rem;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.hero {
+    text-anchor: end;
+    font-family: "Josefin Sans";
+    font-size: 3.125rem;
+    dominant-baseline: middle;
+    font-weight: 400;
+    /* transform-origin: center; */
+}
+
+.hero-accent {
+    font-family: 'Rozha One';
+    fill: var(--accent-color);
+    text-decoration: none;
+    alignment-baseline: middle;
+}
+
+.hero-button {
+    font-size: 2.25rem;
+    font-style: italic;
+    text-anchor: middle;
+}
+
+.hero-button-accent {
+    /* font-size: 4.75rem; */
+    text-anchor: middle;
+}
+
+.hero-date {
+    font-size: 5.625rem;
+}
+
+@media screen and (max-width: 450px) {
+    .sm\:home {
+        padding: 1rem 1.25rem 1rem 1rem;
+    }
+
+    .sm\:hero {
+        text-anchor: middle;
+        font-size: calc(3.125rem * 0.68);
+    }
+
+    .sm\:hero-date {
+        text-anchor: middle;
+        font-size: calc(5.625rem * 0.68);
+    }
+
+    .sm\:hero-button {
+        font-size: calc(2.25rem * 0.68);
+    }
+
+    .sm\:hero-button-accent {
+        font-size: calc(3.125rem * 0.68);
+    }
+}
+
+.ordinal {
+    font-size: 0.5em;
+    baseline-shift: super;
 }
 /* html {
     
