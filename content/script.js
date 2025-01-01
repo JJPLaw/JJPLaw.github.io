@@ -254,7 +254,8 @@ function radialLines(_generatedDate, _dom) {
 		// .style('opacity', d => d.date === '0' ? 0.3 : 1)
 		.style('stroke', d => d.date === _generatedDate.stringDate ? orange : palette[d.palette])
 		.style('fill', d => d.date === _generatedDate.stringDate ? orange : d.date === '0' ? 'none' : palette[d.palette])
-		.style('fill-opacity', 0.85);
+		.style('fill-opacity', 0.85)
+		.style('stroke-linejoin', 'miter-clip');
 	
 	// diamond shape to make the whole thing clickable
 	radial.append('polygon')

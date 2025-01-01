@@ -76,12 +76,13 @@
     font-size: 1.15rem;
     color: var(--main-font-color);
     padding: 0.5rem;
-    margin: 1rem auto 6px 1rem;
+    margin: 0.75rem auto 6px 1rem;
     background: var(--off-white);
     border: solid 1px var(--grey);
     border-radius: 0;
     box-shadow: var(--orange) 5px 5px 0;
     cursor: pointer;
+    display: block;
 }
 
 .overflow {

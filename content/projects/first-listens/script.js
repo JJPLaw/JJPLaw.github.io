@@ -363,7 +363,7 @@ function closePopup(skip=false) {
 }
 
 function popupGenerator(d) {
-	let popBoxH = window858.matches ? -1.4 : -1.3;
+	let popBoxH = window1190.matches ? -1.45 : -1.3;
 
 	let popup = d3.create('svg:svg')
 		.attr("width", width)
@@ -457,11 +457,11 @@ function popupGenerator(d) {
 		;
 	
 	
-	if (window858.matches) {
+	if (window1190.matches) {
 		// button background
 		popBox.append('rect')
 			.attr('x', popX(0.77) + popMargin - popX(0.23))
-			.attr('y', popY(-1.425))
+			.attr('y', popY(-1.465))
 			.attr('width', popX(0.455))
 			.attr('height', popY(-0.09))
 			.style('fill', orange)
@@ -472,7 +472,7 @@ function popupGenerator(d) {
 		// button
 		popBox.append('rect')
 			.attr('x', popX(0.75) + popMargin - popX(0.23))
-			.attr('y', popY(-1.41))
+			.attr('y', popY(-1.45))
 			.attr('width', popX(0.46))
 			.attr('height', popY(-0.09))
 			.style('fill', '#F9F6EE')
@@ -487,7 +487,7 @@ function popupGenerator(d) {
 			.attr('id', 'scrollToInfo')
 			.text('Scroll to Information')
 			.attr('x', popX(0.75) + popMargin)
-			.attr('y', popY(-1.45))
+			.attr('y', popY(-1.49))
 			.style('font-size', '1.5rem')
 			.style('cursor', 'pointer')
 			.on('click', (e, d) => {
@@ -514,10 +514,11 @@ window.addEventListener('popstate', (event) => {
 
 d3.json('Calendar-Data_All.json')
 	.then(function (data) {
-		if (window858.matches) {
+		if (window1190.matches) {
 			d3.select('#scrollToVis')
+				.style('padding-top', '0.5rem')
 				.append('button')
-				.attr('class', 'scrollButton')
+				.attr('class', 'scrollButton centre')
 				.attr('type', 'button')
 				.text('Scroll to Plot')
 				.on('click', (e, d) => {

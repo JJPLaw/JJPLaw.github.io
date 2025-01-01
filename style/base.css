@@ -21,7 +21,7 @@
     --main-pink: #fdb6d6;
     --main-blue: #2142b2;
 
-    --dark-green: #365e32;
+    /* --dark-green: #365e32; */
     --light-green: #91b66f;
     --yellow: #eeb237;
     --orange: #f08637;
@@ -35,7 +35,7 @@
     --banner-background-color: var(--yellow);
     --accent-color: var(--orange);
     --link-color: var(--orange);
-    --link-hover-color: var(--dark-green);
+    --link-hover-color: var(--main-green);
     --info-border-color: var(--border-grey);
     --code-background-color: color(from var(--sand) srgb r g b /0.4);
 }

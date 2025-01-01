@@ -5,6 +5,6 @@ layout: section
 ---
 
 <section class="grid centre sm:margin-bottom">
-    {% assign postslist = collections.blog | sort: 'data.date' %}
+    {% assign postslist = collections.blog | sort: 'data.date' | reverse %}
     {% include 'postslist.liquid' %}
 </section>
