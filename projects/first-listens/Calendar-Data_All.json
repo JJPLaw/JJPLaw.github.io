@@ -39271,7 +39271,7 @@
     "pal": 2,
     "centre_col": "2_6",
     "centre_fill": "2_5",
-    "total": 14,
+    "total": 18,
     "clicked": false,
     "petals": [
       {
@@ -39314,7 +39314,7 @@
             "fav": 0
           }
         ],
-        "total": 14,
+        "total": 18,
         "logCount": 0.2381,
         "palette": "2_4",
         "x0": 7.136,
@@ -39357,7 +39357,7 @@
             "fav": 0
           }
         ],
-        "total": 14,
+        "total": 18,
         "logCount": 0.2051,
         "palette": "2_3",
         "x0": 7.1336,
@@ -39392,7 +39392,7 @@
             "fav": 0
           }
         ],
-        "total": 14,
+        "total": 18,
         "logCount": 0.1625,
         "palette": "2_2",
         "x0": 7.1178,
@@ -39435,7 +39435,7 @@
             "artworkFile": "/assets/artwork/29069380456-500.jpg"
           }
         ],
-        "total": 14,
+        "total": 18,
         "logCount": 0.1625,
         "palette": "2_2",
         "x0": 7.1459,
@@ -39444,6 +39444,41 @@
         "ry": 0.0195,
         "fav": 1,
         "angleJS": 2.0268,
+        "selected": false
+      },
+      {
+        "date": "2024-12-21",
+        "day": 21,
+        "wDay": "Saturday",
+        "angle": -2.4829,
+        "count": 2,
+        "data": [
+          {
+            "artist": "Warrington-Runcorn New Town Development Plan",
+            "album": "Your Community Hub",
+            "released": 2024,
+            "order": "a",
+            "length": 38,
+            "fav": 0
+          },
+          {
+            "artist": "Warrington-Runcorn New Town Development Plan",
+            "album": "People & Industry",
+            "released": 2022,
+            "order": "b",
+            "length": 46,
+            "fav": 0
+          }
+        ],
+        "total": 18,
+        "logCount": 0.1625,
+        "palette": "2_2",
+        "x0": 6.8715,
+        "y0": -12.0995,
+        "rx": 0.1625,
+        "ry": 0.0195,
+        "fav": 0,
+        "angleJS": 4.0537,
         "selected": false
       },
       {
@@ -39462,7 +39497,7 @@
             "fav": 0
           }
         ],
-        "total": 14,
+        "total": 18,
         "logCount": 0.1025,
         "palette": "2_1",
         "x0": 7.0206,
@@ -39489,7 +39524,7 @@
             "fav": 0
           }
         ],
-        "total": 14,
+        "total": 18,
         "logCount": 0.1025,
         "palette": "2_1",
         "x0": 7.0404,
@@ -39520,7 +39555,7 @@
             "artworkFile": "/assets/artwork/40470782481-500.jpg"
           }
         ],
-        "total": 14,
+        "total": 18,
         "logCount": 0.1025,
         "palette": "2_1",
         "x0": 7.0307,
@@ -39529,6 +39564,60 @@
         "ry": 0.0123,
         "fav": 1,
         "angleJS": 2.8376,
+        "selected": false
+      },
+      {
+        "date": "2024-12-24",
+        "day": 24,
+        "wDay": "Tuesday",
+        "angle": -3.0909,
+        "count": 1,
+        "data": [
+          {
+            "artist": "David A Jaycock",
+            "album": "Music For Space Age Shopping",
+            "released": 2024,
+            "order": "a",
+            "length": 45,
+            "fav": 0
+          }
+        ],
+        "total": 18,
+        "logCount": 0.1025,
+        "palette": "2_1",
+        "x0": 6.8976,
+        "y0": -12.0052,
+        "rx": 0.1025,
+        "ry": 0.0123,
+        "fav": 0,
+        "angleJS": 4.6617,
+        "selected": false
+      },
+      {
+        "date": "2024-12-31",
+        "day": 31,
+        "wDay": "Tuesday",
+        "angle": -4.5097,
+        "count": 1,
+        "data": [
+          {
+            "artist": "Shabaka",
+            "album": "Possession (EP)",
+            "released": 2024,
+            "order": "a",
+            "length": 23,
+            "fav": 0
+          }
+        ],
+        "total": 18,
+        "logCount": 0.1025,
+        "palette": "2_1",
+        "x0": 6.9794,
+        "y0": -11.8996,
+        "rx": 0.1025,
+        "ry": 0.0123,
+        "fav": 0,
+        "angleJS": 6.0805,
         "selected": false
       }
     ]
