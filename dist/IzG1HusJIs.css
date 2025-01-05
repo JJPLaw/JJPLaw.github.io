@@ -184,6 +184,74 @@ path {
         margin: auto;
     }
 }
+.home {
+    width: fit-content;
+    padding: 1rem 7rem 1rem 4rem;
+}
+
+.button {
+    text-decoration: none;
+}
+
+.hero {
+    text-anchor: end;
+    font-family: "Josefin Sans";
+    font-size: 3.125rem;
+    dominant-baseline: middle;
+    font-weight: 400;
+    /* transform-origin: center; */
+}
+
+.hero-accent {
+    font-family: 'Rozha One';
+    fill: var(--accent-color);
+    text-decoration: none;
+    alignment-baseline: middle;
+}
+
+.hero-button {
+    font-size: 2.25rem;
+    font-style: italic;
+    text-anchor: middle;
+}
+
+.hero-button-accent {
+    /* font-size: 4.75rem; */
+    text-anchor: middle;
+}
+
+.hero-date {
+    font-size: 5.625rem;
+}
+
+@media screen and (max-width: 450px) {
+    .sm\:home {
+        padding: 1rem 1.25rem 1rem 1rem;
+    }
+
+    .sm\:hero {
+        text-anchor: middle;
+        font-size: calc(3.125rem * 0.68);
+    }
+
+    .sm\:hero-date {
+        text-anchor: middle;
+        font-size: calc(5.625rem * 0.68);
+    }
+
+    .sm\:hero-button {
+        font-size: calc(2.25rem * 0.68);
+    }
+
+    .sm\:hero-button-accent {
+        font-size: calc(3.125rem * 0.68);
+    }
+}
+
+.ordinal {
+    font-size: 0.5em;
+    baseline-shift: super;
+}
 /* html {
     
 } */
@@ -274,6 +342,13 @@ p:last-child {
     margin: 0 auto;
 }
 
+pre {
+    width: 100%;
+    background: var(--code-background-color);
+    padding: 0.5rem;
+    margin: 0 auto 1rem auto;
+}
+
 code {
     font-family: 'Inconsolata', 'monospace';
     font-weight: 500;
@@ -281,6 +356,10 @@ code {
     border-radius: 2px;
     padding: 2px;
     background: var(--code-background-color);
+}
+
+pre > code {
+    background: none;
 }
 
 a {
@@ -331,12 +410,20 @@ small {
     grid-column: span 8 / span 8;
 }
 
+.col-start-1 {
+    grid-column-start: 1;
+}
+
 .col-start-3 {
     grid-column-start: 3;
 }
 
 .col-start-4 {
     grid-column-start: 4;
+}
+
+.col-start-7 {
+    grid-column-start: 7;
 }
 
 @media screen and (max-width: 640px) {
@@ -351,6 +438,10 @@ small {
     .sm\:margin-bottom {
         margin-bottom: 1rem;
     }
+}
+
+.blog-img {
+    margin: 0 auto 1em auto;
 }
 
 header {
