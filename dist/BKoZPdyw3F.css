@@ -238,6 +238,7 @@ nav {
 }
 
 .nav-link:link:hover {
+    color: var(--off-white);
     text-decoration: underline;
     font-weight: initial;
 }
@@ -325,5 +326,6 @@ footer {
     & small {
         display: block;
         text-align: center;
+        line-height: 1.75em;
     }
 }
