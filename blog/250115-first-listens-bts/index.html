@@ -45,7 +45,7 @@
 <div class="grid centre">
     <article class="col-start-3 col-span-8 sm:col-span-12 sm:margin-bottom"><h2>A Look Behind the Scenes</h2>
 <figure>
-<img src="/assets/blog-images/first_listens_july.png" style="width: 40%; padding-left: 0.5rem; float: left">
+<img src="/assets/blog-images/first_listens_july.png" style="width: 40%; padding-left: 0.5rem; float: left" alt="The July 2022 flower from my First Listens visualisation">
 </figure>
 <p>I thought it would be fun and interesting to document the development of my projects. This first post, about my <a href="/projects/first-listens/">First Listens visualisation</a>, is a bit rambly, partly because there was a lot to fit in, and partly because I wanted to get this out there into the world rather than sitting on it for too long and making it perfect. Regardless, I hope there's something in here that's interesting.</p>
 <h2>Beginnings of the Data</h2>
@@ -67,10 +67,10 @@
 <p>Good data visualisation should be able to tell an interesting story, but I appreciate that there's not anything particularly interesting about these data. So, this time around I wanted to make something more informative, while still leaning into the artistic angle to give it a bit of that interesting flavour.</p>
 <h2>A Field of Flowers</h2>
 <h3>Initial R plot</h3>
-<figure>
-<img src="/assets/blog-images/first_listens_2020_calendar.png" style="width: 45%; padding-left: 1rem; float: right">
-</figure>
-<p>Unlike previous attempts at visualising these data, where I spent a while messing around and coming up with multiple versions before landing on the above mountainous lines (see right for an example), I had had the general idea of using what is essentially a radial bar graph before starting work. I experimented a little with using lines and rectangles for the days, before thinking that ellipses would look nice by mimicking a flower's petals. I quickly found there was nothing in vanilla <code>ggplot</code> that could create the ellipses that I wanted for the petals, so I used Thomas Pedersen's excellent extension, <a href="https://ggforce.data-imaginist.com/"><code>ggforce</code></a>, to draw them. This meant a that I had to calculate some of my own coordinates rather than letting <code>ggplot</code> transform the data itself, but this would prove quite helpful down the line!</p>
+<!--<figure>
+<img src='/assets/blog-images/first_listens_2020_calendar.png' style='width: 50%; padding-left: 1rem; float: right' alt='A representation of a calendar to visualise the number of albums that I listened to.'/>
+</figure>-->
+<p>Unlike previous attempts at visualising these data, where I spent a while messing around and coming up with multiple versions before landing on the above mountainous lines, I had had the general idea of using what is essentially a radial bar graph before starting work. I experimented a little with using lines and rectangles for the days, before thinking that ellipses would look nice by mimicking a flower's petals. I quickly found there was nothing in vanilla <code>ggplot</code> that could create the ellipses that I wanted for the petals, so I used Thomas Pedersen's excellent extension, <a href="https://ggforce.data-imaginist.com/"><code>ggforce</code></a>, to draw them. This meant a that I had to calculate some of my own coordinates rather than letting <code>ggplot</code> transform the data itself, but this would prove quite helpful down the line!</p>
 <p>There are lots of design choices that go into developing good visualisations, and these are some of the choices I made while making the overall plot:</p>
 <ul>
 <li>The size of the petals are scaled according to a log-transformation of the number of albums, because directly scaling the two looks clunky, unnatural, and generally unlike petals.</li>
