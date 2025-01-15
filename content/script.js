@@ -246,16 +246,19 @@ function radialLines(_generatedDate, _dom) {
 
 				angle += angleOff;
 			}
-			path = `${points[1].x1},${points[1].y1} ${points[0].x2},${points[0].y2} ${points[1].x2},${points[1].y2} ${points[2].x2},${points[2].y2}`
+			if (d.date !== '0') {
+				path = `${points[1].x1},${points[1].y1} ${points[0].x2},${points[0].y2} ${points[1].x2},${points[1].y2} ${points[2].x2},${points[2].y2}`
+			} else path = `${points[1].x1},${points[1].y1} ${points[1].x2},${points[1].y2}`;
 			
 			return path;
 		})
-		.style('stroke-width', d => d.date === '0' ? '4px' : '3px')
+		// .style('stroke-width', d => d.date === '0' ? '2px' : '3px')
+		.style('stroke-width', '3px')
 		// .style('opacity', d => d.date === '0' ? 0.3 : 1)
 		.style('stroke', d => d.date === _generatedDate.stringDate ? orange : palette[d.palette])
 		.style('fill', d => d.date === _generatedDate.stringDate ? orange : d.date === '0' ? 'none' : palette[d.palette])
 		.style('fill-opacity', 0.85)
-		.style('stroke-linejoin', 'miter-clip');
+		.style('stroke-linejoin', 'round');
 	
 	// diamond shape to make the whole thing clickable
 	radial.append('polygon')

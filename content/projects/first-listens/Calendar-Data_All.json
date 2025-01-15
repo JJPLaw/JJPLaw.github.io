@@ -2852,7 +2852,11 @@
             "artist": "Mount Kimbie",
             "album": "Love What Survives",
             "released": 2017,
-            "fav": 0
+            "fav": 1,
+            "spotify": "https://open.spotify.com/album/2QlIw88KfFlC3P0nLcWSKs?si=Brp5JIbETCW3neq-b3lsDg",
+            "apple": "https://music.apple.com/gb/album/love-what-survives/1256395498",
+            "artworkURL": "https://coverartarchive.org/release/f21ed447-0005-466b-8aaa-05a4a19a939b/17241757968-500.jpg",
+            "artworkFile": "/assets/artwork/17241757968-500.jpg"
           }
         ],
         "total": 36,

@@ -502,7 +502,7 @@ function stateLoader(content) {
 	if (content !== null) {
 		updatePrimaryInfo([d3.select('#r' + content.id).datum()]);
 		popupGenerator(d3.select('#r' + content.id).datum());
-		petalSelector(document.getElementById('p' + content.date + '-pop'), d3.select('#p' + content.date + '-pop').datum())
+		if (content.date !== null) petalSelector(document.getElementById('p' + content.date + '-pop'), d3.select('#p' + content.date + '-pop').datum());
 		document.getElementById('vis').scrollIntoView({behavior:"smooth"});
 	}
 }

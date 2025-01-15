@@ -37,9 +37,13 @@ export default async function (eleventyConfig) {
     });
 
     eleventyConfig.addPassthroughCopy('.nojekyll');
+    eleventyConfig.addPassthroughCopy('CNAME');
     eleventyConfig.addPassthroughCopy("content/projects/**/*.json");
     eleventyConfig.addPassthroughCopy('favicon/*');
-    eleventyConfig.addPassthroughCopy({ "content/projects/first-listens/artwork/*": "assets/artwork/" });
+    eleventyConfig.addPassthroughCopy({
+        "content/projects/first-listens/artwork/*": "assets/artwork/",
+        "content/blog/images/**/*.png" : "assets/blog-images/"
+     });
 
     eleventyConfig.addBundle("css", {
         toFileDirectory: "dist",
