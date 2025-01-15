@@ -45,7 +45,7 @@
 <div class="grid centre">
     <article class="col-start-3 col-span-8 sm:col-span-12 sm:margin-bottom"><h2>A Look Behind the Scenes</h2>
 <figure>
-<img src="/assets/blog-images/first_listens_july.png" style="width: 40%; padding-left: 0.5rem; float: left" alt="The July 2022 flower from my First Listens visualisation">
+<a href="/projects/first-listens/?id=Jul_2022"><img src="/assets/blog-images/first_listens_july.png" style="width: 40%; padding-left: 0.5rem; float: left" alt="The July 2022 flower from my First Listens visualisation"></a>
 </figure>
 <p>I thought it would be fun and interesting to document the development of my projects. This first post, about my <a href="/projects/first-listens/">First Listens visualisation</a>, is a bit rambly, partly because there was a lot to fit in, and partly because I wanted to get this out there into the world rather than sitting on it for too long and making it perfect. Regardless, I hope there's something in here that's interesting.</p>
 <h2>Beginnings of the Data</h2>
@@ -89,7 +89,7 @@
 <p>I laid out the plots together in R as well, using the <a href="https://wilkelab.org/cowplot/articles/plot_grid.html"><code>cowplot</code></a> package. I find this package very flexible when laying out complex plots, because of its ability to layer <code>ggplot</code> objects on top of each other. It was a very fiddly and time consuming process of fine-tuning the exact locations of each element, but I wanted to achieve this directly with the code in R to avoid having to open up another program and make further adjustments whenever the data was updated. In the future though, I think I would try and develop only the necessary parts in R (or whichever code package) and then lay them out in a dedicated layout software, just to avoid this faff.</p>
 <p>I'm very happy with the final static image, but this is 2025 and I think it could be greatly improved with a little bit of interactivity!</p>
 <figure>
-<img src="/assets/blog-images/first_listens_flowers.png" class="blog-img col-start-7 col-span-6 sm:col-span-12" style="width: 100%; display: inline" alt="A plot showing the number of albums I listened to in a day as the petals of a flower, where the size of the petal shows the number of albums, for each month between 2018 and 2024.">
+<a href="https://www.instagram.com/p/DEw-8mItsiw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="/assets/blog-images/first_listens_flowers.png" class="blog-img col-start-7 col-span-6 sm:col-span-12" style="width: 100%; display: inline" alt="A plot showing the number of albums I listened to in a day as the petals of a flower, where the size of the petal shows the number of albums, for each month between 2018 and 2024."></a>
 <figcaption>The final static image of the flowers plot, completely generated in R.</figcaption>
 </figure>
 <h3>Going Interactive with D3.js</h3>
