@@ -582,7 +582,7 @@ section, article {
 .postlist-item {
     align-items: baseline;
     list-style-type: none;
-    /* margin-bottom: 1.5rem; */
+    margin-bottom: 1.5rem;
 
     & h2 {
         margin-bottom: 0;
