@@ -3,5 +3,8 @@ drafts
 package-lock.json
 content/projects/first-listens/artwork
 content/blog/.obsidian
+content/projects/phd-figures/figures
+content/blog/images
 node_modules
 CNAME
+*/.DS_Store

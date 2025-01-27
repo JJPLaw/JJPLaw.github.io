@@ -35,7 +35,7 @@ I wrote a python script to turn that text list into a CSV file, an R script* to 
 
 I've previously visualised my album data as an artistic plot, when I hit 2,000 albums at the end of 2022:
 <figure>
-<a href="https://www.instagram.com/p/Cm4SuqUN1lH/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="><img src="/assets/blog-images/first_listens_perspective.png" class='blog-img col-start-1 col-span-6 sm:col-span-12' style="width: 100%" alt="A visualisation of my First Listens between 2017 – 2022, a period where I listened to 2,060 albums by 1,350 artists, presented in a style reminiscent of the Unknown Pleasures album cover."/></a>
+<a href="https://www.instagram.com/p/Cm4SuqUN1lHfUXq8ThudOPiTrKvsMaAj03TliE0/"><img src="/assets/blog-images/first_listens_perspective.png" class='blog-img col-start-1 col-span-6 sm:col-span-12' style="width: 100%" alt="A visualisation of my First Listens between 2017 – 2022, a period where I listened to 2,060 albums by 1,350 artists, presented in a style reminiscent of the Unknown Pleasures album cover."/></a>
 <figcaption>My first big visualisation of these listening data, which inadvertently ended up looking a lot like Joy Division's 'Unknown Pleasures' artwork.</figcaption>
 </figure>
 
@@ -65,7 +65,7 @@ I laid out the plots together in R as well, using the [`cowplot`](https://wilkel
 I'm very happy with the final static image, but this is 2025 and I think it could be greatly improved with a little bit of interactivity!
 
 <figure>
-<a href='https://www.instagram.com/p/DEw-8mItsiw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=='><img src="/assets/blog-images/first_listens_flowers.png" class='blog-img col-start-7 col-span-6 sm:col-span-12' style="width: 100%; display: inline" alt="A plot showing the number of albums I listened to in a day as the petals of a flower, where the size of the petal shows the number of albums, for each month between 2018 and 2024."/></a>
+<a href='https://www.instagram.com/jjp_law/p/DEw-8mItsiw1ZMnQnPwtasF9yibNg-u8ojodT40/?img_index=1'><img src="/assets/blog-images/first_listens_flowers.png" class='blog-img col-start-7 col-span-6 sm:col-span-12' style="width: 100%; display: inline" alt="A plot showing the number of albums I listened to in a day as the petals of a flower, where the size of the petal shows the number of albums, for each month between 2018 and 2024."/></a>
 <figcaption>The final static image of the flowers plot, completely generated in R.</figcaption>
 </figure>
 

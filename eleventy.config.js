@@ -41,8 +41,9 @@ export default async function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy("content/projects/**/*.json");
     eleventyConfig.addPassthroughCopy('favicon/*');
     eleventyConfig.addPassthroughCopy({
-        "content/projects/first-listens/artwork/*": "assets/artwork/",
-        "content/blog/images/**/*.png" : "assets/blog-images/"
+        "content/projects/first-listens/artwork/*": "assets/project-images/fl/",
+        "content/projects/phd-figures/figures/*": "assets/project-images/phd/",
+        "content/blog/images/**/*.png": "assets/blog-images/",
      });
 
     eleventyConfig.addBundle("css", {
