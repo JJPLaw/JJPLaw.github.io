@@ -45,6 +45,10 @@ const windowMin = window.matchMedia(`(max-width: ${width}px)`)
 const popOuterMargin = windowMin.matches ? window.innerWidth : width;
 
 const favourite = document.querySelector('input#favourite');
+const userDateDayElem = document.querySelector('#userDateDay');
+const userDateMonthElem = document.querySelector('#userDateMonth');
+const userDateSelect = document.querySelector('#userDateSelect');
+const userDateReset = document.querySelector('#userDateReset');
 
 const petalData = [
 	{ x: 0.1875, h: 0.1025261, t: '1', p: '4_1' },
@@ -349,6 +353,37 @@ function reCentre(_data, _id, leg = false) {
 	return newData;
 };
 
+// create new data subset filtering for specific day
+function filterData(_d, _month, _userDate) {
+	let newData = structuredClone(_d);
+
+	const filterDay = (element) => element.date.includes(_userDate);
+	const filterMonth = (element) => element.month === _month;
+
+	newData = newData.filter(filterMonth);
+	for (let i = 0; i < newData.length; i++) {
+		newData[i]['petals'] = newData[i]['petals'].filter(filterDay);
+	}
+
+	for (let i = 1; i < newData.length; i++) {
+		if (newData[i]['petals'].length > 0) {
+			newData[0]['petals'].push(newData[i]['petals'][0]);
+		}
+	}
+
+	newData = newData[0];
+	newData.x = 0.75;
+	newData.y = -0.75;
+
+	for (let i = 0; i < newData['petals'].length; i++) {
+		newData['petals'][i]['angle'] = i * (Math.PI * 2 / (newData['petals'].length + 1)) - (Math.PI / 2) * -1;
+		// newData['petals'][i]['x0'] = newData['x'] + (newData['petals'][i]['logCount'] * Math.cos(newData['petals'][i]['angle']));
+		// newData['petals'][i]['y0'] = newData['y'] - (newData['petals'][i]['logCount'] * Math.sin(newData['petals'][i]['angle']));	
+	}
+
+	return newData;
+};
+
 function closePopup(skip=false) {
 	d3.select('#popup').remove();
 	d3.select('#info h3').text('');
@@ -362,7 +397,7 @@ function closePopup(skip=false) {
 	}
 }
 
-function popupGenerator(d) {
+function popupGenerator(d, centre=true) {
 	let popBoxH = window1190.matches ? -1.45 : -1.3;
 
 	let popup = d3.create('svg:svg')
@@ -419,7 +454,10 @@ function popupGenerator(d) {
 			petalDeselector(selectedPetal, popX, popY, popMargin);
 		});
 
-	drawFlower(reCentre(d, false), popBox, 'pop');
+	if (centre) {
+		drawFlower(reCentre(d, false), popBox, 'pop');
+	} else drawFlower(d, popBox, 'pop');
+
 	if (favourite.checked) {
 		popBox.selectAll('.petal')
 			.style('stroke', d => d.fav ? '#595959' : palette[d.palette])
@@ -670,6 +708,27 @@ d3.json('Calendar-Data_All.json')
 						.style('opacity', 1);
 				}
 			});
+		
+		d3.select(userDateSelect)
+			.on('click', (e, d) => {
+				if (userDateDayElem.value !== '' && userDateMonthElem.value !== '') {
+					let day = userDateDayElem.value;
+					day = day.length === 1 ? '0' + day : day;
+					let month = userDateMonthElem.selectedIndex;
+					let month0 = month.toString();
+					month0 = month0.length === 1 ? '0' + month0 : month0;
+					let userDate = month0 + '-' + day;
+
+					let newData = filterData(data, month, userDate);
+					console.log(newData);
+
+					popupGenerator(newData);
+
+					// TODO use data to generate popup, colour disc a single colour (and only draw one)
+					// name popup with "Day Month", if only one date name "Day Month Year" and select petal
+				}
+			});
 
 		stateLoader(history.state);
-		});
+	});
+	

@@ -169,6 +169,11 @@ small {
     font-size: 0.75em;
 }
 
+label {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
 .grid {
     max-width: 960px;
     display: grid;
@@ -183,6 +188,10 @@ small {
 
 .col-span-8 {
     grid-column: span 8 / span 8;
+}
+
+.col-span-12 {
+    grid-column: span 12 / span 12;
 }
 
 .col-start-1 {
@@ -215,9 +224,20 @@ small {
     }
 }
 
-/* .blog-img {
-    margin: 0 auto 1em auto;
-} */
+.cards-grid {
+    grid-template-rows: repeat(2, 400px);
+}
+
+.card {
+    background-color: var(--sand);
+    padding: 1rem;
+}
+
+.card-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
 
 header {
     width: 100%;
