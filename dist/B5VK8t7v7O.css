@@ -355,6 +355,11 @@ small {
     font-size: 0.75em;
 }
 
+label {
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+}
+
 .grid {
     max-width: 960px;
     display: grid;
