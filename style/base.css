@@ -185,6 +185,10 @@ small {
     grid-column: span 8 / span 8;
 }
 
+.col-span-12 {
+    grid-column: span 12 / span 12;
+}
+
 .col-start-1 {
     grid-column-start: 1;
 }
@@ -214,10 +218,6 @@ small {
         margin-bottom: 1rem;
     }
 }
-
-/* .blog-img {
-    margin: 0 auto 1em auto;
-} */
 
 header {
     width: 100%;
@@ -297,7 +297,7 @@ nav {
 }
 
 main {
-    flex: 1;
+    /* flex: 1; */
 }
 
 .banner {
@@ -368,6 +368,21 @@ section, article {
     width: 66%;
     margin: 0 auto;
     border-bottom: 1pt solid var(--grey);
+}
+
+.card {
+    width: 440px;
+    & img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.cards-grid {
+    max-width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 footer {
