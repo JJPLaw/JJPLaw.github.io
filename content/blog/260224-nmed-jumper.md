@@ -53,7 +53,7 @@ After lots of fiddling to arrange everything perfectly I finally submitted the d
 
 Because of this, they refunded me and I got the jumper for free — silver linings! This was a great turnout really, partly because the print quality wasn't amazing (you can see a white layer poking through behind coloured elements, which has only gotten worse with washing; there was a reason the price was so reasonable!), but mostly because the colours didn't end up translating very well to ink. I knew I wasn't going to be able to get a sample or anything, and I was already only approximating the jumper's colour, so I just went for it — ultimately the lightest pinks were too pale, while the darkest green came out very muddy. 
 
-There's also an unfortunate data error: I listened to something on 1064 / 2557 (42%) days.
+There's also an unfortunate data error: the jumper incorrectly says that I listened to something on 1107 / 2557 (43%) days.
 
 ## Conclusions
 
