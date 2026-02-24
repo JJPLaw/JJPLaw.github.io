@@ -60,6 +60,10 @@ export default async function (eleventyConfig) {
         }]
     });
 
+    eleventyConfig.setServerOptions({
+        showAllHosts: true
+    });
+
     return {
         dir: {
             input: 'content',
