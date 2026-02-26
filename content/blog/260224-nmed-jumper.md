@@ -1,6 +1,6 @@
 ---
-title: New Music Every* Day — Designing a Jumper | JJPLaw
-heading: New Music Every* Day — Designing a Jumper
+title: "New Music Every* Day: Designing a Jumper | JJPLaw"
+heading: "New Music Every* Day:<br>Designing a Jumper"
 description: After finding out that I could print a custom design onto a sweatshirt, I set out to make an artistic visualisation of my listening data, inspired in small part by The Designer's Republic™.
 layout: blog
 tags: blog
@@ -8,7 +8,7 @@ date: 2026-02-24
 ---
 <figure>
 <img src='/assets/blog-images/dots with background.png' class='blog-img col-start-1 col-span-6 sm:col-span-12' style="width: 100%" alt='The graphic that was printed onto the jumper.'/>
-<figcaption>My artistic visualisation of my listening data from 2018 to 2024. It's on the back of a jumper now, and is the first of a New Music Every* day series.</figcaption>
+<figcaption>My artistic visualisation of my listening data from 2018 to 2024. It's on the back of a jumper now, and is the first of a New Music Every* Day series.</figcaption>
 </figure>
 
 ## Why a Jumper, Anyway?
@@ -27,9 +27,9 @@ I chose the colours using my favourite data colour palette creator, [HCL Wizard
 
 ## Adding the Other Elements
 
-I made this in October 2025, and was playing a lot of late '90s PS1 racing games at the time: the Wipeout series*, Ridge Racer 4, and Colin McRae Rally 2.0. These games have a fantastic sense of graphic design, with beautiful and interesting menus and typography. In particular, I was inspired by the work of The Designer's Republic™ on Wipeout 3<sup>†</sup>, having just recreated the menus and team logos for a custom [muOS](https://muos.dev/) theme using the identities included in the [WipEout Futurism](https://www.thamesandhudson.com/products/wipeout-futurism) book. In the end my design doesn't much resemble these games, leaning more heavily into a late 2010s poster style, but that was the original inspiration at least.
+I made this in October 2025, and was playing a lot of late '90s PS1 racing games at the time: the Wipeout series[^1], Ridge Racer 4, and Colin McRae Rally 2.0. These games have a fantastic sense of graphic design, with beautiful and interesting menus and typography. In particular, I was inspired by the work of The Designer's Republic™ on Wipeout 3[^2], having just recreated the menus and team logos for a custom [muOS](https://muos.dev/) theme using the identities included in the [WipEout Futurism](https://www.thamesandhudson.com/products/wipeout-futurism) book. In the end my design doesn't much resemble these games, leaning more heavily into a late 2010s poster style, but that was the original inspiration at least.
 
-I did the whole layout using Inkscape<sup>‡</sup>, importing just the dots themselves as an SVG from R. 
+I did the whole layout using Inkscape[^3], importing just the dots themselves as an SVG from R. 
 
 I came up with the title slogan of "New Music Every* Day", to fit the sentiment of my ongoing listening project — I love listening to new albums as much as I can — but with the cheeky caveat of the asterisk — I've of course not listened to a new album in full every single day for 7 years!
 
@@ -59,6 +59,6 @@ There's also an unfortunate data error: the jumper incorrectly says that I liste
 
 While the final product wasn't of the standard of something that had been properly planned and tested and mass produced (putting aside the printing error), I knew going in that the jumper wouldn't be perfect. But I greatly enjoyed the process of designing the graphic, and I wear the jumper all the time, error and all! I would like to have another go at getting the colours on the design right at some point, maybe trying a different printer (not to mention making other designs for other wearables). But for the meantime, I'll be making New Music Every* Day into an ongoing project, visualising my listening data in as many different ways as I can.
 
-<small>*Better stylised as wipE'out".<br>
-<sup>†</sup>wip3'out".<br>
-<sup>‡</sup>I owe a lot to Inkscape, having used it to edit the figures for my PhD thesis, and I kept using it afterwards, for example when recreating the Wipeout graphics. But when I became aware of Affinity, after their recent rebrand in late October 2025, I made the switch and it was immediately noticeable how much better Affinity was able to cope with files filled with dots, and it's been so lovely to use a program that doesn't constantly crash.</small>
+[^1]: Better stylised as wipE'out".
+[^2]: wip3'out".
+[^3]: I owe a lot to Inkscape, having used it to edit the figures for my PhD thesis, and I kept using it afterwards, for example when recreating the Wipeout graphics. But when I became aware of Affinity, after their recent rebrand in late October 2025, I made the switch and it was immediately noticeable how much better Affinity was able to cope with files filled with dots, and it's been so lovely to use a program that doesn't constantly crash.

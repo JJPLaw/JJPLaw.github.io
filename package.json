@@ -147,6 +147,7 @@
     "lru-cache": "^10.4.3",
     "luxon": "^3.5.0",
     "markdown-it": "^14.1.0",
+    "markdown-it-footnote": "^4.0.0",
     "maximatch": "^0.1.0",
     "mdurl": "^2.0.0",
     "merge2": "^1.4.1",

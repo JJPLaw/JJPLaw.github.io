@@ -2,8 +2,10 @@ import { deleteSync } from "del";
 import { DateTime } from "luxon";
 import Uglify from "uglify-js";
 import CleanCSS from "clean-css";
+import markdownIt from "markdown-it";
+import footnote from "markdown-it-footnote";
 
-export default async function (eleventyConfig) {  
+export default async function (eleventyConfig) {
     // Clean out the website output folder
     // const dirToClean = '../JJPLaw.github.io/*';
     const dirToClean = '_site/*';
@@ -25,7 +27,7 @@ export default async function (eleventyConfig) {
         } else if (day === '3' || day === '23') {
             sup = "rd"
         } else sup = "th";
-        let wDay = DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString({ weekday: 'long'});
+        let wDay = DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString({ weekday: 'long' });
         let half2 = DateTime.fromJSDate(dateObj, { zone: "utc" }).toLocaleString({ month: 'long', year: 'numeric' });
         let str = `${wDay}, ${day}<sup>${sup}</sup> ${half2}`;
         return str;
@@ -44,7 +46,8 @@ export default async function (eleventyConfig) {
         "content/projects/first-listens/artwork/*": "assets/project-images/fl/",
         "content/projects/phd-figures/figures/*": "assets/project-images/phd/",
         "content/blog/images/**/*.png": "assets/blog-images/",
-     });
+        "fonts/*": "dist/fonts/",
+    });
 
     eleventyConfig.addBundle("css", {
         toFileDirectory: "dist",
@@ -58,6 +61,19 @@ export default async function (eleventyConfig) {
         transforms: [async function (content) {
             return Uglify.minify(content).code;
         }]
+    });
+
+    let options = { html: true };
+
+    eleventyConfig.setLibrary('md', markdownIt(options));
+    eleventyConfig.amendLibrary('md', (mdLib) => mdLib.use(footnote));
+    // remove square brackets from in-text footnote refs
+    eleventyConfig.amendLibrary('md', (mdLib) => {
+        mdLib.renderer.rules.render_footnote_caption = (tokens, idx) => {
+            let n = Number(tokens[idx].meta.id + 1).toString();
+            if (tokens[idx].meta.subId > 0) n += `:${tokens[idx].meta.subId}`;
+            return `${n}`;
+        }
     });
 
     return {

@@ -2,6 +2,14 @@
     
 } */
 
+@font-face {
+    font-family: 'ClashDisplay-Variable';
+    src: url('fonts/ClashDisplay-Variable.woff2') format('woff2');
+    font-weight: 200 700;
+    font-display: swap;
+    font-style: normal;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -52,11 +60,17 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
+h1, h2, h3, h4 {
+    line-height: 1.2;
+}
+
 /* Header sizes increase in a 2:3 ratio -- modularscale.com */
 h1 {
+    font-family: 'ClashDisplay-Variable';
     font-size: 3.375rem;
-    font-weight: 700;
-    padding: 0.75rem 0 0 0;
+    font-weight: 600;
+    padding: 0.75rem 0 0.75rem 0;
+    line-height: 1;
     text-align: center; 
     color: var(--h1-font-color);
 }
@@ -79,15 +93,12 @@ h4 {
     font-weight: 600;
 }
 
-h1, h2, h3, h4 {
-    line-height: 1.2em;
-}
-
 p, li {
     margin: 1rem auto 1rem auto;
     font-size: 1.15rem;
-    line-height: 1.5em;
+    line-height: 1.5;
     text-align: justify;
+    letter-spacing: -2%;
 }
 
 p:first-child {
@@ -103,7 +114,7 @@ pre {
     background: var(--code-background-color);
     padding: 0.5rem;
     margin: 0 auto 1rem auto;
-    line-height: 1.1em;
+    line-height: 1.1;
     font-size: 0.925em;
     overflow-x: scroll;
 }
@@ -128,9 +139,10 @@ a {
 }
 
 figcaption {
-    line-height: 1.5em;
+    line-height: 1.5;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
+    letter-spacing: -2%;
 }
 
 a:hover {
@@ -165,8 +177,28 @@ img {
     margin-right: auto;
 }
 
-small {
-    font-size: 0.75em;
+p:has(+ .footnotes-sep) {
+    margin-bottom: 1.5rem;
+}
+
+.footnotes {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+}
+
+.footnotes-list {
+    padding-left: 1rem;
+}
+
+.footnote-item {
+    margin-top: 0.25rem; 
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+
+    & p {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
 }
 
 label {
@@ -270,11 +302,12 @@ nav {
 }
 
 .home-link, .home-link:visited, .home-link:hover  {
+    font-family: 'ClashDisplay-Variable';
     display: inline-block;
     color: var(--off-white);
-    font-weight: bold;
+    font-weight: 600;
     font-size: 2rem;
-    padding: 0.875rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
     text-decoration: none;
 }
 
@@ -332,6 +365,7 @@ main {
         text-align: center;
         margin: 0 auto;
         font-size: 1.5rem;
+        letter-spacing: -2%;
     }
 }
 
@@ -349,6 +383,7 @@ section, article {
     align-items: baseline;
     list-style-type: none;
     margin-bottom: 1.5rem;
+    padding-left: 0;
 
     & h2 {
         margin-bottom: 0;
@@ -384,9 +419,10 @@ section, article {
     padding-bottom: 0.625rem;
 }
 
-.postlist-divider{
+.postlist-divider, .footnotes-sep {
     width: 66%;
     margin: 0 auto;
+    border: 0;
     border-bottom: 1pt solid var(--grey);
 }
 
@@ -398,6 +434,6 @@ footer {
     & small {
         display: block;
         text-align: center;
-        line-height: 1.75em;
+        line-height: 1.75;
     }
 }
