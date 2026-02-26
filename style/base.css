@@ -3,7 +3,7 @@
 } */
 
 @font-face {
-    font-family: 'ClashDisplay-Variable';
+    font-family: 'Clash Display';
     src: url('fonts/ClashDisplay-Variable.woff2') format('woff2');
     font-weight: 200 700;
     font-display: swap;
@@ -66,7 +66,7 @@ h1, h2, h3, h4 {
 
 /* Header sizes increase in a 2:3 ratio -- modularscale.com */
 h1 {
-    font-family: 'ClashDisplay-Variable';
+    font-family: 'Clash Display';
     font-size: 3.375rem;
     font-weight: 600;
     padding: 0.75rem 0 0.75rem 0;
@@ -302,7 +302,7 @@ nav {
 }
 
 .home-link, .home-link:visited, .home-link:hover  {
-    font-family: 'ClashDisplay-Variable';
+    font-family: 'Clash Display';
     display: inline-block;
     color: var(--off-white);
     font-weight: 600;

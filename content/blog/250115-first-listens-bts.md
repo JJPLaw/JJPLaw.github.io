@@ -29,7 +29,7 @@ Artist {
 
 The comma-separated fields I currently use are date, order (to track the order I heard them during that day), rating (I categorise them into a rating out of 4, with 4's having entered my music library, 3's having the potential to be in the library with a few more listens, 2's being fine, and 1's being those I actively disliked; most are 2's, with very few 1's), year released, length in minutes, and a general comment.
 
-I wrote a python script to turn that text list into a CSV file, an R script* to clean up and further format some of the fields, and a bash script to automatically run these in sequence through the terminal, giving me a nice formatted file to do with as I please.
+I wrote a python script to turn that text list into a CSV file, an R script[^1] to clean up and further format some of the fields, and a bash script to automatically run these in sequence through the terminal, giving me a nice formatted file to do with as I please.
 
 ## Previously Visualised as...
 
@@ -111,4 +111,4 @@ I knew going into this project that creating an interactive figure would be diff
 I look forward to making more interactive plots in the future! 
 
 
-<small>*I wrote the first script in python because I was learning bits of python at the time and wanted a reason to practice, whereas the second script was in R because there were some formatting things that I found far easier to achieve with it, and also because I wrote the R script at a much later date when I just wanted to get it done quickly.</small>
+[^1]: I wrote the first script in python because I was learning bits of python at the time and wanted a reason to practice, whereas the second script was in R because there were some formatting things that I found far easier to achieve with it, and also because I wrote the R script at a much later date when I just wanted to get it done quickly.
