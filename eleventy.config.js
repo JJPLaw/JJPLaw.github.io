@@ -6,6 +6,10 @@ import markdownIt from "markdown-it";
 import footnote from "markdown-it-footnote";
 
 export default async function (eleventyConfig) {
+    eleventyConfig.setServerOptions({
+        showAllHosts: true
+    });
+
     // Clean out the website output folder
     // const dirToClean = '../JJPLaw.github.io/*';
     const dirToClean = '_site/*';

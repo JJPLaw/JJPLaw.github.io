@@ -42,7 +42,7 @@ Because this graphic was going to go on the back of the jumper I wanted a little
 <figcaption>The badge for the front of the jumper. I really like the flower-esque asterisk</figcaption>
 </figure>
 
-## The Finished Jumper
+## Receiving the Finished Jumper
 
 After lots of fiddling to arrange everything perfectly I finally submitted the designs and ordered the jumper. It took just over a week to arrive, and when it did I found that they had misprinted the front — the purple came out as pink and the green didn't come out at all, leading me to think that they'd not printed the c from cmyk.
 
@@ -59,6 +59,6 @@ There's also an unfortunate data error: the jumper incorrectly says that I liste
 
 While the final product wasn't of the standard of something that had been properly planned and tested and mass produced (putting aside the printing error), I knew going in that the jumper wouldn't be perfect. But I greatly enjoyed the process of designing the graphic, and I wear the jumper all the time, error and all! I would like to have another go at getting the colours on the design right at some point, maybe trying a different printer (not to mention making other designs for other wearables). But for the meantime, I'll be making New Music Every* Day into an ongoing project, visualising my listening data in as many different ways as I can.
 
-[^1]: Better stylised as wipE'out".
-[^2]: wip3'out".
+[^1]: I prefer the original stylisation of wipE'out".
+[^2]: Similarly, wip3'out".
 [^3]: I owe a lot to Inkscape, having used it to edit the figures for my PhD thesis, and I kept using it afterwards, for example when recreating the Wipeout graphics. But when I became aware of Affinity, after their recent rebrand in late October 2025, I made the switch and it was immediately noticeable how much better Affinity was able to cope with files filled with dots, and it's been so lovely to use a program that doesn't constantly crash.

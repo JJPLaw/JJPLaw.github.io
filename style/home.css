@@ -17,7 +17,8 @@
 }
 
 .hero-accent {
-    font-family: 'Rozha One';
+    font-family: 'Clash Display';
+    font-weight: 550;
     fill: var(--accent-color);
     text-decoration: none;
     alignment-baseline: middle;
