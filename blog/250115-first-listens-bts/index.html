@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link rel="preload" href="/dist/fonts/ClashDisplay-Variable.woff2" as="font" type="font/woff2" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Rozha+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
@@ -15,7 +16,7 @@
     <link rel="manifest" href="/favicon/site.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> First Listens — Making Of | JJPLaw </title>
-    <link rel="stylesheet" href="/dist/6_XkCqrZU1.css">
+    <link rel="stylesheet" href="/dist/qEKEBwVfab.css">
     
 </head>
 
@@ -56,7 +57,7 @@
 &gt; Album [comma-separated fields]
 </code></pre>
 <p>The comma-separated fields I currently use are date, order (to track the order I heard them during that day), rating (I categorise them into a rating out of 4, with 4's having entered my music library, 3's having the potential to be in the library with a few more listens, 2's being fine, and 1's being those I actively disliked; most are 2's, with very few 1's), year released, length in minutes, and a general comment.</p>
-<p>I wrote a python script to turn that text list into a CSV file, an R script* to clean up and further format some of the fields, and a bash script to automatically run these in sequence through the terminal, giving me a nice formatted file to do with as I please.</p>
+<p>I wrote a python script to turn that text list into a CSV file, an R script<sup class="footnote-ref"><a href="#fn1" id="fnref1">1</a></sup> to clean up and further format some of the fields, and a bash script to automatically run these in sequence through the terminal, giving me a nice formatted file to do with as I please.</p>
 <h2>Previously Visualised as...</h2>
 <p>I've previously visualised my album data as an artistic plot, when I hit 2,000 albums at the end of 2022:</p>
 <figure>
@@ -144,7 +145,13 @@
 <h2>Conclusions</h2>
 <p>I knew going into this project that creating an interactive figure would be difficult — there's a reason that every figure isn't interactive already! However, despite the difficulties and frustrations, one of which contributed to me taking an extended break from working on this, I really enjoyed the process of piecing together the things that make a website interactive, and the sheer number of little things that are required to make the page useable and behave in a predictable way. Through making the page, and optimising it for mobile, I learned a lot about not just D3, but javascript, the DOM, SVG manipulation, and CSS.</p>
 <p>I look forward to making more interactive plots in the future!</p>
-<p><small>*I wrote the first script in python because I was learning bits of python at the time and wanted a reason to practice, whereas the second script was in R because there were some formatting things that I found far easier to achieve with it, and also because I wrote the R script at a much later date when I just wanted to get it done quickly.</small></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>I wrote the first script in python because I was learning bits of python at the time and wanted a reason to practice, whereas the second script was in R because there were some formatting things that I found far easier to achieve with it, and also because I wrote the R script at a much later date when I just wanted to get it done quickly. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
 </article>
 </div>
 
