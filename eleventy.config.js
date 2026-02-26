@@ -67,9 +67,10 @@ export default async function (eleventyConfig) {
 
     eleventyConfig.setLibrary('md', markdownIt(options));
     eleventyConfig.amendLibrary('md', (mdLib) => mdLib.use(footnote));
-    // remove square brackets from in-text footnote refs
+    // remove square brackets from in-text footnote refs (copied contents of footnote_caption function from github to amend the return value)
     eleventyConfig.amendLibrary('md', (mdLib) => {
-        mdLib.renderer.rules.render_footnote_caption = (tokens, idx) => {
+        // need to remove the 'renderer' from the footnote_caption function to work
+        mdLib.renderer.rules.footnote_caption = (tokens, idx) => {
             let n = Number(tokens[idx].meta.id + 1).toString();
             if (tokens[idx].meta.subId > 0) n += `:${tokens[idx].meta.subId}`;
             return `${n}`;
