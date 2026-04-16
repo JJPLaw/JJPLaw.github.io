@@ -51,6 +51,7 @@ export default async function (eleventyConfig) {
         "content/projects/phd-figures/figures/*": "assets/project-images/phd/",
         "content/blog/images/**/*.png": "assets/blog-images/",
         "fonts/*": "dist/fonts/",
+        "icons/*": "assets/icons/",
     });
 
     eleventyConfig.addBundle("css", {
