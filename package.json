@@ -6,7 +6,7 @@
     "doc": "docs"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.5",
     "a-sync-waterfall": "^1.0.1",
     "acorn": "^8.14.0",
     "acorn-walk": "^8.3.4",

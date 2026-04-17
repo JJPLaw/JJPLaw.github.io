@@ -5,6 +5,6 @@ layout: section
 ---
 
 <section class="grid centre sm:margin-bottom">
-    {% assign postslist = collections.project | sort: 'data.title' %}
-    {% include 'postslist.liquid' %}
+  {% assign postslist = collections.project | sort: 'data.title' %}
+  {% include 'projectslist.liquid' %}
 </section>

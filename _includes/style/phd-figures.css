@@ -40,7 +40,6 @@
 .card-text {
     --offset: 5px;
     padding: 3rem 4rem calc(1rem + var(--offset)) calc(1rem + var(--offset));
-    /* position: absolute; */
     position-anchor: --card-thumbnail;
     bottom: calc(anchor(bottom) - var(--offset));
     left: calc(anchor(left) - var(--offset));
@@ -56,12 +55,15 @@
     bottom: calc(anchor(bottom) - var(--offset));
     left: calc(anchor(left) - var(--offset));
     z-index: 2;
+    /* makes the shadow work properly on safari */
+    transform: translateZ(0);
 }
 
 .card-title {
     line-height: 0.9em;
     letter-spacing: -3%;
     margin-bottom: 0;
+    anchor-name: --card-title;
 }
 
 .card-color1 {
@@ -107,14 +109,6 @@
     margin-top: 1.25rem;
 }
 
-/* .expanded-card:nth-child(2) {
-    margin-top:0;
-}
-
-.expanded-card:last-child {
-    margin-bottom:0;
-} */
-
 .expanded-contents {
     padding: 1.25rem;
     max-width: 960px;
@@ -123,13 +117,13 @@
 .expanded-image {
     width: 100%;
     border-radius: 5px;
-    anchor-name: --expanded-image;
 }
 
 .close {
+    display: none;
     width: 25px;
     position: absolute;
-    position-anchor: --expanded-image;
+    position-anchor: --card-title;
     right: anchor(left);
     top: anchor(top);
     margin-right: 1rem;
@@ -147,11 +141,14 @@
         display:block;
     }
 
+    & .close {
+        display: block;
+    }
+
     & .card-text-shadow {
         filter: drop-shadow(var(--shadow-grey) 9px -9px 5px);
         bottom: calc(anchor(bottom) - var(--offset) - 1.5rem);
         left: calc(anchor(left) - 75vw);
-        /* padding-left: calc(75vw); */
     }
 
     & .card-text {
@@ -181,7 +178,7 @@
 
 @media screen and (max-width: 950px) {
     .cards-grid {
-        justify-content: space-around;
+        display: block;
     }
 
     .card {
@@ -190,11 +187,35 @@
         aspect-ratio: 1.52;
     }
 
-    .card:last-child {
+    .card-thumbnail {
+        aspect-ratio: 1.52;
+    }
+
+    .card-text {
+        padding-top: 1rem;
+    }
+
+    .card-title {
+        width: min-content;
+    }
+
+    .blur {
+        aspect-ratio: 1.52;
+        width: 100%;
+        height: auto;
+    }
+
+    .active-card {
         margin-bottom: 0;
     }
 
-    .card-thumbnail {
-        max-height: 100%;
+    .close {
+        left: anchor(right);
+        margin-left: 1rem;
+        right: none;
+    }
+
+    .expanded-card {
+        margin-bottom: 2rem;
     }
 }
