@@ -20,34 +20,28 @@
 :root {
     /* Palette colours */
     --grey: #595959;
-    /* --off-white: #f8ffe3; */
     --off-white: #F9F6EE;
-    /* --main-green: #005704; */
     --main-green: #005a04;
-    --main-yellow: #ecba00;
+    --main-yellow: #f8b900;
     --border-grey: #59595988;
-    --main-orange: #fa9c00;
-    --main-pink: #fdb6d6;
-    --main-blue: #2142b2;
+    --main-orange: #f08637;
 
-    /* --dark-green: #365e32; */
-    --light-green: #91b66f;
-    /* --yellow: #eeb237; */
-    --yellow: #f8b900;
-    --orange: #f08637;
-    --sand: #ecd494;
+    /* --sand: #ecd494; */
+    --sand: #FFDD80;
+    --light-sand: #FBECC2;
 
     /* Colour variables */
     --main-font-color: var(--grey);
     --h1-font-color: var(--off-white);
     --main-background-color: var(--off-white);
     --header-background-color: var(--main-green);
-    --banner-background-color: var(--yellow);
-    --accent-color: var(--orange);
-    --link-color: var(--orange);
+    --banner-background-color: var(--main-yellow);
+    --accent-color: var(--main-orange);
+    --link-color: var(--main-orange);
     --link-hover-color: var(--main-green);
     --info-border-color: var(--border-grey);
-    --code-background-color: color(from var(--sand) srgb r g b /0.4);
+    /* --code-background-color: color(from var(--sand) srgb r g b /0.4); */
+    --code-background-color: var(--light-sand);
 }
 
 body {
@@ -152,16 +146,16 @@ a {
     color: var(--link-color);
 }
 
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: none;
+}
+
 figcaption {
     line-height: 1.5;
     margin-top: 0.5rem;
     margin-bottom: 1rem;
     letter-spacing: -2%;
-}
-
-a:hover {
-    color: var(--link-hover-color);
-    text-decoration: none;
 }
 
 ul {
@@ -180,6 +174,10 @@ ul ul {
 
 sup {
     font-size: 66%;
+}
+
+.light-font {
+    color: var(--off-white);
 }
 
 img {
@@ -228,6 +226,10 @@ label {
     padding: 0 1.25rem;
 }
 
+.col-span-2 {
+    grid-column: span 2 / span 2;
+}
+
 .col-span-6 {
     grid-column: span 6 / span 6;
 }
@@ -256,6 +258,14 @@ label {
     grid-column-start: 7;
 }
 
+.margin-top-0 {
+    margin-top: 0;
+}
+
+.margin-bottom-0 {
+    margin-bottom: 0;
+}
+
 @media screen and (max-width: 640px) {
     .sm\:col-span-12 {
         grid-column: span 12 / span 12;
@@ -268,21 +278,6 @@ label {
     .sm\:margin-bottom {
         margin-bottom: 1rem;
     }
-}
-
-.cards-grid {
-    grid-template-rows: repeat(2, 400px);
-}
-
-.card {
-    background-color: var(--sand);
-    padding: 1rem;
-}
-
-.card-img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
 }
 
 header {
