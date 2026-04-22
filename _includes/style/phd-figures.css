@@ -75,7 +75,14 @@
 }
 
 .card-color3 {
-    background-color: #E69D00;
+    background-color: #D55C00;
+    & a {
+        color: var(--sand);
+    }
+
+    & a:hover {
+        color: var(--light-sand);
+    }
 }
 
 .card-color4 {
@@ -105,18 +112,20 @@
     box-shadow: var(--expanded-shadow);
 }
 
-.expanded-text {
-    margin-top: 1.25rem;
+.expanded-contents {
+    /* padding: 1.25rem;
+    max-width: 960px; */
 }
 
-.expanded-contents {
-    padding: 1.25rem;
-    max-width: 960px;
+.expanded-text {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .expanded-image {
     width: 100%;
     border-radius: 5px;
+    margin-top: 1.25rem;
 }
 
 .close {
@@ -176,15 +185,59 @@
     display: block;
 }
 
+ul[role='list'] {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul[role='list'] li {
+    position: relative;
+    padding-left: 0;
+}
+
+ul[role='list'] li:first-child {
+    margin-top: 1.5rem;
+}
+
+ul[role='list'] li:nth-child(even) {
+    margin-bottom: 1.5rem;
+}
+
+ul[role='list'] li:last-child {
+    margin-bottom: 0.6rem;
+}
+
+@counter-style --challenges {
+    system: cyclic;
+    symbols: "Challenge: " "Solution: ";
+}
+
+ul[role='list'] li::before {
+    position: absolute;
+    inset-inline-start: -7.25rem;
+    width: 6rem;
+    text-align: right;
+    content: counter(list-item, --challenges);
+}
+
+.challenge {
+    font-weight: 700;
+    font-style: italic;
+}
+
 @media screen and (max-width: 950px) {
     .cards-grid {
         display: block;
     }
 
     .card {
-        margin-bottom: 2rem;
+        margin-top: 2rem;
         width: 100%;
         aspect-ratio: 1.52;
+    }
+
+    .card:first-child {
+        margin-top: 0;
     }
 
     .card-thumbnail {
@@ -216,6 +269,28 @@
     }
 
     .expanded-card {
-        margin-bottom: 2rem;
+        /* margin-bottom: 2rem; */
     }
+}
+
+@media screen and (max-width: 640px) {
+    ul[role='list'] li::before {
+        position: static;
+    }
+
+    .card:last-of-type {
+        margin-bottom: 0;
+    }
+
+    /* gets rid of the long bar when zooming on mobile, but adds the limit to the shadow on the lhs */
+    .active-card {
+    & .card-text-shadow {
+        left: calc(anchor(left) - 1.25rem);
+    }
+
+    & .card-text {
+        padding-left: 1.25rem;
+    }
+}
+
 }

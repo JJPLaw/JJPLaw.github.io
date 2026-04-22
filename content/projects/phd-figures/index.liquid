@@ -3,7 +3,7 @@ layout: project
 tags: project
 title: Scientific Visualisations | JJPLaw
 heading: Scientific Visualisations
-description: A selection of figures from PhD studies.
+description: A selection of figures from my PhD studies.
 ---
 
 {% js %}
@@ -17,20 +17,9 @@ description: A selection of figures from PhD studies.
 <div class="grid centre">
   <section class="col-start-3 col-span-8 sm:col-span-12 sm:margin-bottom">
     <h2>Microbiological Figures</h2>
-    <p>It was during my PhD in microbiology that I found a love for designing and making data visualisations, where figures are essential for conveying the results. I greatly enjoyed putting due consideration into the look and feel of my figures, as in my opinion there's little worse than trying to read an ugly-looking graph in an already dry scientific manuscript.</p>
-    <p>Here, I show a selection of my favourite figures, taken from:</p>
-    <ul>
-      <li>My thesis, titled "The effects of subinhibitory antibiotic concentrations on
-        <em>Pseudomonas&nbsp;aeruginosa</em>
-        within model Cystic Fibrosis bacterial communities";</li>
-      <li>My subsequent published paper, titled "The Effects of Antibiotic Combination Treatments on
-        <em>Pseudomonas aeruginosa</em>
-        Tolerance Evolution and Coexistence with
-        <em>Stenotrophomonas maltophilia</em>".</li>
-      <ul>
-        <li><a href='https://dx.doi.org/10.1128/spectrum.01842-22'>(Law, Wood & Friman.&nbsp;<em>Microbiol Spectr.</em>&nbsp;2022;&nbsp;10(6):e0184222)</a></li>
-      </ul>
-    </ul>
+    <p>It was during my PhD in microbiology that I found a love for designing and making data visualisations, where figures are essential for conveying the results. I greatly enjoyed putting thought and effort into the look and feel of my figures, as in my opinion there's little worse than trying to read an ugly-looking graph in an already dry scientific manuscript.</p>
+    <p>Here, I show a small selection of my favourite figures, taken from my thesis and subsequent published paper
+      <a href="https://dx.doi.org/10.1128/spectrum.01842-22">(which you can find here)</a>.</p>
     <p>Click the images to see the full figure and read my thoughts on the design process for each.</p>
   </section>
 </div>
@@ -74,22 +63,34 @@ description: A selection of figures from PhD studies.
     </div>
 
     <div class="expanded-card card-color1" id="expanded-card1">
-      <div class="expanded-contents centre">
-        <img class="expanded-image" src="/assets/project-images/phd/Ch4.png">
-        <div class="expanded-text">
-          <p>Bacteria (eg, P. aeurginosa) have circular genomes, and here I've shown the locations on the genome that developed mutations as a result of the experiment that I'd performed. Here, the challenge was to distinguish properly between the different combinations of communities and treatments. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin aliquam, leo at luctus tempus, eros lectus eleifend massa, quis sollicitudin erat magna non leo. Vestibulum vel metus. Donec sagittis velit vel augue.
-          </p>
-        </div>
+      <div class="expanded-contents grid centre">
+        <img class="expanded-image col-start-1 col-span-12" src="/assets/project-images/phd/Ch4.png">
+        <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
+          <p>Bacteria (eg,
+            <i>Pseudomonas aeurginosa</i>) have circular genomes, and here I've shown the locations on the genome that developed mutations as a result of the experiment that I'd performed. The experiment had two factors each with multiple levels, community (here, 1, 4, 5, & 7) and treatment (A, B, C, & D), and showing the combinations of these two levels was the primary challenge for this set of figures.</p>
+          <ul role="list">
+            <li class="challenge">Distinguishing between the communities and the treatments.</li>
+            <li>I chose hues (with some additional spatial separation) to show communities, as this was the primary factor I was interested in, and used values of each hue to show treatments. The basic colour scheme was similar to, but distinct from, the colour scheme used to distinguish the species (in panels A, B, and C), to give a unified look.</li>
+            <li class="challenge">Logical reading order.</li>
+            <li>I made the focus of the experiment, community 7, the largest ring as the increased circumference gives the greatest separation between the mutations. When read left-to-right, the outer ring also comes first. Similarly, within each community I chose a left-to-right arrangement of treatments.<br><br>Darkening the values towards the centre of the circle also gives a feeling of three-dimensionality, where lighter rings are higher than darker rings. This also reinforces the levels of the community factor: community 1 consisted of a single species (forming a controlled basis for my observations), communities 4 and 5 consisted of two species each (upping the complexity), and community 7 had three species (the culmination of the experiment overall).</li>
+            <li class="challenge">In panels A, B, and C, how to highlight the isolates that were used in follow up experiments.</li>
+            <li>I used the previously established colour scheme of gold, seafoam green, and sky blue for each species to highlight the isolates, and continued the value change and spatial separation to distinguish replicates.</li>
+          </ul>
+        </section>
       </div>
     </div>
 
     <div class="expanded-card card-color2" id="expanded-card2">
-      <div class="expanded-contents centre">
-        <img class="expanded-image" src="/assets/project-images/phd/Ch3-Fig2.png">
-        <div class="expanded-text">
-          <p>Bacteria (eg, P. aeurginosa) have circular genomes, and here I've shown the locations on the genome that developed mutations as a result of the experiment that I'd performed. Here, the challenge was to distinguish properly between the different combinations of communities and treatments. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin aliquam, leo at luctus tempus, eros lectus eleifend massa, quis sollicitudin erat magna non leo. Vestibulum vel metus. Donec sagittis velit vel augue.
+      <div class="expanded-contents grid centre">
+        <img class="expanded-image col-start-1 col-span-12" src="/assets/project-images/phd/Ch3-Fig2.png">
+        <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
+          <p>This figure focuses on one of the communities from the experiment that gave the previously shown mutated bacteria. In this community, all three species were living together in the same environment, and each environment was replicated four times.
           </p>
-        </div>
+          <ul role="list">
+            <li class="challenge">Keep each replicate community distinct while also providing an initial overview.</li>
+            <li>My first iterations of this figure pooled the data for the four replicates of each species, which obscured that each replicate community could have quite distinct outcomes (see gold in panel C).<br><br>To keep the replicate communities grouped together I gave each its own column, joining the three species with dotted lines. To help with tracking the overall trend over time, and give the reader something to initially grab hold of, I included the median abundance of each species as a coloured line connecting each timepoint.</li>
+          </ul>
+        </section>
       </div>
     </div>
   </section>
@@ -102,7 +103,7 @@ description: A selection of figures from PhD studies.
 
     <div class="cards-grid sm:margin-bottom">
 
-      <div class="card" id="card3">
+      <div class="card light-font" id="card3">
         <div class="blur"></div>
         <img class="card-thumbnail" src="/assets/project-images/phd/Spectrum-Fig1_crop.png">
         <div class="card-text-shadow">
@@ -135,23 +136,45 @@ description: A selection of figures from PhD studies.
       </div>
     </div>
 
-    <div class="expanded-card card-color3" id="expanded-card3">
-      <div class="expanded-contents centre">
-        <img class="expanded-image" src="/assets/project-images/phd/Spectrum-Fig1.png">
-        <div class="expanded-text">
-          <p>Bacteria (eg, P. aeurginosa) have circular genomes, and here I've shown the locations on the genome that developed mutations as a result of the experiment that I'd performed. Here, the challenge was to distinguish properly between the different combinations of communities and treatments. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin aliquam, leo at luctus tempus, eros lectus eleifend massa, quis sollicitudin erat magna non leo. Vestibulum vel metus. Donec sagittis velit vel augue.
-          </p>
-        </div>
+    <div class="expanded-card card-color3 light-font" id="expanded-card3">
+      <div class="expanded-contents grid centre">
+        <img
+          class="expanded-image expanded-image col-start-1 col-span-12"
+          src="/assets/project-images/phd/Spectrum-Fig1.png"
+          style="padding: 0.5rem;background-color: white;">
+        <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
+          <p>Experimental evolution is not a widespread technique, and reviewers for the paper found it difficult to follow the protocol based on text descriptions alone, particularly with the different combinations of antibiotics and species. I developed this figure to explain diagrammatically what was going on. For the non-biologists out there (which I assume is nearly all of you), the main iconography here is of a
+            <a href="https://en.wikipedia.org/wiki/Microplate">96-well plate</a>, which is a common tool that allows you to have multiple treatments and replicates in a small space.</p>
+          <ul role="list">
+            <li class="challenge">Distinguish the 8 different combinations of antibiotics.</li>
+            <li>Because the combinations are made of three individual elements, one of my supervisors suggested primary colour mixing to represent them. I found a
+              <a href="https://jfly.uni-koeln.de/color/#pallet">colourblind-friendly palette</a>
+              and assigned the combinations accordingly, with CIP as red, CST as yellow, and TOB as blue.</li>
+            <li class="challenge">Distinguish between monocultures (one species) and cocultures (two species).</li>
+            <li>In this schematic I chose to distinguish the two by making the monocultures a lighter shade of the same colour—my thinking at the time being that there were fewer species in the monocultures, and so if more were added the colour would get darker.<br><br>This aligns with most other figures in the paper. However, in the following minimum inhibitory concentrations figure (which actually came first) I had used white and black dots for the mono- and cocultures instead. Looking back now, I dislike the light shade of the main colours—they're too similar to the white background—and would try to use the white and black dots throughout. I've mocked up a version of this schematic using the dots, shown below (along with some other minor adjustments I might make now).</li>
+          </ul>
+          <img
+            class="expanded-image expanded-image col-start-3 col-span-8 sm:col-span-12"
+            src="/assets/project-images/phd/Spectrum-Fig1_edit.png"
+            style="padding: 0.5rem;background-color: white;">
+        </section>
       </div>
     </div>
 
     <div class="expanded-card card-color4" id="expanded-card4">
-      <div class="expanded-contents centre">
-        <img class="expanded-image" src="/assets/project-images/phd/Spectrum-Fig4.png">
-        <div class="expanded-text">
-          <p>Bacteria (eg, P. aeurginosa) have circular genomes, and here I've shown the locations on the genome that developed mutations as a result of the experiment that I'd performed. Here, the challenge was to distinguish properly between the different combinations of communities and treatments. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Proin aliquam, leo at luctus tempus, eros lectus eleifend massa, quis sollicitudin erat magna non leo. Vestibulum vel metus. Donec sagittis velit vel augue.
-          </p>
-        </div>
+      <div class="expanded-contents grid centre">
+        <img class="expanded-image expanded-image col-start-1 col-span-12" src="/assets/project-images/phd/Spectrum-Fig4.png">
+        <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
+          <p>The minimum inhibitory concentration (MIC) of an antibiotic is the lowest amount of that antibiotic required to inhibit growth of a bacteria, and is typically determined in amounts that are powers of 2. Because of the type of experiment I performed, each replicate could (and did) have a very different MIC, and because of the categorical nature of determining MIC it's difficult to find a meaningful average.</p>
+          <ul role="list">
+            <li class="challenge">Presenting all of the data available while giving a meaningful summary.</li>
+            <li>Using a logarithmic (or categoric, depending on how you think about it) scale for MIC allows a grid-style layout, and I chose to show the number of isolates with size because, though not necessarily easily readable in detail (eg, the difference between 5 and 6), it provides a nice change in visual weight between MIC values that have more isolates and values that have fewer isolates.<br><br>The grey line overlaid on top of each group shows the MIC50, which is the amount required to inhibit half of all isolates, which is a reasonable summary to help comparison between the different groups.</li>
+            <li class="challenge">Distinguish the 8 different combinations of antibiotics.</li>
+            <li>Because the combinations are made of three individual elements, one of my supervisors suggested primary colour mixing to represent them. I found a
+              <a href="https://jfly.uni-koeln.de/color/#pallet">colourblind-friendly palette</a>
+              and assigned the combinations accordingly, with CIP as red, CST as yellow, and TOB as blue.</li>
+          </ul>
+        </section>
       </div>
     </div>
 
