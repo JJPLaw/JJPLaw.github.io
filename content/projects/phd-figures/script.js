@@ -1,8 +1,3 @@
-// sources
-// https://codepen.io/midnightviking/pen/poXjgQv
-// https://stackoverflow.com/questions/72684103/how-to-close-an-element-by-clicking-outside-of-it
-// https://kittygiraudel.com/2021/03/18/close-on-outside-click/
-
 const windowSmall = window.matchMedia("(max-width: 950px)").matches;
 
 // waits for everything to load before adding listeners to the cards
@@ -11,37 +6,62 @@ window.addEventListener("DOMContentLoaded", () => {
     let cards = document.querySelectorAll(".card");
     let expandedCards = document.querySelectorAll(".expanded-card");
     let closeButtons = document.querySelectorAll(".close");
+    let expandedImages = document.querySelectorAll(".expanded-image");
+    let dialogs = document.querySelectorAll('dialog');
+    let dialogCloseButtons = document.querySelectorAll(".dialogClose");
 
     cards.forEach((card) => {
         card.addEventListener('click', (e) => {
             let ids = cardMatcher(card);
 
             if (card.classList.contains('active-card')) {
+                e.stopPropagation();
                 cardToggler(ids);
             } else {
+                e.stopPropagation();
                 cardCloser();
                 cardToggler(ids);
             }
         });
     });
 
-    // this might not be the best way of doing it in the long run because it loops over the cards every click, but it works
+    // if the target isn't an active card, active expanded card, and there's no dialog open, then close the cards
     // document.addEventListener('click', (e) => {
-    //     expandedCards.forEach(
-    //         (expandedCard) => {
-    //             if (expandedCard.classList.contains('active-expanded-card')) {
-    //                 // cardCloser();
-    //                 console.log('true');
-    //             }
-    //         });
+    //     if (!(e.target.classList.contains('active-card')) && !(e.target.classList.contains('active-expanded-card')) && (document.querySelector('dialog:modal') == null)) {
+    //         console.log(e.target);
+    //         console.log(e.currentTarget);
+    //         cardCloser();
+    //     }
     // });
 
-    // closeButtons.forEach((button) => {
-    //     button.addEventListener('click', (e) => {
-    //         let ids = cardMatcher(button);
-    //         cardToggler(ids);
-    //     });
-    // });
+    expandedImages.forEach((image) => {
+        image.addEventListener('click', (e) => {
+            e.stopPropagation();
+            image.nextElementSibling.showModal();
+            // this (along with the css for overflow) stops scrolling underneath, which is supported differently in chrome to the others
+            document.body.style.overflow = 'hidden';
+        });
+    });
+
+    dialogCloseButtons.forEach((button) => {
+        button.addEventListener('click', (e) => {
+            // need this so that the document level event listener doesn't just trigger every time
+            e.stopPropagation();
+            button.parentElement.close();
+            document.body.style.overflow = 'visible';
+        });
+    });
+
+    // this essentially reimplements the closedBy='any' behaviour, which isn't supported by safari 
+    dialogs.forEach((dialog) => {
+        dialog.addEventListener('click', (e) => {
+            if (e.target.getAttributeNames().includes('open')) {
+                e.stopPropagation();
+                dialog.close();
+                document.body.style.overflow = 'visible';
+            }
+        });
+    });
 
     if (windowSmall) {
         expandedCards.forEach((expandedCard) => {
@@ -51,8 +71,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
             card.after(expandedCard);
         });
-
-
     }
 });
 
@@ -67,15 +85,16 @@ function cardMatcher(element) {
         ids = {
             "cardId": cardId,
             "expandedCardId": expandedCardId,
-            "closeCardId": closeCardId
+            "closeCardId": closeCardId,
         }
     }
     return ids;
 }
 
 function cardToggler(ids) {
-    document.querySelector(`#${ids.cardId}`).classList.toggle('active-card');
-    document.querySelector(`#${ids.expandedCardId}`).classList.toggle('active-expanded-card');
+    document.getElementById(ids.cardId).classList.toggle('active-card');
+    document.getElementById(ids.expandedCardId).classList.toggle('active-expanded-card');
+    document.getElementById(ids.cardId).scrollIntoView({ behavior: 'smooth' });
 }
 
 function cardCloser() {
