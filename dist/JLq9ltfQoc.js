@@ -1,0 +1,1 @@
+window.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".card").forEach(e=>{let t=e.querySelector(".project-link");e.addEventListener("click",e=>{e.stopPropagation(),t.click()})})});
