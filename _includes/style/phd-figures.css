@@ -270,6 +270,7 @@ ul[role='list'] li::before {
 
     .card-thumbnail {
         aspect-ratio: 1.52;
+        max-height: fit-content;
     }
 
     .card-text {

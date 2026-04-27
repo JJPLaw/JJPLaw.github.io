@@ -1,9 +1,39 @@
-<ul class="postlist col-span-8 col-start-3 sm:col-span-12">
+{% css %}
+  {% include "./style/phd-figures.css" %}
+  {% include "./style/projectslist.css" %}
+{% endcss %}
+
+{% js %}
+  {% include "./js/projectslist.js" %}
+{% endjs %}
+
 {%- for post in postslist %}
-	<li class="postlist-item">
-		<a href="{{ post.url }}" class="postlist-link"><h2>{{ post.data.heading }}</h2></a>
-		<p>{{ post.data.description }}</p>
-		{% if not forloop.last %}<div class='postlist-divider'></div>{% endif %}
-	</li>
+
+  {%- if post.data.cover-size == 'mid' %}
+    {%- assign card-span = "col-start-3 col-span-8 sm:col-span-12" %}
+    {%- assign subgrid-card-span = "col-start-1 col-span-8 sm:col-span-12" %}
+    {%- assign text-span = "col-start-1 col-span-6 sm:col-span-12" %}
+  {%- elsif post.data.cover-size == 'large' %}
+    {%- assign card-span = "col-span-12" %}
+    {%- assign subgrid-card-span = "col-span-12" %}
+    {%- assign text-span = "col-start-1 col-span-8 sm:col-span-12" %}
+  {%- endif %}
+
+  {%- if post.data.light == true %}
+    {%- assign light = 'light-font' %}
+  {%- else %}
+    {%- assign light = '' %}
+  {%- endif %}
+
+  <div class="card subgrid {{ card-span }}">
+    <img class="card-thumbnail {{ subgrid-card-span }}" src="{{ post.data.cover }}">
+    <div class="card-text-shadow {{ text-span }}">
+      <div class="card-text {{ light }}" style="background-color: {{ post.data.colour }}">
+        <a href="{{ post.url }}" class="project-link">
+          <h2 class="card-title">{{ post.data.heading }}</h2>
+        </a>
+        <p>{{ post.data.description }}</p>
+      </div>
+    </div>
+  </div>
 {%- endfor %}
-</ul>

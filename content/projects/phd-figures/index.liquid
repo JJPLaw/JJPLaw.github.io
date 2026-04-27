@@ -4,6 +4,9 @@ tags: project
 title: Scientific Visualisations | JJPLaw
 heading: Scientific Visualisations
 description: A selection of figures from my PhD studies.
+cover: /assets/project-images/phd/Scientific-Visualisations-cover.png
+cover-size: mid
+colour: '#EE9E36'
 ---
 
 {% js %}
@@ -47,7 +50,11 @@ description: A selection of figures from my PhD studies.
 
       <div class="card" id="card2">
         <div class="blur"></div>
-        <img class="card-thumbnail" src="/assets/project-images/phd/Ch3-Fig2_crop.png">
+        <picture>
+          <source srcset="/assets/project-images/phd/Ch3-Fig2_crop.png" media="(width > 950px)">
+          <source srcset="/assets/project-images/phd/Ch3-Fig2_crop-mobile.png" media="(width <= 950px)">
+          <img class="card-thumbnail" src="/assets/project-images/phd/Ch3-Fig2_crop.png">
+        </picture>
         <div class="card-text-shadow">
           <div class="card-text card-color2">
             <button
@@ -117,7 +124,11 @@ description: A selection of figures from my PhD studies.
 
       <div class="card light-font" id="card3">
         <div class="blur"></div>
-        <img class="card-thumbnail" src="/assets/project-images/phd/Spectrum-Fig1_crop.png">
+        <picture>
+          <source srcset="/assets/project-images/phd/Spectrum-Fig1_crop.png" media="(width > 950px)">
+          <source srcset="/assets/project-images/phd/Spectrum-Fig1_crop-mobile.png" media="(width <= 950px)">
+          <img class="card-thumbnail" src="/assets/project-images/phd/Spectrum-Fig1_crop.png">
+        </picture>
         <div class="card-text-shadow">
           <div class="card-text card-color3">
             <button
@@ -204,7 +215,7 @@ description: A selection of figures from my PhD studies.
           <p>The minimum inhibitory concentration (MIC) of an antibiotic is the lowest amount of that antibiotic required to inhibit growth of a bacteria, and is typically determined in amounts that are powers of 2. Because of the type of experiment I performed, each replicate could (and did) have a very different MIC, and because of the categorical nature of determining MIC it's difficult to find a meaningful average.</p>
           <ul role="list">
             <li class="challenge">Presenting all of the data available while giving a meaningful summary.</li>
-            <li>Using a logarithmic (or categoric, depending on how you think about it) scale for MIC allows a grid-style layout, and I chose to show the number of isolates with size because, though not necessarily easily readable in detail (eg, the difference between 5 and 6), it provides a nice change in visual weight between MIC values that have more isolates and values that have fewer isolates.<br><br>The grey line overlaid on top of each group shows the MIC50, which is the amount required to inhibit half of all isolates, which is a reasonable summary to help comparison between the different groups.</li>
+            <li>Using a logarithmic (or categoric, depending on how you think about it) scale for MIC allows a grid-style layout, and I chose to show the number of isolates with size because, though not necessarily easily readable in detail (eg, the difference between 5 and 6), it provides a nice change in visual weight between MIC values that have more isolates and values that have fewer isolates.<br><br>The grey line overlaid on top of each group shows the MIC<sub>50</sub>, which is the amount required to inhibit half of all isolates, which is a reasonable summary to help comparison between the different groups.</li>
             <li class="challenge">Distinguish the 8 different combinations of antibiotics.</li>
             <li>Because the combinations are made of three individual elements, one of my supervisors suggested primary colour mixing to represent them. I found a
               <a href="https://jfly.uni-koeln.de/color/#pallet">colourblind-friendly palette</a>

@@ -97,8 +97,9 @@ p, li {
     margin: 1rem auto 1rem auto;
     font-size: 1.15rem;
     line-height: 1.5;
-    text-align: justify;
+    /* text-align: justify; */
     letter-spacing: -2%;
+    text-wrap: pretty;
 }
 
 p:first-child {
@@ -172,7 +173,7 @@ ul ul {
     padding-left: 1.5rem;
 }
 
-sup {
+sup, sub {
     font-size: 66%;
 }
 
@@ -226,20 +227,9 @@ label {
     padding: 0 1.25rem;
 }
 
-.col-span-2 {
-    grid-column: span 2 / span 2;
-}
-
-.col-span-6 {
-    grid-column: span 6 / span 6;
-}
-
-.col-span-8 {
-    grid-column: span 8 / span 8;
-}
-
-.col-span-12 {
-    grid-column: span 12 / span 12;
+.subgrid {
+    display: grid;
+    grid-template-columns: subgrid;
 }
 
 .col-start-1 {
@@ -257,6 +247,25 @@ label {
 .col-start-7 {
     grid-column-start: 7;
 }
+.col-span-2 {
+    grid-column-end: span 2;
+}
+
+.col-span-6 {
+    grid-column-end: span 6;
+}
+
+.col-span-8 {
+    grid-column-end: span 8;
+}
+
+.col-span-10 {
+    grid-column-end: span 10;
+}
+
+.col-span-12 {
+    grid-column-end: span 12;
+}
 
 .margin-top-0 {
     margin-top: 0;
@@ -267,6 +276,10 @@ label {
 }
 
 @media screen and (max-width: 640px) {
+    .sm\:col-span-10 {
+        grid-column-end: span 10;
+    }
+
     .sm\:col-span-12 {
         grid-column: span 12 / span 12;
     }
