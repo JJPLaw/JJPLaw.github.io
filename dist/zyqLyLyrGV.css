@@ -318,62 +318,11 @@ ul[role='list'] li::before {
         }
     }
 
-}
-  a.project-link {
-    color: var(--main-font-colour);
-    text-decoration: none;
-}
-
-a.project-link:hover {
-    color: var(--main-font-colour);
-}
-
-.card {
-    margin-bottom: 2rem;
-}
-
-.card-thumbnail {
-    max-height: 100%;
-}
-
-.card-text {
-    width: fit-content;
-
-    & p {
-        line-height: 1.25;
-    }
-}
-
-.card-title {
-    margin-bottom: 0.5rem;
-    width: fit-content;
-}
-
-@media screen and (max-width: 950px) {
-    .card-thumbnail {
-        aspect-ratio: 1;
-    }
-
-}
-
-@media screen and (max-width: 640px) {
-    .card {
-        margin-bottom: 0rem;
-    }
-
-    .card-thumbnail {
-        aspect-ratio: 0.85;
-        object-fit: contain;
-        max-height: fit-content;
-    }
-
-    .card-text {
-        padding-top: 2.5rem;
-        width: calc(100% - var(--offset));
-    }
-
-    .card-title {
-        width: fit-content;
+    .card:hover { 
+        & .card-thumbnail,
+        .blur {
+            transform: scale(1.00);
+        }
     }
 }
 /* html {

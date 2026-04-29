@@ -318,6 +318,12 @@ ul[role='list'] li::before {
         }
     }
 
+    .card:hover { 
+        & .card-thumbnail,
+        .blur {
+            transform: scale(1.00);
+        }
+    }
 }
   a.project-link {
     color: var(--main-font-colour);
@@ -340,7 +346,7 @@ a.project-link:hover {
     width: fit-content;
 
     & p {
-        line-height: 1.2;
+        line-height: 1.25;
     }
 }
 
@@ -357,14 +363,14 @@ a.project-link:hover {
 }
 
 @media screen and (max-width: 640px) {
-    .card{
-        margin-bottom: 1.25rem;
+    .card {
+        margin-bottom: 0rem;
     }
 
     .card-thumbnail {
         aspect-ratio: 0.85;
         object-fit: contain;
-        max-height: fit-content;
+        height: fit-content;
     }
 
     .card-text {
