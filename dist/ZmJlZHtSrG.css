@@ -436,6 +436,16 @@ sup, sub {
     color: var(--off-white);
 }
 
+.light-links {
+    & a {
+        color: var(--light-sand);
+    }
+
+    & a:hover {
+        color: var(--sand);
+    }
+}
+
 img {
     display: block;
 }
@@ -502,12 +512,29 @@ label {
 .col-start-7 {
     grid-column-start: 7;
 }
+
 .col-span-2 {
     grid-column-end: span 2;
 }
 
+.col-span-3 {
+    grid-column-end: span 3;
+}
+
+.col-span-4 {
+    grid-column-end: span 4;
+}
+
+.col-span-5 {
+    grid-column-end: span 5;
+}
+
 .col-span-6 {
     grid-column-end: span 6;
+}
+
+.col-span-7 {
+    grid-column-end: span 7;
 }
 
 .col-span-8 {

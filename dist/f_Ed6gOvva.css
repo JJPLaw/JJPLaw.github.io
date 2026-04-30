@@ -8,9 +8,9 @@
 
 .cards-grid {
     max-width: 960px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    column-gap: 2rem;
 }
 
 .card {
@@ -18,33 +18,23 @@
     position: relative;
     cursor: pointer;
     border-radius: 5px;
+    margin-bottom: 2rem;
 }
 
 .card:hover {
     box-shadow: var(--hover-shadow);
 
-    & .card-thumbnail, .blur {
+    & .card-thumbnail,
+    .blur {
         transform: scale(1.01);
     }
 }
 
 .card-thumbnail {
-    width: 100%;
     border-radius: 5px;
-    max-height: 410px;
     object-fit: cover;
     object-position: top;
     anchor-name: --card-thumbnail;
-}
-
-.card-text {
-    --offset: 5px;
-    padding: 3rem 4rem calc(1rem + var(--offset)) calc(1rem + var(--offset));
-    position-anchor: --card-thumbnail;
-    bottom: calc(anchor(bottom) - var(--offset));
-    left: calc(anchor(left) - var(--offset));
-    clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
-    z-index: 2;
 }
 
 .card-text-shadow {
@@ -59,6 +49,11 @@
     transform: translateZ(0);
 }
 
+.card-text {
+    padding: 3rem 4rem calc(1rem + var(--offset)) calc(1rem + var(--offset));
+    clip-path: polygon(0 0, calc(100% - 15px) 0, 100% 15px, 100% 100%, 0 100%);
+}
+
 .card-title {
     line-height: 0.9em;
     letter-spacing: -3%;
@@ -66,37 +61,13 @@
     anchor-name: --card-title;
 }
 
-.card-color1 {
-    background-color: #ACDDDE;
-}
-
-.card-color2 {
-    background-color: #C0EBC7;
-}
-
-.card-color3 {
-    background-color: #D55C00;
-    & a {
-        color: var(--sand);
-    }
-
-    & a:hover {
-        color: var(--light-sand);
-    }
-}
-
-.card-color4 {
-    background-color: #F0E442;
-}
-
 .blur {
     position: absolute;
     inset: auto 0 0 0;
     backdrop-filter: blur(3px);
     z-index: 1;
-    height: 410px;
     border-radius: 5px;
-    
+
     display: none;
 }
 
@@ -107,7 +78,8 @@
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
-    margin-top: 1.5rem;
+    margin-top: -0.5rem;
+    margin-bottom: 2rem;
     display: none;
     box-shadow: var(--expanded-shadow);
 }
@@ -132,7 +104,7 @@ dialog {
 }
 
 dialog::backdrop {
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     overscroll-behavior: contain;
     overflow: hidden;
 }
@@ -175,7 +147,7 @@ dialog::backdrop {
     box-shadow: var(--active-shadow);
 
     & .blur {
-        display:block;
+        display: block;
     }
 
     & .close {
@@ -198,9 +170,9 @@ dialog::backdrop {
     box-shadow: var(--active-shadow);
 
     & .card-thumbnail,
-        .blur {
-            transform: scale(1);
-        }
+    .blur {
+        transform: scale(1);
+    }
 }
 
 .card:has(~ .active-card) {
@@ -259,18 +231,12 @@ ul[role='list'] li::before {
     }
 
     .card {
-        margin-top: 2rem;
         width: 100%;
-        aspect-ratio: 1.52;
+        margin-bottom: 2rem;
     }
 
-    .card:first-child {
-        margin-top: 0;
-    }
-
-    .card-thumbnail {
-        aspect-ratio: 1.52;
-        max-height: fit-content;
+    .card:last-child {
+        margin-bottom: 0;
     }
 
     .card-text {
@@ -279,16 +245,6 @@ ul[role='list'] li::before {
 
     .card-title {
         width: min-content;
-    }
-
-    .blur {
-        aspect-ratio: 1.52;
-        width: 100%;
-        height: auto;
-    }
-
-    .active-card {
-        margin-bottom: 0;
     }
 
     .close {
@@ -318,6 +274,12 @@ ul[role='list'] li::before {
         }
     }
 
+    .card:hover {
+        & .card-thumbnail,
+        .blur {
+            transform: scale(1.00);
+        }
+    }
 }
   a.project-link {
     color: var(--main-font-colour);
@@ -333,6 +295,7 @@ a.project-link:hover {
 }
 
 .card-thumbnail {
+    width: 100%;
     max-height: 100%;
 }
 
@@ -350,6 +313,10 @@ a.project-link:hover {
 }
 
 @media screen and (max-width: 950px) {
+    .cards-grid {
+        padding: 0 1.25rem;
+    }
+
     .card-thumbnail {
         aspect-ratio: 1;
     }
@@ -357,13 +324,9 @@ a.project-link:hover {
 }
 
 @media screen and (max-width: 640px) {
-    .card {
-        margin-bottom: 0rem;
-    }
 
     .card-thumbnail {
         aspect-ratio: 0.85;
-        object-fit: contain;
         height: fit-content;
     }
 
@@ -559,6 +522,16 @@ sup, sub {
     color: var(--off-white);
 }
 
+.light-links {
+    & a {
+        color: var(--light-sand);
+    }
+
+    & a:hover {
+        color: var(--sand);
+    }
+}
+
 img {
     display: block;
 }
@@ -625,12 +598,29 @@ label {
 .col-start-7 {
     grid-column-start: 7;
 }
+
 .col-span-2 {
     grid-column-end: span 2;
 }
 
+.col-span-3 {
+    grid-column-end: span 3;
+}
+
+.col-span-4 {
+    grid-column-end: span 4;
+}
+
+.col-span-5 {
+    grid-column-end: span 5;
+}
+
 .col-span-6 {
     grid-column-end: span 6;
+}
+
+.col-span-7 {
+    grid-column-end: span 7;
 }
 
 .col-span-8 {

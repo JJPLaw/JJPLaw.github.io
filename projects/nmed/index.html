@@ -15,9 +15,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="manifest" href="/favicon/site.webmanifest">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Scientific Visualisations | JJPLaw </title>
-    <link rel="stylesheet" href="/dist/zyqLyLyrGV.css">
-    <script src="/dist/D2v-uBpmhS.js" type="module"></script>
+    <title> New Music Every* Day | JJPLaw </title>
+    <link rel="stylesheet" href="/dist/QvPAeH2kKI.css">
+    <script src="/dist/NHpxCsYKyx.js" type="module"></script>
 </head>
 
 <body>
@@ -38,7 +38,7 @@
     <main>
         
 <div class="banner">
-  <h1>Scientific Visualisations</h1>
+  <h1>New Music Every* Day</h1>
 </div>
 
 
@@ -48,188 +48,201 @@
 
 <div class="grid centre">
   <section class="col-start-3 col-span-8 sm:col-span-12 sm:margin-bottom">
-    <h2>Microbiological Figures</h2>
-    <p>It was during my PhD in microbiology that I found a love for designing and making data visualisations, where figures are essential for conveying the results. I greatly enjoyed putting thought and effort into the look and feel of my figures, as in my opinion there's little worse than trying to read an ugly-looking graph in an already dry scientific manuscript.</p>
-    <p>Here, I show a small selection of my favourite figures, taken from my thesis and subsequent published paper
-      <a href="https://dx.doi.org/10.1128/spectrum.01842-22">(which you can find here)</a>.</p>
-    <p>Click the images to see the full figure and read my thoughts on the design process for each.</p>
+    <h2>Variations on a Theme</h2>
+    <p>I've got an obsession with my collection of listening data, and I love finding new ways and styles of visualising these data. This ongoing series, titled New Music Every* Day (<i>NME*D</i>)<sup class="footnote-ref">
+        <a href="#fn1" id="fnref1">1</a>
+      </sup>, is a way for me to develop my design sensibilities, layout skills, and technical abilities, all while creating artistic data viz.</p>
+    <p>Click the images to view full-size versions, along with some of my thoughts and inspirations for each.</p>
   </section>
 </div>
 
 <div class="grid centre">
-  <section class="col-start-1 col-span-12 margin-top-0 sm:margin-bottom">
-    <h2>Thesis</h2>
+  <section class="col-start-1 col-span-12 margin-top-0 margin-bottom-0">
+    <h2>The Variants</h2>
     <div class="cards-grid sm:margin-bottom">
 
-      <div class="card" id="card1">
+      <div class="card col-span-6" id="card1">
         <div class="blur"></div>
-        <img class="card-thumbnail" src="/assets/project-images/phd/Ch4_crop.png">
+        <picture>
+          <source srcset="/assets/project-images/nmed/flowers_crop.png" media="(width > 650px)">
+          <source srcset="/assets/project-images/nmed/flowers_crop-small.png" media="(width <= 650px)">
+          <img class="card-thumbnail" src="/assets/project-images/nmed/flowers_crop.png">
+        </picture>
         <div class="card-text-shadow">
-          <div class="card-text card-color1">
+          <div class="card-text color-card1">
             <button class="close" id="close-card1" type="button">
               <img src="/assets/icons/close.svg">
             </button>
-            <h2 class="card-title">Genome<br>Mutations</h2>
+            <h2 class="card-title">Flowers</h2>
           </div>
         </div>
       </div>
 
-      <div class="card" id="card2">
+      <div class="card col-span-6" id="card2">
         <div class="blur"></div>
         <picture>
-          <source srcset="/assets/project-images/phd/Ch3-Fig2_crop.png" media="(width > 950px)">
-          <source srcset="/assets/project-images/phd/Ch3-Fig2_crop-mobile.png" media="(width <= 950px)">
-          <img class="card-thumbnail" src="/assets/project-images/phd/Ch3-Fig2_crop.png">
+          <source srcset="/assets/project-images/nmed/dots.png" media="(width > 650px)">
+          <source srcset="/assets/project-images/nmed/dots-small.png" media="(width <= 650px)">
+          <img class="card-thumbnail" src="/assets/project-images/nmed/dots.png">
         </picture>
         <div class="card-text-shadow">
-          <div class="card-text card-color2">
+          <div class="card-text color-card2">
             <button class="close" id="close-card2" type="button">
               <img src="/assets/icons/close.svg">
             </button>
-            <h2 class="card-title">Population<br>Levels</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="expanded-card card-color1" id="expanded-card1">
-      <div class="grid centre">
-        <img class="expanded-image col-start-1 col-span-12" src="/assets/project-images/phd/Ch4.png">
-        <dialog>
-          <button class="dialogClose" type="button">
-            <img src="/assets/icons/close.svg">
-          </button>
-          <img class="dialogImage" src="/assets/project-images/phd/Ch4.png">
-        </dialog>
-        <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
-          <p>Bacteria (eg,
-            <i>Pseudomonas aeurginosa</i>) have circular genomes, and here I've shown the locations on the genome that developed mutations as a result of the experiment that I'd performed. The experiment had two factors each with multiple levels, community (here, 1, 4, 5, & 7) and treatment (A, B, C, & D), and showing the combinations of these two levels was the primary challenge for this set of figures.</p>
-          <ul role="list">
-            <li class="challenge">Distinguishing between the communities and the treatments.</li>
-            <li>I chose hues (with some additional spatial separation) to show communities, as this was the primary factor I was interested in, and used values of each hue to show treatments. The basic colour scheme was similar to, but distinct from, the colour scheme used to distinguish the species (in panels A, B, and C), to give a unified look.</li>
-            <li class="challenge">Logical reading order.</li>
-            <li>I made the focus of the experiment, community 7, the largest ring as the increased circumference gives the greatest separation between the mutations. When read left-to-right, the outer ring also comes first. Similarly, within each community I chose a left-to-right arrangement of treatments.<br><br>Darkening the values towards the centre of the circle also gives a feeling of three-dimensionality, where lighter rings are higher than darker rings. This also reinforces the levels of the community factor: community 1 consisted of a single species (forming a controlled basis for my observations), communities 4 and 5 consisted of two species each (upping the complexity), and community 7 had three species (the culmination of the experiment overall).</li>
-            <li class="challenge">In panels A, B, and C, how to highlight the isolates that were used in follow up experiments.</li>
-            <li>I used the previously established colour scheme of gold, seafoam green, and sky blue for each species to highlight the isolates, and continued the value change and spatial separation to distinguish replicates.</li>
-          </ul>
-        </section>
-      </div>
-    </div>
-
-    <div class="expanded-card card-color2" id="expanded-card2">
-      <div class="grid centre">
-        <img class="expanded-image col-start-1 col-span-12" src="/assets/project-images/phd/Ch3-Fig2.png">
-        <dialog>
-          <button class="dialogClose" type="button">
-            <img src="/assets/icons/close.svg">
-          </button>
-          <img class="dialogImage" src="/assets/project-images/phd/Ch3-Fig2.png">
-        </dialog>
-        <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
-          <p>This figure focuses on one of the communities from the experiment that gave the previously shown mutated bacteria. In this community, all three species were living together in the same environment, and each environment was replicated four times.
-          </p>
-          <ul role="list">
-            <li class="challenge">Keep each replicate community distinct while also providing an initial overview.</li>
-            <li>My first iterations of this figure pooled the data for the four replicates of each species, which obscured that each replicate community could have quite distinct outcomes (see gold in panel C).<br><br>To keep the replicate communities grouped together I gave each its own column, joining the three species with dotted lines. To help with tracking the overall trend over time, and give the reader something to initially grab hold of, I included the median abundance of each species as a coloured line connecting each timepoint.</li>
-          </ul>
-        </section>
-      </div>
-    </div>
-  </section>
-</div>
-
-
-<div class="grid centre">
-  <section class="col-start-1 col-span-12 sm:margin-top sm:margin-bottom">
-    <h2>Published Paper</h2>
-
-    <div class="cards-grid sm:margin-bottom">
-
-      <div class="card light-font" id="card3">
-        <div class="blur"></div>
-        <picture>
-          <source srcset="/assets/project-images/phd/Spectrum-Fig1_crop.png" media="(width > 950px)">
-          <source srcset="/assets/project-images/phd/Spectrum-Fig1_crop-mobile.png" media="(width <= 950px)">
-          <img class="card-thumbnail" src="/assets/project-images/phd/Spectrum-Fig1_crop.png">
-        </picture>
-        <div class="card-text-shadow">
-          <div class="card-text card-color3">
-            <button class="close" id="close-card3" type="button">
-              <img src="/assets/icons/close.svg">
-            </button>
-            <h2 class="card-title">Methods<br>Schematic</h2>
+            <h2 class="card-title">Dots</h2>
           </div>
         </div>
       </div>
 
-      <div class="card" id="card4">
-        <div class="blur"></div>
-        <img class="card-thumbnail" src="/assets/project-images/phd/Spectrum-Fig4_crop.png">
-        <div class="card-text-shadow">
-          <div class="card-text card-color4">
-            <button class="close" id="close-card4" type="button">
-              <img src="/assets/icons/close.svg">
-            </button>
-            <h2 class="card-title">Minimum <wbr>Inhibitory<br>Concentrations</h2>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="expanded-card card-color3 light-font" id="expanded-card3">
-      <div class="grid centre">
-        <img class="expanded-image expanded-image col-start-1 col-span-12" src="/assets/project-images/phd/Spectrum-Fig1.png" style="padding: 0.5rem;background-color: white;">
-        <dialog>
-          <button class="dialogClose" type="button">
-            <img src="/assets/icons/close.svg">
-          </button>
-          <img class="dialogImage" src="/assets/project-images/phd/Spectrum-Fig1.png" style="padding: 0.5rem;background-color: white;">
-        </dialog>
-        <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
-          <p>Experimental evolution is not a widespread technique, and reviewers for the paper found it difficult to follow the protocol based on text descriptions alone, particularly with the different combinations of antibiotics and species. I developed this figure to explain diagrammatically what was going on. For the non-biologists out there (which I assume is nearly all of you), the main iconography here is of a
-            <a href="https://en.wikipedia.org/wiki/Microplate">96-well plate</a>, which is a common tool that allows you to have multiple treatments and replicates in a small space.</p>
-          <ul role="list">
-            <li class="challenge">Distinguish the 8 different combinations of antibiotics.</li>
-            <li>Because the combinations are made of three individual elements, one of my supervisors suggested primary colour mixing to represent them. I found a
-              <a href="https://jfly.uni-koeln.de/color/#pallet">colourblind-friendly palette</a>
-              and assigned the combinations accordingly, with CIP as red, CST as yellow, and TOB as blue.</li>
-            <li class="challenge">Distinguish between monocultures (one species) and cocultures (two species).</li>
-            <li>In this schematic I chose to distinguish the two by making the monocultures a lighter shade of the same colour—my thinking at the time being that there were fewer species in the monocultures, and so if more were added the colour would get darker.<br><br>This aligns with most other figures in the paper. However, in the following minimum inhibitory concentrations figure (which actually came first) I had used white and black dots for the mono- and cocultures instead. Looking back now, I dislike the light shade of the main colours—they're too similar to the white background—and would try to use the white and black dots throughout. I've mocked up a version of this schematic using the dots, shown below (along with some other minor adjustments I might make now).</li>
-          </ul>
-          <img class="expanded-image expanded-image col-start-3 col-span-8 sm:col-span-12" src="/assets/project-images/phd/Spectrum-Fig1_edit.png" style="padding: 0.5rem;background-color: white;">
+      <div class="expanded-card color-card1 col-span-12" id="expanded-card1">
+        <div class="grid centre">
+          <picture class="col-start-1 col-span-12">
+            <source srcset="/assets/project-images/nmed/flowers.png" media="(width > 650px)">
+            <source srcset="/assets/project-images/nmed/flowers-small.png" media="(width <= 650px)">
+            <img class="expanded-image" src="/assets/project-images/nmed/flowers.png">
+          </picture>
           <dialog>
             <button class="dialogClose" type="button">
               <img src="/assets/icons/close.svg">
             </button>
-            <img class="dialogImage" src="/assets/project-images/phd/Spectrum-Fig1_edit.png" style="padding: 0.5rem;background-color: white;">
+            <img class="dialogImage" src="/assets/project-images/nmed/flowers.png" fetchpriority="low">
           </dialog>
-        </section>
+          <section class="expanded-text light-links col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
+            <p>Though not technically a
+              <i>NME*D</i>
+              variant, this static layout of my
+              <a href="/projects/first-listens/">interactive First Listens visualisation</a>
+              is very much the progenitor of this series. Because the only option for layout I was aware of at the time was Inkscape, which I knew to be quite buggy, the entire layout of this graphic was done using the R statistics coding language—it involved an awful lot of re-running the code over and over to make tiny adjustments to positioning and spacing.</p>
+            <p>Read more about the making of the interactive viz in
+              <a href="/blog/250115-first-listens-bts/">this blog post.</a>
+            </p>
+          </section>
+        </div>
       </div>
-    </div>
 
-    <div class="expanded-card card-color4" id="expanded-card4">
-      <div class="grid centre">
-        <img class="expanded-image expanded-image col-start-1 col-span-12" src="/assets/project-images/phd/Spectrum-Fig4.png">
-        <dialog>
-          <button class="dialogClose" type="button">
-            <img src="/assets/icons/close.svg">
-          </button>
-          <img class="dialogImage" src="/assets/project-images/phd/Spectrum-Fig4.png">
-        </dialog>
-        <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
-          <p>The minimum inhibitory concentration (MIC) of an antibiotic is the lowest amount of that antibiotic required to inhibit growth of a bacteria, and is typically determined in amounts that are powers of 2. Because of the type of experiment I performed, each replicate could (and did) have a very different MIC, and because of the categorical nature of determining MIC it's difficult to find a meaningful average.</p>
-          <ul role="list">
-            <li class="challenge">Presenting all of the data available while giving a meaningful summary.</li>
-            <li>Using a logarithmic (or categoric, depending on how you think about it) scale for MIC allows a grid-style layout, and I chose to show the number of isolates with size because, though not necessarily easily readable in detail (eg, the difference between 5 and 6), it provides a nice change in visual weight between MIC values that have more isolates and values that have fewer isolates.<br><br>The grey line overlaid on top of each group shows the MIC<sub>50</sub>, which is the amount required to inhibit half of all isolates, which is a reasonable summary to help comparison between the different groups.</li>
-            <li class="challenge">Distinguish the 8 different combinations of antibiotics.</li>
-            <li>Because the combinations are made of three individual elements, one of my supervisors suggested primary colour mixing to represent them. I found a
-              <a href="https://jfly.uni-koeln.de/color/#pallet">colourblind-friendly palette</a>
-              and assigned the combinations accordingly, with CIP as red, CST as yellow, and TOB as blue.</li>
-          </ul>
-        </section>
+      <div class="expanded-card color-card2 col-span-12" id="expanded-card2">
+        <div class="grid centre">
+          <picture class="col-start-1 col-span-12">
+            <source srcset="/assets/project-images/nmed/dots.png" media="(width > 650px)">
+            <source srcset="/assets/project-images/nmed/dots-small.png" media="(width <= 650px)">
+            <img class="expanded-image" src="/assets/project-images/nmed/dots.png">
+          </picture>
+          <dialog>
+            <button class="dialogClose" type="button">
+              <img src="/assets/icons/close.svg">
+            </button>
+            <img class="dialogImage" src="/assets/project-images/nmed/dots.png" fetchpriority="low">
+          </dialog>
+          <section class="expanded-text light-links col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
+            <p>The true beginning of
+              <i>NME*D</i>, I designed this graphic to go on the back of a jumper. This was my first foray into a more explicitly artistic and poster-style of graphic, and I was inspired partly by The Designer's Republic™ and late 90's PS1 games.</p>
+            <p>Read more about this graphic in the
+              <a href="/blog/260224-nmed-jumper/">accompanying blog post.</a>
+            </p>
+          </section>
+        </div>
       </div>
-    </div>
 
+      <div class="card col-span-6" id="card3">
+        <div class="blur"></div>
+        <picture>
+          <source srcset="/assets/project-images/nmed/perspectives.png" media="(width > 650px)">
+          <source srcset="/assets/project-images/nmed/perspectives-small.png" media="(width <= 650px)">
+          <img class="card-thumbnail" src="/assets/project-images/nmed/perspectives.png">
+        </picture>
+        <div class="card-text-shadow light-font">
+          <div class="card-text color-card3">
+            <button class="close" id="close-card3" type="button">
+              <img src="/assets/icons/close.svg">
+            </button>
+            <h2 class="card-title">Perspectives</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="card col-span-6" id="card4">
+        <div class="blur"></div>
+        <picture>
+          <source srcset="/assets/project-images/nmed/squares.png" media="(width > 650px)">
+          <source srcset="/assets/project-images/nmed/squares-small.png" media="(width <= 650px)">
+          <img class="card-thumbnail" src="/assets/project-images/nmed/squares.png">
+        </picture>
+        <div class="card-text-shadow">
+          <div class="card-text color-card4">
+            <button class="close" id="close-card4" type="button">
+              <img src="/assets/icons/close.svg">
+            </button>
+            <h2 class="card-title">Squares</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="expanded-card color-card3 col-span-12 light-font" id="expanded-card3">
+        <div class="grid centre">
+          <picture class="col-start-1 col-span-12">
+            <source srcset="/assets/project-images/nmed/perspectives.png" media="(width > 650px)">
+            <source srcset="/assets/project-images/nmed/perspectives-small.png" media="(width <= 650px)">
+            <img class="expanded-image col-start-1 col-span-12" src="/assets/project-images/nmed/perspectives.png">
+          </picture>
+          <dialog>
+            <button class="dialogClose" type="button">
+              <img src="/assets/icons/close.svg">
+            </button>
+            <img class="dialogImage" src="/assets/project-images/nmed/perspectives.png" fetchpriority="low">
+          </dialog>
+          <section class="expanded-text col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
+            <p>This began its life, in a much earlier iteration, as an experiment with incorporating a 3D perspective into a 2D image. The effect worked well enough for that initial image, but the implementation was flawed. Revisiting the idea and diving deeper into researching perspective and matrix transformations, I was able to much better implement 3D perspective (which I did in the R statistics coding language) and create the main visualisation of the graphic.</p>
+            <p>To accompany the early computer graphics style of the perspective grid, the layout—and cheesy ad copy—was inspired by 90's Apple magazine adverts.</p>
+            <p>
+              <i>Blog post coming soon.</i>
+            </p>
+          </section>
+        </div>
+      </div>
+
+      <div class="expanded-card color-card4 col-span-12" id="expanded-card4">
+        <div class="grid centre">
+          <picture class="col-start-1 col-span-12">
+            <source srcset="/assets/project-images/nmed/squares.png" media="(width > 650px)">
+            <source srcset="/assets/project-images/nmed/squares-small.png" media="(width <= 650px)">
+            <img class="expanded-image col-start-1 col-span-12" src="/assets/project-images/nmed/squares.png">
+          </picture>
+          <dialog>
+            <button class="dialogClose" type="button">
+              <img src="/assets/icons/close.svg">
+            </button>
+            <img class="dialogImage" src="/assets/project-images/nmed/squares.png" fetchpriority="low">
+          </dialog>
+          <section class="expanded-text light-links col-start-3 col-span-8 sm:col-span-12 sm:margin-top">
+            <p>The combination of inspirations for this graphic blended the new with the old:</p>
+            <ul>
+              <li>For the new, I came across
+                <a href="https://www.instagram.com/p/DTxBUF3DIeB/">this post on Instagram</a>
+                of an abstract grid, and I was fascinated by the details and aspect ratio of the grid, and I wanted to apply my own data to the idea.</li>
+              <li>And for the old, I was at the time watching a lot of House (the medical TV show starring Hugh Laurie), whose title sequence takes stills from Gray's Anatomy (the textbook, not the TV show). This inspired the ornate, detailed, italicised text and the general sepia-toned hues of the graphic.</li>
+            </ul>
+            <p>
+              <i>Blog post coming soon.</i>
+            </p>
+          </section>
+        </div>
+      </div>
+
+    </div>
+  </section>
+</div>
+
+<div class="grid centre">
+  <section class="col-start-3 col-span-8 sm:col-span-12 sm:margin-top sm:margin-bottom footnotes">
+    <ol class="footnotes-list">
+      <li id="fn1" class="footnote-item">
+        <p>The name "New Music Every* Day" is a nod to my desire to listen to new music while caveating that I clearly haven't listened to it
+          <i>every</i>
+          day for the last 9 years.<a href="#fnref1" class="footnote-backref">↩︎</a>
+        </p>
+      </li>
+    </ol>
   </section>
 </div>
     </main>
