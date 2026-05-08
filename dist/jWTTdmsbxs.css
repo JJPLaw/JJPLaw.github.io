@@ -30,6 +30,11 @@
     }
 }
 
+.card-anchor {
+    anchor-name: --card-anchor;
+    position: absolute;
+}
+
 .card-thumbnail {
     border-radius: 5px;
     object-fit: cover;
@@ -41,7 +46,8 @@
     --offset: 5px;
     filter: drop-shadow(var(--shadow-grey) 2px -2px 5px);
     position: absolute;
-    position-anchor: --card-thumbnail;
+    /* position-anchor: --card-thumbnail; */
+    position-anchor: --card-anchor;
     bottom: calc(anchor(bottom) - var(--offset));
     left: calc(anchor(left) - var(--offset));
     z-index: 2;
