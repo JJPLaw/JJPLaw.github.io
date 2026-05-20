@@ -11,7 +11,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 20,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-01-22",
@@ -418,7 +419,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 23,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-02-22",
@@ -808,7 +810,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 33,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-03-07",
@@ -1304,7 +1307,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 34,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-04-30",
@@ -1837,7 +1841,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 34,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-05-08",
@@ -2358,7 +2363,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 18,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-06-11",
@@ -2665,7 +2671,8 @@
     "centre_col": "1_6",
     "centre_fill": "1_5",
     "total": 3,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-07-27",
@@ -2756,7 +2763,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 36,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-08-03",
@@ -3232,7 +3240,8 @@
     "centre_col": "5_6",
     "centre_fill": "5_5",
     "total": 48,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-09-11",
@@ -3867,7 +3876,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 26,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-10-19",
@@ -4268,7 +4278,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 24,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-11-05",
@@ -4706,7 +4717,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 15,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2018-12-17",
@@ -4964,7 +4976,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 29,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-01-09",
@@ -5415,7 +5428,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 21,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-02-20",
@@ -5844,7 +5858,8 @@
     "centre_col": "1_6",
     "centre_fill": "1_5",
     "total": 7,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-03-07",
@@ -6027,7 +6042,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 15,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-04-29",
@@ -6331,7 +6347,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 36,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-05-01",
@@ -6942,7 +6959,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 35,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-06-24",
@@ -7496,7 +7514,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 23,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-07-15",
@@ -7940,7 +7959,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 27,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-08-01",
@@ -8434,7 +8454,8 @@
     "centre_col": "1_6",
     "centre_fill": "1_5",
     "total": 8,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-09-24",
@@ -8563,7 +8584,8 @@
     "centre_col": "5_6",
     "centre_fill": "5_5",
     "total": 43,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-10-07",
@@ -9291,7 +9313,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 27,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-11-11",
@@ -9797,7 +9820,8 @@
     "centre_col": "1_6",
     "centre_fill": "1_5",
     "total": 8,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2019-12-11",
@@ -9995,7 +10019,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 30,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-01-06",
@@ -10582,7 +10607,8 @@
     "centre_col": "5_6",
     "centre_fill": "5_5",
     "total": 41,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-02-05",
@@ -11280,7 +11306,8 @@
     "centre_col": "5_6",
     "centre_fill": "5_5",
     "total": 45,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-03-09",
@@ -12021,7 +12048,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 32,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-04-03",
@@ -12582,7 +12610,8 @@
     "centre_col": "5_6",
     "centre_fill": "5_5",
     "total": 47,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-05-04",
@@ -13362,7 +13391,8 @@
     "centre_col": "6_6",
     "centre_fill": "6_5",
     "total": 57,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-06-02",
@@ -14257,7 +14287,8 @@
     "centre_col": "5_6",
     "centre_fill": "5_5",
     "total": 47,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-07-08",
@@ -15068,7 +15099,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 13,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-08-11",
@@ -15310,7 +15342,8 @@
     "centre_col": "6_6",
     "centre_fill": "6_5",
     "total": 56,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-09-15",
@@ -16220,7 +16253,8 @@
     "centre_col": "5_6",
     "centre_fill": "5_5",
     "total": 45,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-10-15",
@@ -17030,7 +17064,8 @@
     "centre_col": "6_6",
     "centre_fill": "6_5",
     "total": 50,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-11-05",
@@ -17808,7 +17843,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 38,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2020-12-14",
@@ -18432,7 +18468,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 19,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-01-04",
@@ -18813,7 +18850,8 @@
     "centre_col": "1_6",
     "centre_fill": "1_5",
     "total": 4,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-02-27",
@@ -18926,7 +18964,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 17,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-03-26",
@@ -19303,7 +19342,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 16,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-04-29",
@@ -19607,7 +19647,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 18,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-05-07",
@@ -19965,7 +20006,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 26,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-06-18",
@@ -20471,7 +20513,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 23,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-07-13",
@@ -20934,7 +20977,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 31,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-08-20",
@@ -21499,7 +21543,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 12,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-09-10",
@@ -21771,7 +21816,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 17,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-10-01",
@@ -22121,7 +22167,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 20,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-11-19",
@@ -22575,7 +22622,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 17,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2021-12-16",
@@ -22967,7 +23015,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 22,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-01-06",
@@ -23448,7 +23497,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 20,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-02-03",
@@ -23826,7 +23876,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 36,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-03-25",
@@ -24488,7 +24539,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 23,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-04-01",
@@ -24947,7 +24999,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 31,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-05-02",
@@ -25307,7 +25360,7 @@
         "data": [
           {
             "artist": "Just Mustard",
-            "album": "Heart",
+            "album": "Heart Under",
             "released": 2022,
             "order": "a",
             "length": 45,
@@ -25467,7 +25520,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 30,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-06-17",
@@ -25940,7 +25994,8 @@
     "centre_col": "7_6",
     "centre_fill": "7_5",
     "total": 64,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-07-20",
@@ -26830,7 +26885,8 @@
     "centre_col": "8_6",
     "centre_fill": "8_5",
     "total": 77,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-08-04",
@@ -27874,7 +27930,8 @@
     "centre_col": "6_6",
     "centre_fill": "6_5",
     "total": 52,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-09-02",
@@ -28763,7 +28820,8 @@
     "centre_col": "5_6",
     "centre_fill": "5_5",
     "total": 48,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-10-21",
@@ -29528,7 +29586,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 37,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-11-02",
@@ -30179,7 +30238,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 29,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2022-12-21",
@@ -30617,7 +30677,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 23,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-01-19",
@@ -31030,7 +31091,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 30,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-02-15",
@@ -31091,7 +31153,7 @@
         "count": 3,
         "data": [
           {
-            "artist": "Meitei",
+            "artist": "Meitei / 冥丁",
             "album": "SHITSURAI (EP)",
             "released": 2023,
             "order": "a",
@@ -31571,7 +31633,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 37,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-03-15",
@@ -32252,7 +32315,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 22,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-04-17",
@@ -32646,7 +32710,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 25,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-05-09",
@@ -33178,7 +33243,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 37,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-06-01",
@@ -33768,7 +33834,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 18,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-07-17",
@@ -34141,7 +34208,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 14,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-08-02",
@@ -34478,7 +34546,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 16,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-09-11",
@@ -34786,7 +34855,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 16,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-10-10",
@@ -35105,7 +35175,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 12,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-11-13",
@@ -35331,7 +35402,8 @@
     "centre_col": "1_6",
     "centre_fill": "1_5",
     "total": 2,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2023-12-23",
@@ -35401,7 +35473,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 14,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-01-10",
@@ -35700,7 +35773,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 20,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-02-02",
@@ -36104,7 +36178,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 28,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-03-15",
@@ -36588,7 +36663,8 @@
     "centre_col": "3_6",
     "centre_fill": "3_5",
     "total": 21,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-04-19",
@@ -36986,7 +37062,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 30,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-05-17",
@@ -37497,7 +37574,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 11,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-06-04",
@@ -37753,7 +37831,8 @@
     "centre_col": "4_6",
     "centre_fill": "4_5",
     "total": 32,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-07-15",
@@ -38280,7 +38359,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 11,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-08-19",
@@ -38502,7 +38582,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 10,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-09-11",
@@ -38739,7 +38820,8 @@
     "centre_col": "1_6",
     "centre_fill": "1_5",
     "total": 9,
-    "clicked": false,
+    "hasFav": false,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-10-21",
@@ -38941,7 +39023,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 18,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-11-14",
@@ -39276,7 +39359,8 @@
     "centre_col": "2_6",
     "centre_fill": "2_5",
     "total": 18,
-    "clicked": false,
+    "hasFav": true,
+    "hasSelected": false,
     "petals": [
       {
         "date": "2024-12-04",

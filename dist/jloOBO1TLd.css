@@ -92,7 +92,71 @@
 
 #options {
     flex: 1;
-    width: 200px;
+    width: 300px;
+}
+
+#favourite {
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+}
+
+#options-fav {
+    margin-left: 0.3em;
+}
+
+input, select {
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+#date-selector {
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 1em;
+    row-gap: 0.4em;
+}
+
+.date-selector {
+    font-size: 1.15rem;
+    color: var(--main-font-color);
+}
+
+#options-date {
+    width: 100%;
+    font-size: 1.15rem;
+    padding: 0;
+}
+
+#day-selector {
+    
+}
+
+#month-selector {
+    
+}
+
+#day-selector, #month-selector, #year-selector {
+    width: fit-content;
+}
+
+#year-selector {
+    margin-right: 100%;
+}
+
+#error {
+    width: 100%;
+    height: 2rem;
+    margin: 0;
+    font-size: 1.5rem;
+    font-style: italic;
+    color: var(--accent-color);
+}
+
+input[type='button'] {
+    margin-top: 1em;
+    width: 7em;
 }
 
 #legend {
@@ -126,14 +190,16 @@ path {
     stroke: var(--main-font-color);
 }
 
-/* ellipse {
-    fill-opacity: 0.85;
-} */
-
 #arrowhead {
     stroke-width: 0.1rem;
     stroke: var(--main-font-color);
     fill: var(--main-font-color);
+}
+
+.highlight-background {
+    stroke-width: 4px;
+    stroke: var(--main-orange);
+    fill: url('#highlight-gradient')
 }
 
 @media only screen and (max-width: 1190px) {
