@@ -664,15 +664,32 @@ label {
     }
 }
 
+@supports (-webkit-touch-callout: none) {
+    /* CSS specific to iOS devices */
+
+    /* this gives the safari ios window its colour */
+    #bg-color {
+        width: 100%;
+        /* has to be bigger than 5px to affect the colour of the window */
+        height: 6px;
+        background: var(--header-background-color);
+        position: fixed;
+        /* big z-index to make sure it's on top of everything else because it's fixed to the window */
+        z-index: 8888;
+    }
+
+}
+
 header {
     width: 100%;
     background: var(--header-background-color);
-    padding: 0 1.25rem; /*25vw;*/
+    padding: 0 1.25rem;
     display: flex;
     justify-content: center;
 }
 
 nav {
+    background: var(--header-background-color);
     padding: 0.5rem 0;
     width: 960px;
     display: flex;
