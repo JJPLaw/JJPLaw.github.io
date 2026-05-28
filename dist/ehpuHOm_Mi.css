@@ -1,5 +1,5 @@
 .figures {
-    max-width: 1200px;
+    max-width: 1400px;
     display: flex;
     flex-flow: wrap row;
     justify-content: space-evenly;
@@ -129,14 +129,6 @@ input, select {
     padding: 0;
 }
 
-#day-selector {
-    
-}
-
-#month-selector {
-    
-}
-
 #day-selector, #month-selector, #year-selector {
     width: fit-content;
 }
@@ -162,7 +154,6 @@ input[type='button'] {
 #legend {
     width: fit-content;
     margin-bottom: 3.5rem;
-    /* align-self: center; */
     & h3 {
         font-style: italic;
     }
@@ -202,7 +193,7 @@ path {
     fill: url('#highlight-gradient')
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1310px) {
     #sidebar-container {
         flex-flow: wrap row;
         justify-content: space-around;
