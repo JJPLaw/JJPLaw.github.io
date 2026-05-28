@@ -6237,7 +6237,11 @@
             "album": "In A Beautiful Place Out In The Country (EP)",
             "released": 2000,
             "order": "a",
-            "fav": 0
+            "fav": 1,
+            "spotify": "https://open.spotify.com/album/2U2WNneO3RdYEASjRI2OZx?si=-MdQrJq2SGuemIm5qj9r4g",
+            "apple": "https://music.apple.com/gb/album/in-a-beautiful-place-out-in-the-country-ep/282484650",
+            "artworkURL": "https://coverartarchive.org/release/c5121f79-d6a3-4a07-876f-180f8bfe76d8/8866382616-500.jpg",
+            "artworkFile": "/assets/project-images/fl/8866382616-500.jpg"
           }
         ],
         "total": 15,
@@ -6247,7 +6251,7 @@
         "y0": -3.8975,
         "rx": 0.1025,
         "ry": 0.0123,
-        "fav": 0,
+        "fav": 1,
         "angleJS": 0,
         "selected": false
       },
@@ -12131,7 +12135,11 @@
             "released": 1972,
             "order": "c",
             "length": 40,
-            "fav": 0
+            "fav": 1,
+            "spotify": "https://open.spotify.com/album/1MLxE2czxo5A9OVZ2m8FV3?si=RpeQR2vDS3GW_tLlp79WvQ",
+            "apple": "https://music.apple.com/gb/album/ege-bamyasi-remastered/711468600",
+            "artworkURL": "https://coverartarchive.org/release/cb0f8e42-eb76-4439-85d1-44a8e8667cad/38404619041-500.jpg",
+            "artworkFile": "/assets/project-images/fl/38404619041-500.jpg"
           }
         ],
         "total": 32,
@@ -12141,7 +12149,7 @@
         "y0": -3.7994,
         "rx": 0.2051,
         "ry": 0.0246,
-        "fav": 0,
+        "fav": 1,
         "angleJS": 0.2094,
         "selected": false
       },
@@ -24037,7 +24045,11 @@
             "released": 2022,
             "order": "a",
             "length": 47,
-            "fav": 0
+            "fav": 1,
+            "spotify": "https://open.spotify.com/album/4X12VfRomM649eKXd1qKMf?si=bXKi8V3BQRSkS8NK8rOzrA",
+            "apple": "https://music.apple.com/gb/album/caroline/1590235009",
+            "artworkURL": "https://coverartarchive.org/release/9822238f-1868-43dc-91d7-5c355bfa6db0/31818477953-500.jpg",
+            "artworkFile": "/assets/project-images/fl/31818477953-500.jpg"
           },
           {
             "artist": "K. Freund",
@@ -24063,7 +24075,7 @@
         "y0": -3.0903,
         "rx": 0.2051,
         "ry": 0.0246,
-        "fav": 0,
+        "fav": 1,
         "angleJS": 2.0268,
         "selected": false
       },
@@ -25364,7 +25376,11 @@
             "released": 2022,
             "order": "a",
             "length": 45,
-            "fav": 0
+            "fav": 1,
+            "spotify": "https://open.spotify.com/album/4YIJiNEri0QNIrrq59S7cP?si=LHYBXobSRCS86W-ka2PsGA",
+            "apple": "https://music.apple.com/gb/album/heart-under/1783185818",
+            "artworkURL": "https://coverartarchive.org/release/8b31f9f0-6098-44bc-bfa4-77a804567a59/31811393107-500.jpg",
+            "artworkFile": "/assets/project-images/fl/31811393107-500.jpg"
           },
           {
             "artist": "TSVI & Loraine James",
@@ -25382,7 +25398,7 @@
         "y0": -4.8507,
         "rx": 0.1625,
         "ry": 0.0195,
-        "fav": 0,
+        "fav": 1,
         "angleJS": 5.8778,
         "selected": false
       },
@@ -29154,7 +29170,11 @@
             "released": 2022,
             "order": "a",
             "length": 43,
-            "fav": 0
+            "fav": 1,
+            "spotify": "https://open.spotify.com/album/2RmsiWEPNkqtfjbFDi1zqe?si=2CZcycH_TGGEevN4vYhfzQ",
+            "apple": "https://music.apple.com/gb/album/blush/1628285117",
+            "artworkURL": "https://coverartarchive.org/release/0772539c-7916-4504-bfdd-3ea8e011bb4d/33879270623-500.jpg",
+            "artworkFile": "/assets/project-images/fl/33879270623-500.jpg"
           },
           {
             "artist": "The Big Moon",
@@ -29180,7 +29200,7 @@
         "y0": -10.1793,
         "rx": 0.2051,
         "ry": 0.0246,
-        "fav": 0,
+        "fav": 1,
         "angleJS": 3.6483,
         "selected": false
       },
@@ -38820,7 +38840,7 @@
     "centre_col": "1_6",
     "centre_fill": "1_5",
     "total": 9,
-    "hasFav": false,
+    "hasFav": true,
     "hasSelected": false,
     "petals": [
       {
@@ -38968,7 +38988,11 @@
             "released": 2024,
             "order": "a",
             "length": 68,
-            "fav": 0
+            "fav": 1,
+            "spotify": "https://open.spotify.com/album/3Z15B9bbxGXA6QJAa6kJMR?si=cxILE2-_R0ST-C-P1oRnUg",
+            "apple": "https://music.apple.com/gb/album/strawberry-hotel/1761865594",
+            "artworkURL": "https://coverartarchive.org/release/f77c2e64-70d4-4709-be6e-b4eea59d8838/40660258866-500.jpg",
+            "artworkFile": "/assets/project-images/fl/40660258866-500.jpg"
           }
         ],
         "total": 9,
@@ -38978,7 +39002,7 @@
         "y0": -9.9058,
         "rx": 0.1025,
         "ry": 0.0123,
-        "fav": 0,
+        "fav": 1,
         "angleJS": 5.8778,
         "selected": false
       },
