@@ -72,7 +72,7 @@
     }
 }
 
-.scrollButton {
+.scroll-button {
     font-size: 1.15rem;
     color: var(--main-font-color);
     padding: 0.5rem;
@@ -171,7 +171,7 @@ text {
     font-size: 2rem;
 }
 
-.legText {
+.leg-text {
     font-size: 1rem;
 }
 
@@ -187,10 +187,35 @@ path {
     fill: var(--main-font-color);
 }
 
-.highlight-background {
-    stroke-width: 4px;
-    stroke: var(--main-orange);
-    fill: url('#highlight-gradient')
+.clickers, .flower-background {
+    fill: #00000000;
+}
+
+.flower-background, #pop-text, #scroll-to-info {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#pop-overlay {
+    fill: #F9F6EE80;
+}
+
+.scroll-button {
+    fill: var(--main-background-color);
+    stroke: var(--grey);
+    stroke-width: 2;
+}
+
+#scroll-button-background {
+    fill: var(--accent-color);
+}
+
+#pop-box {
+    fill: var(--main-background-color);
+}
+
+#close-highlight rect {
+    fill: var(--main-background-color);
 }
 
 @media only screen and (max-width: 1310px) {
@@ -240,42 +265,6 @@ path {
     .favourite-container {
         margin: auto;
     }
-}
-.home {
-    width: fit-content;
-}
-
-.title {
-    font-family: 'Clash Display';
-    font-weight: 700;
-    letter-spacing: -5.7%;
-    text-anchor: start;
-    dominant-baseline: auto;
-}
-
-.title-accent {
-    fill: var(--accent-color); 
-}
-
-.copy {
-    font-family: "Josefin Sans";
-    font-weight: 400;
-    letter-spacing: -2%;
-    text-anchor: start;
-    dominant-baseline: auto;
-}
-
-.cta {
-    font-family: "Josefin Sans";
-    font-weight: 700;
-    letter-spacing: -2%;
-    text-anchor: start;
-    dominant-baseline: auto;
-    fill: var(--off-white);
-}
-
-#cta-button {
-    text-decoration: none;
 }
 @font-face {
     font-family: 'Clash Display';
