@@ -19,21 +19,15 @@
 }
 
 #info {
-    /* height: 500px; */
     width: 300px;
     border-bottom: 1pt solid var(--info-border-color);
-    /* overflow: auto; */
-    /* align-self: center; */
 
     & h3 {
         margin: 0 auto 0.6rem auto;
-        /* font-size: 1.2rem; */
     }
 
     & h4 {
         margin: 0 auto 0.75rem auto;
-        /* font-size: 1rem; */
-        /* font-style: italic; */
     }
 
     & p {
@@ -225,7 +219,6 @@ path {
     }
 
     #info {
-        /* height: 100px; */
         min-height: fit-content;
         border-bottom: none;
         margin-left: 1.75rem;
@@ -265,42 +258,6 @@ path {
     .favourite-container {
         margin: auto;
     }
-}
-.home {
-    width: fit-content;
-}
-
-.title {
-    font-family: 'Clash Display';
-    font-weight: 700;
-    letter-spacing: -5.7%;
-    text-anchor: start;
-    dominant-baseline: auto;
-}
-
-.title-accent {
-    fill: var(--accent-color); 
-}
-
-.copy {
-    font-family: "Josefin Sans";
-    font-weight: 400;
-    letter-spacing: -2%;
-    text-anchor: start;
-    dominant-baseline: auto;
-}
-
-.cta {
-    font-family: "Josefin Sans";
-    font-weight: 700;
-    letter-spacing: -2%;
-    text-anchor: start;
-    dominant-baseline: auto;
-    fill: var(--off-white);
-}
-
-#cta-button {
-    text-decoration: none;
 }
 @font-face {
     font-family: 'Clash Display';
